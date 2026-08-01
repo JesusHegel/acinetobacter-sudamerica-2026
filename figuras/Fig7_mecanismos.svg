@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="700" viewBox="0 0 940 700">
+<rect width="940" height="700" fill="white"/>
+<rect x="50" y="48" width="840" height="185" fill="#fbfbfb" stroke="#ddd" rx="4"/>
+<rect x="50" y="48" width="5" height="185" fill="#8c6bb1"/>
+<text x="68" y="72" font-family="Helvetica,Arial" font-size="15" font-weight="700" text-anchor="start" fill="#8c6bb1">A</text>
+<text x="92" y="72" font-family="Helvetica,Arial" font-size="13" font-weight="700" text-anchor="start" fill="#222">Fragmentación del ensamblado</text>
+<text x="92" y="90" font-family="Helvetica,Arial" font-size="9.5" font-weight="400" text-anchor="start" fill="#555">El gen y el elemento con el que se quiere evaluar su contexto quedan en contigs distintos.</text>
+<rect x="92" y="110" width="200" height="20" fill="#e8e0f0" stroke="#8c6bb1"/>
+<rect x="144" y="113" width="42" height="14" fill="#8c6bb1" rx="2"/>
+<text x="165" y="123" font-family="Helvetica,Arial" font-size="8" font-weight="600" text-anchor="middle" fill="white">gen</text>
+<text x="192" y="144" font-family="Helvetica,Arial" font-size="8.5" font-weight="400" text-anchor="middle" fill="#666">contig 1</text>
+<rect x="332" y="110" width="200" height="20" fill="#e8e0f0" stroke="#8c6bb1"/>
+<rect x="422" y="113" width="52" height="14" fill="#666" rx="2"/>
+<text x="448" y="123" font-family="Helvetica,Arial" font-size="7.5" font-weight="600" text-anchor="middle" fill="white">ISAba1</text>
+<text x="432" y="144" font-family="Helvetica,Arial" font-size="8.5" font-weight="400" text-anchor="middle" fill="#666">contig 2</text>
+<text x="310" y="124" font-family="Helvetica,Arial" font-size="14" font-weight="700" text-anchor="middle" fill="#b03a20">?</text>
+<text x="92" y="168" font-family="Helvetica,Arial" font-size="9" font-weight="400" text-anchor="start" fill="#555">La distancia entre ambos no es determinable.</text>
+<rect x="650" y="110" width="220" height="52" fill="#8c6bb1" opacity=".10" rx="3"/>
+<text x="760" y="142" font-family="Helvetica,Arial" font-size="15" font-weight="700" text-anchor="middle" fill="#8c6bb1">4,5 % de evaluabilidad</text>
+<text x="92" y="216" font-family="Helvetica,Arial" font-size="9" font-weight="400" text-anchor="start" fill="#444">944 de 988 copias de bla-OXA-51-like no evaluables para el contexto de ISAba1</text>
+<rect x="50" y="248" width="840" height="185" fill="#fbfbfb" stroke="#ddd" rx="4"/>
+<rect x="50" y="248" width="5" height="185" fill="#d95f02"/>
+<text x="68" y="272" font-family="Helvetica,Arial" font-size="15" font-weight="700" text-anchor="start" fill="#d95f02">B</text>
+<text x="92" y="272" font-family="Helvetica,Arial" font-size="13" font-weight="700" text-anchor="start" fill="#222">Linealización de elementos circulares</text>
+<text x="92" y="290" font-family="Helvetica,Arial" font-size="9.5" font-weight="400" text-anchor="start" fill="#555">El punto de corte del círculo cae dentro del gen, que queda partido entre los dos extremos del contig.</text>
+<circle cx="162" cy="332" r="30" fill="none" stroke="#d95f02" stroke-width="2.5"/>
+<path d="M 162 302 A 30 30 0 0 1 188 347" fill="none" stroke="#d95f02" stroke-width="9"/>
+<text x="162" y="366" font-family="Helvetica,Arial" font-size="8.5" font-weight="400" text-anchor="middle" fill="#666">elemento circular</text>
+<text x="242" y="336" font-family="Helvetica,Arial" font-size="16" font-weight="400" text-anchor="middle" fill="#999">&#8594;</text>
+<rect x="272" y="322" width="300" height="20" fill="#fbe7d8" stroke="#d95f02"/>
+<rect x="272" y="325" width="46" height="14" fill="#d95f02"/>
+<rect x="526" y="325" width="46" height="14" fill="#d95f02"/>
+<text x="422" y="364" font-family="Helvetica,Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#555">el gen queda partido en los dos extremos</text>
+<rect x="650" y="310" width="220" height="52" fill="#d95f02" opacity=".10" rx="3"/>
+<text x="760" y="342" font-family="Helvetica,Arial" font-size="15" font-weight="700" text-anchor="middle" fill="#d95f02">+9 portadores (14 %)</text>
+<text x="92" y="416" font-family="Helvetica,Arial" font-size="9" font-weight="400" text-anchor="start" fill="#444">64 &#8594; 73 portadores de bla-OXA-72 tras el rastreo dirigido; ningun falso positivo</text>
+<rect x="50" y="448" width="840" height="185" fill="#fbfbfb" stroke="#ddd" rx="4"/>
+<rect x="50" y="448" width="5" height="185" fill="#1b9e77"/>
+<text x="68" y="472" font-family="Helvetica,Arial" font-size="15" font-weight="700" text-anchor="start" fill="#1b9e77">C</text>
+<text x="92" y="472" font-family="Helvetica,Arial" font-size="13" font-weight="700" text-anchor="start" fill="#222">Divergencia de secuencia</text>
+<text x="92" y="490" font-family="Helvetica,Arial" font-size="9.5" font-weight="400" text-anchor="start" fill="#555">El gen esta presente pero su identidad queda por debajo del umbral de notificación de la herramienta.</text>
+<rect x="92" y="520" width="440" height="20" fill="#e0efe8" stroke="#1b9e77"/>
+<rect x="242" y="520" width="70" height="20" fill="#b03a20" opacity=".18"/>
+<line x1="242" y1="516" x2="312" y2="516" stroke="#b03a20" stroke-width="2"/>
+<text x="277" y="512" font-family="Helvetica,Arial" font-size="8.5" font-weight="600" text-anchor="middle" fill="#b03a20">102 pb ausentes</text>
+<text x="277" y="534" font-family="Helvetica,Arial" font-size="8.5" font-weight="700" text-anchor="middle" fill="#b03a20">STFK</text>
+<text x="312" y="562" font-family="Helvetica,Arial" font-size="9" font-weight="400" text-anchor="middle" fill="#555">240 de 274 residuos idénticos a la referencia; sitio activo eliminado</text>
+<rect x="650" y="510" width="220" height="52" fill="#1b9e77" opacity=".10" rx="3"/>
+<text x="760" y="542" font-family="Helvetica,Arial" font-size="15" font-weight="700" text-anchor="middle" fill="#1b9e77">5 de 900 genomas</text>
+<text x="92" y="616" font-family="Helvetica,Arial" font-size="9" font-weight="400" text-anchor="start" fill="#444">3 genomas ST2742 con deleción en marco de 102 pb que elimina el motivo STFK</text>
+<text x="50" y="652" font-family="Helvetica,Arial" font-size="10" font-weight="600" text-anchor="start" fill="#333">Los tres mecanismos producen ausencias aparentes indistinguibles de ausencias reales sin verificación dirigida.</text>
+</svg>

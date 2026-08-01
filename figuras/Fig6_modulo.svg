@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="495" viewBox="0 0 980 495">
+<rect width="980" height="495" fill="white"/>
+<text x="60" y="40" font-family="Helvetica,Arial" font-size="11.5" font-weight="600">Elemento andino  r3-T18  (Perú, ST2)</text>
+<text x="429" y="75" font-family="Helvetica,Arial" font-size="9" fill="#666">8111 pb</text>
+<rect x="60" y="58" width="358.7" height="24" fill="#f2f2f2" stroke="#999" stroke-width="1"/>
+<rect x="376.2" y="61" width="36.6" height="18" fill="#b2182b" rx="2"/>
+<text x="394.5" y="54" text-anchor="middle" font-family="Helvetica,Arial" font-size="8.5" fill="#b2182b" font-weight="600">blaOXA-72</text>
+<polygon points="61.1,82 71.1,82 66.1,94" fill="#e08214"/>
+<text x="66.1" y="106" text-anchor="middle" font-family="Helvetica,Arial" font-size="8">TACACC</text>
+<text x="66.1" y="116" text-anchor="middle" font-family="Helvetica,Arial" font-size="7.5" fill="#777">D>C</text>
+<polygon points="248.2,82 258.2,82 253.2,94" fill="#e08214"/>
+<text x="253.2" y="106" text-anchor="middle" font-family="Helvetica,Arial" font-size="8">GAGTTT</text>
+<text x="253.2" y="116" text-anchor="middle" font-family="Helvetica,Arial" font-size="7.5" fill="#777">C>D</text>
+<polygon points="366.7,82 376.7,82 371.7,94" fill="#e08214"/>
+<text x="371.7" y="106" text-anchor="middle" font-family="Helvetica,Arial" font-size="8">CGCCCA</text>
+<text x="371.7" y="116" text-anchor="middle" font-family="Helvetica,Arial" font-size="7.5" fill="#777">C>D</text>
+<text x="60" y="175" font-family="Helvetica,Arial" font-size="11.5" font-weight="600">Armazón chileno  r3-T18  (ST109, sin módulo)</text>
+<text x="434" y="210" font-family="Helvetica,Arial" font-size="9" fill="#666">8229 pb</text>
+<rect x="60" y="193" width="363.9" height="24" fill="#f2f2f2" stroke="#999" stroke-width="1"/>
+<polygon points="116.1,217 126.1,217 121.1,229" fill="#e08214"/>
+<text x="121.1" y="241" text-anchor="middle" font-family="Helvetica,Arial" font-size="8">GGCGTA</text>
+<text x="121.1" y="251" text-anchor="middle" font-family="Helvetica,Arial" font-size="7.5" fill="#777">C>D</text>
+<polygon points="174.3,217 184.3,217 179.3,229" fill="#e08214"/>
+<text x="179.3" y="241" text-anchor="middle" font-family="Helvetica,Arial" font-size="8">TGGAGC</text>
+<text x="179.3" y="251" text-anchor="middle" font-family="Helvetica,Arial" font-size="7.5" fill="#777">D>C</text>
+<polygon points="292.8,217 302.8,217 297.8,229" fill="#e08214"/>
+<text x="297.8" y="241" text-anchor="middle" font-family="Helvetica,Arial" font-size="8">AAACTC</text>
+<text x="297.8" y="251" text-anchor="middle" font-family="Helvetica,Arial" font-size="7.5" fill="#777">D>C</text>
+<text x="60" y="310" font-family="Helvetica,Arial" font-size="11.5" font-weight="600">Elemento brasileño  r3-T1  (ST79)</text>
+<text x="770" y="345" font-family="Helvetica,Arial" font-size="9" fill="#666">15829 pb</text>
+<rect x="60" y="328" width="700.0" height="24" fill="#f2f2f2" stroke="#999" stroke-width="1"/>
+<rect x="545.1" y="331" width="36.6" height="18" fill="#b2182b" rx="2"/>
+<text x="563.4" y="324" text-anchor="middle" font-family="Helvetica,Arial" font-size="8.5" fill="#b2182b" font-weight="600">blaOXA-72</text>
+<rect x="339.6" y="331" width="39.1" height="18" fill="#4393c3" rx="2"/>
+<text x="359.2" y="324" text-anchor="middle" font-family="Helvetica,Arial" font-size="8.5" fill="#4393c3" font-weight="600">mph(E)</text>
+<rect x="271.9" y="331" width="65.2" height="18" fill="#2166ac" rx="2"/>
+<text x="304.5" y="324" text-anchor="middle" font-family="Helvetica,Arial" font-size="8.5" fill="#2166ac" font-weight="600">msr(E)</text>
+<polygon points="57.9,352 67.9,352 62.9,364" fill="#e08214"/>
+<text x="62.9" y="376" text-anchor="middle" font-family="Helvetica,Arial" font-size="8">AATCTC</text>
+<text x="62.9" y="386" text-anchor="middle" font-family="Helvetica,Arial" font-size="7.5" fill="#777">D>C</text>
+<polygon points="246.9,352 256.9,352 251.9,364" fill="#e08214"/>
+<text x="251.9" y="376" text-anchor="middle" font-family="Helvetica,Arial" font-size="8">CGTGTA</text>
+<text x="251.9" y="386" text-anchor="middle" font-family="Helvetica,Arial" font-size="7.5" fill="#777">C>D</text>
+<polygon points="538.4,352 548.4,352 543.4,364" fill="#e08214"/>
+<text x="543.4" y="376" text-anchor="middle" font-family="Helvetica,Arial" font-size="8">GGTGTA</text>
+<text x="543.4" y="386" text-anchor="middle" font-family="Helvetica,Arial" font-size="7.5" fill="#777">C>D</text>
+<polygon points="579.9,352 589.9,352 584.9,364" fill="#e08214"/>
+<text x="584.9" y="376" text-anchor="middle" font-family="Helvetica,Arial" font-size="8">TGGCGA</text>
+<text x="584.9" y="386" text-anchor="middle" font-family="Helvetica,Arial" font-size="7.5" fill="#777">D>C</text>
+<polygon points="60,469 70,469 65,479" fill="#e08214"/>
+<text x="76" y="478" font-family="Helvetica,Arial" font-size="9.5">sitio pdif (XerC/XerD) con su espaciador central y orientacion; hasta 1 desajuste en los brazos</text>
+<text x="620" y="478" font-family="Helvetica,Arial" font-size="9.5" fill="#666">escala común; posición 0 = inicio del contig</text>
+</svg>
