@@ -11,6 +11,8 @@ de nueve países sudamericanos depositados en NCBI Pathogen Detection.
 | `datos/` | Tablas de entrada: accesión→BioProject, longitudes de contig, metadatos de los 58 ensamblados |
 | `resultados/` | Tablas de salida: tipificación de los 900 genomas, co-localización gen–replicón, matrices de distancia cgMLST |
 | `entornos/` | Especificación conda de los entornos empleados |
+| `figuras/` | Las siete figuras del manuscrito en formato SVG y PDF |
+| `metadatos/` | Tablas de metadatos curadas de NCBI Pathogen Detection |
 | `ensamblados_58.tar.gz` | Los 58 ensamblados generados en este trabajo (solo en el archivo de Zenodo) |
 
 ## Entornos
