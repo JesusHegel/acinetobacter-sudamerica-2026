@@ -1,0 +1,59 @@
+run	biosample	bioproject_origen	organism	isolate	collection_date	geo_loc_name	isolation_source	host	collected_by	platform	st_pasteur	kl	ocl	carbapenemasas
+ERR17057656	SAMEA121030813	PRJEB107069	Acinetobacter baumannii	PDT003197837.1	2020	Colombia	blood	Homo sapiens	GHRU Colombia	ILLUMINA	-	KL22	OCL6	ninguna
+ERR17057657	SAMEA121030814	PRJEB107069	Acinetobacter baumannii	PDT003197838.1	2020	Colombia	ulcer Tissue	Homo sapiens	GHRU Colombia	ILLUMINA	1190	KL72	OCL1	ninguna
+ERR17057661	SAMEA121030817	PRJEB107069	Acinetobacter baumannii	PDT003197840.1	2020	Colombia	tissue secretion	Homo sapiens	GHRU Colombia	ILLUMINA	-	KL183	OCL2	ninguna
+ERR17057662	SAMEA121030818	PRJEB107069	Acinetobacter baumannii	PDT003192435.1	2020	Colombia	tissue	Homo sapiens	GHRU Colombia	ILLUMINA	79	KL22	OCL5	blaOXA-23
+ERR17057663	SAMEA121030819	PRJEB107069	Acinetobacter baumannii	PDT003192436.1	2020	Colombia	blood	Homo sapiens	GHRU Colombia	ILLUMINA	79	KL22	OCL5	blaOXA-23
+ERR17057664	SAMEA121030820	PRJEB107069	Acinetobacter baumannii	PDT003192470.1	2020	Colombia	tissue	Homo sapiens	GHRU Colombia	ILLUMINA	79	KL32	OCL5	blaOXA-23
+ERR17057667	SAMEA121030822	PRJEB107069	Acinetobacter baumannii	PDT003197841.1	2020	Colombia	bone	Homo sapiens	GHRU Colombia	ILLUMINA	79	KL9	OCL10	ninguna
+ERR17057669	SAMEA121030824	PRJEB107069	Acinetobacter baumannii	PDT003192439.1	2020	Colombia	blood	Homo sapiens	GHRU Colombia	ILLUMINA	32	KL22	OCL6	blaNDM-1
+ERR17057670	SAMEA121030825	PRJEB107069	Acinetobacter baumannii	PDT003192477.1	2020	Colombia	urine	Homo sapiens	GHRU Colombia	ILLUMINA	78	KL23	OCL1	blaOXA-23
+ERR17057672	SAMEA121030827	PRJEB107069	Acinetobacter baumannii	PDT003192440.1	2020	Colombia	blood	Homo sapiens	GHRU Colombia	ILLUMINA	2588	KL203	OCL4	ninguna
+ERR17057674	SAMEA121030829	PRJEB107069	Acinetobacter baumannii	PDT003197844.1	2020	Colombia	tissue	Homo sapiens	GHRU Colombia	ILLUMINA	32	KL2	OCL6	ninguna
+ERR17057680	SAMEA121030833	PRJEB107069	Acinetobacter baumannii	PDT003192444.1	2020	Colombia	lower respiratory track	Homo sapiens	GHRU Colombia	ILLUMINA	945	KL134	OCL5	blaOXA-23
+ERR17057681	SAMEA121030834	PRJEB107069	Acinetobacter baumannii	PDT003192445.1	2020	Colombia	lower respiratory track	Homo sapiens	GHRU Colombia	ILLUMINA	945	KL134	OCL5	blaOXA-23
+ERR17057687	SAMEA121030836	PRJEB107069	Acinetobacter baumannii	PDT003192448.1	2020	Colombia	lower respiratory track	Homo sapiens	GHRU Colombia	ILLUMINA	-	KL120	OCL1	ninguna
+ERR17057689	SAMEA121030837	PRJEB107069	Acinetobacter baumannii	PDT003192479.1	2020	Colombia	lower respiratory track	Homo sapiens	GHRU Colombia	ILLUMINA	79	KL32	OCL5	blaOXA-23
+ERR17057690	SAMEA121030838	PRJEB107069	Acinetobacter baumannii	PDT003192473.1	2020	Colombia	lower respiratory track	Homo sapiens	GHRU Colombia	ILLUMINA	79	KL32	OCL5	blaOXA-23
+ERR17057691	SAMEA121030839	PRJEB107069	Acinetobacter baumannii	PDT003197879.1	2020	Colombia	lower respiratory track	Homo sapiens	GHRU Colombia	ILLUMINA	79	KL32	OCL5	blaOXA-23
+ERR17057692	SAMEA121030840	PRJEB107069	Acinetobacter baumannii	PDT003197846.1	2020	Colombia	lower respiratory track	Homo sapiens	GHRU Colombia	ILLUMINA	79	KL32	OCL5	blaOXA-23
+ERR17057693	SAMEA121030841	PRJEB107069	Acinetobacter baumannii	PDT003192449.1	2020	Colombia	tissue secretion	Homo sapiens	GHRU Colombia	ILLUMINA	77	KL37	OCL2	ninguna
+ERR17057695	SAMEA121030842	PRJEB107069	Acinetobacter baumannii	PDT003192451.1	2020	Colombia	lower respiratory track	Homo sapiens	GHRU Colombia	ILLUMINA	-	KL126	OCL1	ninguna
+ERR17057696	SAMEA121030843	PRJEB107069	Acinetobacter baumannii	PDT003192452.1	2020	Colombia	lower respiratory track	Homo sapiens	GHRU Colombia	ILLUMINA	78	KL3	OCL1	blaOXA-23
+ERR17057697	SAMEA121030844	PRJEB107069	Acinetobacter baumannii	PDT003197880.1	2020	Colombia	lower respiratory track	Homo sapiens	GHRU Colombia	ILLUMINA	79	KL9	OCL10	ninguna
+ERR17057698	SAMEA121030845	PRJEB107069	Acinetobacter baumannii	PDT003197847.1	2020	Colombia	lower respiratory track	Homo sapiens	GHRU Colombia	ILLUMINA	1163	KL9	OCL10	blaOXA-23
+ERR17057699	SAMEA121030846	PRJEB107069	Acinetobacter baumannii	PDT003197848.1	2020	Colombia	blood	Homo sapiens	GHRU Colombia	ILLUMINA	513	KL15	OCL1	ninguna
+ERR17057700	SAMEA121030847	PRJEB107069	Acinetobacter baumannii	PDT003197881.1	2020	Colombia	urine	Homo sapiens	GHRU Colombia	ILLUMINA	1022	KL20	OCL4	blaOXA-241
+ERR17057702	SAMEA121030848	PRJEB107069	Acinetobacter baumannii	PDT003192454.1	2020	Colombia	blood	Homo sapiens	GHRU Colombia	ILLUMINA	37	KL81	OCL6	ninguna
+ERR17057704	SAMEA121030849	PRJEB107069	Acinetobacter baumannii	PDT003192455.1	2020	Colombia	blood	Homo sapiens	GHRU Colombia	ILLUMINA	1055	KL95	OCL7	ninguna
+ERR17057705	SAMEA121030850	PRJEB107069	Acinetobacter baumannii	PDT003192481.1	2020	Colombia	tissue secretion	Homo sapiens	GHRU Colombia	ILLUMINA	32	KL2	OCL6	blaNDM-1
+ERR17057708	SAMEA121030852	PRJEB107069	Acinetobacter baumannii	PDT003192483.1	2020	Colombia	Tracheal Aspirate/Wash	Homo sapiens	GHRU Colombia	ILLUMINA	108	KL23	OCL1	ninguna
+ERR17057710	SAMEA121030853	PRJEB107069	Acinetobacter baumannii	PDT003192457.1	2020	Colombia	blood	Homo sapiens	GHRU Colombia	ILLUMINA	79	KL22	OCL5	blaOXA-23
+ERR17057711	SAMEA121030854	PRJEB107069	Acinetobacter baumannii	PDT003192458.1	2020	Colombia	pleural fluid	Homo sapiens	GHRU Colombia	ILLUMINA	78	KL3	OCL1	blaOXA-23
+ERR17057712	SAMEA121030855	PRJEB107069	Acinetobacter baumannii	PDT003197849.1	2021	Colombia	blood	Homo sapiens	GHRU Colombia	ILLUMINA	78	KL3	OCL1	blaOXA-23
+ERR17057713	SAMEA121030856	PRJEB107069	Acinetobacter baumannii	PDT003192474.1	2020	Colombia	lower respiratory track	Homo sapiens	GHRU Colombia	ILLUMINA	78	KL3	OCL1	blaOXA-23
+ERR17057714	SAMEA121030857	PRJEB107069	Acinetobacter baumannii	PDT003197850.1	2020	Colombia	tissue secretion	Homo sapiens	GHRU Colombia	ILLUMINA	2284	KL15	OCL1	ninguna
+ERR17057715	SAMEA121030858	PRJEB107069	Acinetobacter baumannii	PDT003192459.1	2020	Colombia	lower respiratory track	Homo sapiens	GHRU Colombia	ILLUMINA	150	KL97	OCL6	ninguna
+ERR17057720	SAMEA121030862	PRJEB107069	Acinetobacter baumannii	PDT003192485.1	2020	Colombia	lower respiratory track	Homo sapiens	GHRU Colombia	ILLUMINA	32	KL2	OCL6	ninguna
+ERR17057721	SAMEA121030863	PRJEB107069	Acinetobacter baumannii	PDT003197868.1	2020	Colombia	tissue	Homo sapiens	GHRU Colombia	ILLUMINA	1357	KL121	OCL1	ninguna
+ERR17057724	SAMEA121030866	PRJEB107069	Acinetobacter baumannii	PDT003192462.1	2021	Colombia	blood	Homo sapiens	GHRU Colombia	ILLUMINA	78	KL23	OCL1	blaOXA-23
+ERR17057729	SAMEA121030868	PRJEB107069	Acinetobacter baumannii	PDT003197884.1	2021	Colombia	lower respiratory track	Homo sapiens	GHRU Colombia	ILLUMINA	1405	KL48	OCL21	ninguna
+ERR17057730	SAMEA121030869	PRJEB107069	Acinetobacter baumannii	PDT003192488.1	2021	Colombia	blood	Homo sapiens	GHRU Colombia	ILLUMINA	79	KL151	OCL10	blaOXA-23
+ERR17057731	SAMEA121030870	PRJEB107069	Acinetobacter baumannii	PDT003192475.1	2021	Colombia	tissue	Homo sapiens	GHRU Colombia	ILLUMINA	79	KL151	OCL10	blaOXA-23
+ERR17057733	SAMEA121030871	PRJEB107069	Acinetobacter baumannii	PDT003192489.1	2021	Colombia	sputum	Homo sapiens	GHRU Colombia	ILLUMINA	108	KL33	OCL1	ninguna
+ERR17057735	SAMEA121030872	PRJEB107069	Acinetobacter baumannii	PDT003192476.1	2021	Colombia	pleural fluid	Homo sapiens	GHRU Colombia	ILLUMINA	108	KL23	OCL1	ninguna
+ERR17057736	SAMEA121030873	PRJEB107069	Acinetobacter baumannii	PDT003197869.1	2021	Colombia	Tracheal Aspirate/Wash	Homo sapiens	GHRU Colombia	ILLUMINA	424	KL48	OCL5	ninguna
+ERR17057737	SAMEA121030874	PRJEB107069	Acinetobacter baumannii	PDT003192490.1	2021	Colombia	lower respiratory track	Homo sapiens	GHRU Colombia	ILLUMINA	464	KL121	OCL6	blaNDM-1
+ERR17057738	SAMEA121030875	PRJEB107069	Acinetobacter baumannii	PDT003192466.1	2021	Colombia	blood	Homo sapiens	GHRU Colombia	ILLUMINA	464	KL121	OCL6	blaNDM-1
+ERR17057744	SAMEA121030877	PRJEB107069	Acinetobacter baumannii	PDT003192492.1	2021	Colombia	blood	Homo sapiens	GHRU Colombia	ILLUMINA	1094	KL145	OCL5	ninguna
+ERR4436639	SAMEA7171693	PRJEB27899	Acinetobacter baumannii	PDT000807445.1	NA	Argentina		Homo sapiens		ILLUMINA	25	KL81	OCL10	blaOXA-23
+ERR4436640	SAMEA7171694	PRJEB27899	Acinetobacter baumannii	PDT000812692.1	NA	Argentina		Homo sapiens		ILLUMINA	15	KL22	OCL7	ninguna
+ERR4436744	SAMEA7171849	PRJEB27899	Acinetobacter baumannii	PDT000807449.1	NA	Colombia		Homo sapiens		ILLUMINA	79	KL151	OCL10	blaOXA-23
+ERR5709464	SAMEA8563551	PRJEB39593	Acinetobacter baumannii	PDT001008949.1	NA	Bolivia		Homo sapiens		ILLUMINA	15	KL9	OCL7	blaOXA-23
+ERR5709466	SAMEA8563573	PRJEB39593	Acinetobacter baumannii	PDT001008950.1	NA	Chile		Homo sapiens		ILLUMINA	15	KL9	OCL7	ninguna
+ERR5709481	SAMEA8563656	PRJEB39593	Acinetobacter baumannii	PDT001009049.1	NA	Argentina		Homo sapiens		ILLUMINA	15	KL9	OCL7	blaOXA-58
+SRR35795686	SAMN51434872	PRJNA1322038	Acinetobacter baumannii	PDT003050430.1	2019-12-31	Colombia	hospital	Homo sapiens	IHMA	ILLUMINA	345	KL54	OCL6	ninguna
+SRR37377127	SAMN40283129	PRJNA1015678	Acinetobacter baumannii	PDT002814864.2	2012-10	Peru	wound	Homo sapiens		ILLUMINA	158	KL6	OCL1	ninguna
+SRR37377138	SAMN40283130	PRJNA1015678	Acinetobacter baumannii	PDT002814878.2	2013-05	Peru	wound	Homo sapiens		ILLUMINA	158	KL6	OCL1	ninguna
+SRR37377149	SAMN40283131	PRJNA1015678	Acinetobacter baumannii	PDT002814889.2	2016-03	Peru		Homo sapiens		ILLUMINA	158	KL6	OCL1	ninguna
+SRR37377150	SAMN40283132	PRJNA1015678	Acinetobacter baumannii	PDT002814890.2	2016-03	Peru		Homo sapiens		ILLUMINA	158	KL6	OCL1	ninguna
