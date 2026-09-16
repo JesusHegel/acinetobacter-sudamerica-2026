@@ -1,0 +1,18 @@
+Elemento andino r3-T18 — 8111 pb — 12 CDS
+
+CDS         Posicion      Hebra  aa   Identificacion                      En chileno
+andino_1    3-92          +      30   frag. N-term (partida por corte)    -
+andino_2    312-599       -      96   hipotetica                          97,9 % (_2)
+andino_3    596-1546      -     317   rep r3-T18                          99,4 % (_1)
+andino_4    2225-3880     -     552   mobQ (movilizacion)                 88,2 % (_11)
+andino_5    4059-4352     +      98   hipotetica                          100 % (_10)
+andino_6    4386-5039     -     218   hipotetica                          100 % (_9)
+andino_7    5166-5471     -     102   hipotetica                          100 % (_8)
+andino_8    5615-5938     +     108   hipotetica                          100 % (_7)
+andino_9    5931-6233     +     101   regulador HTH (XRE?)                100 % (_6)
+andino_10   6287-6610     +     108   antitoxina (TA?)                    100 % (_5)
+andino_11   7150-7977     +     276   blaOXA-72                           AUSENTE
+andino_12   8044-8109     +      22   frag. C-term (partida por corte)    -
+
+Sin parA. Sitios pdif en 137, 4368 y 7049.
+El modulo blaOXA-72 queda entre el sitio 7049 y el 137 (cruza la union).

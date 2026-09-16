@@ -1,0 +1,14 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=8229;seqhdr="chileno_rotado"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="11|Candidatus_Amoebophilus_asiaticus_5a2|B|35.0|11|0";gc_cont=35.00;transl_table=11;uses_sd=0
+chileno_rotado	Prodigal_v2.6.3	CDS	596	1546	100.6	+	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=TAA;rbs_spacer=14bp;gc_cont=0.329;conf=100.00;score=100.62;cscore=96.91;sscore=3.71;rscore=-0.44;uscore=0.69;tscore=3.47;
+chileno_rotado	Prodigal_v2.6.3	CDS	1543	1830	47.2	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=TAA;rbs_spacer=3bp;gc_cont=0.312;conf=100.00;score=49.16;cscore=42.55;sscore=6.61;rscore=1.85;uscore=-0.68;tscore=3.47;
+chileno_rotado	Prodigal_v2.6.3	CDS	2030	2488	37.1	-	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=AAAA;rbs_spacer=11bp;gc_cont=0.298;conf=99.99;score=39.87;cscore=32.56;sscore=7.31;rscore=2.56;uscore=-1.52;tscore=3.47;
+chileno_rotado	Prodigal_v2.6.3	CDS	2488	3222	46.9	-	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=TAA;rbs_spacer=4bp;gc_cont=0.293;conf=100.00;score=46.28;cscore=41.21;sscore=5.07;rscore=1.85;uscore=0.40;tscore=3.47;
+chileno_rotado	Prodigal_v2.6.3	CDS	3760	4083	35.7	-	0	ID=1_5;partial=00;start_type=ATG;rbs_motif=TAA;rbs_spacer=8bp;gc_cont=0.315;conf=99.98;score=36.44;cscore=31.00;sscore=5.44;rscore=0.55;uscore=0.73;tscore=3.47;
+chileno_rotado	Prodigal_v2.6.3	CDS	4137	4439	42.2	-	0	ID=1_6;partial=00;start_type=ATG;rbs_motif=TAA;rbs_spacer=12bp;gc_cont=0.383;conf=100.00;score=43.46;cscore=35.80;sscore=7.66;rscore=6.07;uscore=-3.13;tscore=3.47;
+chileno_rotado	Prodigal_v2.6.3	CDS	4432	4755	29.0	-	0	ID=1_7;partial=00;start_type=ATG;rbs_motif=TAAA;rbs_spacer=8bp;gc_cont=0.364;conf=99.85;score=28.39;cscore=25.98;sscore=2.42;rscore=1.89;uscore=-2.29;tscore=3.47;
+chileno_rotado	Prodigal_v2.6.3	CDS	4899	5204	6.3	+	0	ID=1_8;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.327;conf=80.95;score=6.29;cscore=12.05;sscore=-5.76;rscore=-4.87;uscore=-4.36;tscore=3.47;
+chileno_rotado	Prodigal_v2.6.3	CDS	5331	5984	72.4	+	0	ID=1_9;partial=00;start_type=ATG;rbs_motif=TAA;rbs_spacer=4bp;gc_cont=0.291;conf=100.00;score=72.37;cscore=65.14;sscore=7.23;rscore=1.85;uscore=1.91;tscore=3.47;
+chileno_rotado	Prodigal_v2.6.3	CDS	6018	6311	42.2	-	0	ID=1_10;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.313;conf=99.99;score=41.51;cscore=44.37;sscore=-2.86;rscore=-4.87;uscore=-0.81;tscore=3.47;
+chileno_rotado	Prodigal_v2.6.3	CDS	6490	8142	241.3	+	0	ID=1_11;partial=00;start_type=ATG;rbs_motif=AATAA;rbs_spacer=14bp;gc_cont=0.362;conf=99.99;score=241.34;cscore=231.07;sscore=10.27;rscore=6.54;uscore=0.26;tscore=3.47;
