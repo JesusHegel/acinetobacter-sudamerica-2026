@@ -56,6 +56,12 @@ un conjunto distinto. La lista fija garantiza el mismo punto de partida.
 |---|---|---|---|
 | `00_descargar_lecturas.sh` | Descarga del SRA las lecturas crudas de los 58 registros | ensamblaje | 2-4 h |
 | `01_ensamblar_lecturas.sh` | Ensambla esas lecturas con SPAdes | ensamblaje | 6-10 h |
+| `02_unificar_conjunto.sh` | **Obligatorio en ambas opciones.** Reúne los 842 públicos y los 58 propios en un único directorio | cualquiera | segundos |
+
+El paso `02_unificar_conjunto.sh` debe ejecutarse siempre, tanto si se
+reensambla como si se extrae el archivo comprimido. Los pasos 03 y 05 operan
+sobre `datos/genomas_900/`, que es el directorio que crea. Si se omite, el
+paso 03 falla en su primera orden.
 
 Se procesaron 63 registros, de los cuales 58 superaron el control de calidad
 del paso 03 e integran el conjunto final. La lista de accesiones está en
