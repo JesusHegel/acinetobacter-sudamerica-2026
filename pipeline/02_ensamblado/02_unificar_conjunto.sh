@@ -27,7 +27,7 @@ n=0; m=0; falta=0
 while read -r acc; do
   [ -z "$acc" ] && continue
   if [[ "$acc" == GCA_* ]]; then
-    f=$(ls "$BASE"/datos/genomas_945/ncbi_dataset/data/"$acc"/*.fna 2>/dev/null | head -1)
+    f=$(ls "$BASE"/datos/genomas_945/ncbi_dataset/data/"$acc"/*.fna 2>/dev/null | head -1 || true)
     if [ -n "$f" ]; then ln -sf "$f" "$DEST/$acc.fna"; n=$((n+1))
     else echo "  ausente (publico): $acc"; falta=$((falta+1)); fi
   else
