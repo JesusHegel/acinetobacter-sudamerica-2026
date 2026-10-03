@@ -74,7 +74,7 @@ trabajo**. Hasta entonces no son descargables desde el NCBI, y deben
 solicitarse a los autores. Se entregan como un único archivo comprimido que
 se extrae en `datos/ensamblados_63/`:
 
-````bash
+```bash
 mkdir -p ~/abaumannii/datos/ensamblados_63
 tar -xzf ensamblados_58.tar.gz -C ~/abaumannii/datos/ensamblados_63 --strip-components=1
 ls ~/abaumannii/datos/ensamblados_63/*.fna | wc -l   # debe dar 58
