@@ -8,6 +8,18 @@ carpeta.
 
 **Espacio en disco:** 50 GB libres recomendados.
 
+**Ubicación del proyecto.** Los scripts emplean rutas absolutas bajo
+`~/abaumannii/`. El repositorio debe clonarse en `~/abaumannii/repo` y los
+datos se escribirán en `~/abaumannii/datos` y `~/abaumannii/resultados`:
+
+```bash
+mkdir -p ~/abaumannii && cd ~/abaumannii
+git clone https://github.com/JesusHegel/acinetobacter-sudamerica-2026.git repo
+```
+
+**La herramienta `datasets` del NCBI** vive en el entorno `abaumannii`. Los
+pasos que la emplean lo indican en su cabecera.
+
 **Entornos conda.** Tres entornos, reconstruibles desde `entornos/`:
 
 ```bash
