@@ -7,19 +7,30 @@ de nueve países sudamericanos depositados en NCBI Pathogen Detection.
 
 | Ruta | Descripción |
 |---|---|
-| `scripts/` | Scripts de análisis (Python, R, bash, awk) |
-| `datos/` | Tablas de entrada: accesión→BioProject, longitudes de contig, metadatos de los 58 ensamblados |
-| `resultados/` | Tablas de salida: tipificación de los 900 genomas, co-localización gen–replicón, contexto de ISAba1, matrices de distancia cgMLST |
-| `resultados/grapetree/` | Red de expansión mínima de los 213 genomas ST2: perfiles, árbol en formato Newick y figuras coloreadas por país, año, BioProject y replicón portador |
-| `resultados/grapetree_900/` | Red de expansión mínima de los 900 genomas sobre el esquema cgMLST de 2133 loci (umbral de presencia 0,95) |
-| `resultados/plasmidos/` | Anotación de los elementos plasmídicos portadores de blaOXA-72 y del armazón chileno cerrado, con la figura comparativa |
-| `resultados/figuras_rawgraphs/` | Gráficos de círculos anidados (país → BioProject → ST) generados con RawGraphs |
-| `resultados/figuras_grapetree_web/` | Árboles exportados desde la interfaz de GrapeTree; las versiones reproducibles están en `resultados/grapetree/` |
+| `EJECUTAR.md` | **Orden de ejecución, duración de cada paso y cifras de verificación** |
+| `pipeline/` | Procedimiento completo, numerado por etapas |
+| `archivo/` | Material que documenta el proceso pero no forma parte del análisis |
+| `datos/` | Tablas de entrada: accesión→BioProject, longitudes de contig, metadatos |
+| `resultados/` | Tablas de salida, matrices de distancia y figuras generadas |
 | `entornos/` | Especificación conda de los entornos empleados |
 | `figuras/` | Figuras del manuscrito en formato SVG y PDF |
 | `metadatos/` | Tablas de metadatos curadas de NCBI Pathogen Detection |
-| `klebsiella/` | Validación del análisis de partición de varianza en *K. pneumoniae* |
-| `ensamblados_58.tar.gz` | Los 58 ensamblados generados en este trabajo (solo en el archivo de Zenodo) |
+
+### Etapas del `pipeline/`
+
+| Carpeta | Qué hace |
+|---|---|
+| `01_datos/` | Descarga de los 900 genomas y de las referencias del complejo ACB |
+| `02_ensamblado/` | Ensamblado de los registros disponibles solo como lecturas crudas |
+| `03_tipificacion/` | Especie, MLST, cápsula, resistoma y replicones plasmídicos |
+| `04_contexto/` | Contexto genético de las carbapenemasas: ISAba1, co-localización, sitios pdif |
+| `05_poblacion/` | cgMLST, redes de expansión mínima y agrupamientos |
+| `06_estadistica/` | Contrastes sobre eventos epidemiológicos independientes |
+| `07_figuras/` | Figuras del manuscrito |
+| `08_tablas/` | Tabla S1 y tablas suplementarias |
+
+Cada script indica en su cabecera qué recibe, qué produce, qué entorno
+necesita y cuánto tarda.
 
 ## Entornos
 
