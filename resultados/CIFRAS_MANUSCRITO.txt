@@ -1,0 +1,106 @@
+======================================================================
+CIFRAS VERIFICADAS DEL MANUSCRITO
+======================================================================
+
+--- 3.1 COMPOSICION ---
+genomas clinicos: 900
+  Brasil: 479
+  Chile: 99
+  Argentina: 78
+  Paraguay: 70
+  Colombia: 64
+  Bolivia: 60
+  Peru: 33
+  Ecuador: 11
+  Venezuela: 6
+BioProjects distintos: 104
+pares proyecto-pais: 114
+estratos con n>=8: 22  (genomas: 736)
+BioProjects distintos entre esos estratos: 21
+eventos desduplicados: 360  (redundancia 60 %)
+propios: 58  publicos: 842
+
+--- 3.2 DETERMINANTES ---
+  blaOXA-23: 600
+  blaOXA-72: 73
+  blaOXA-58: 42
+  blaNDM-1: 41
+  blaOXA-407: 9
+  blaNDM: 7
+  blaIMP-1: 2
+  blaKPC: 2
+  blaOXA-143: 1
+  blaOXA-231: 1
+  blaIMP-16: 1
+  blaGES-11: 1
+sin carbapenemasa: 176 (19.6 %)
+MLST Pasteur: 875/900 = 97.2 %   sin asignar: 25
+  top5: [('2', 213), ('79', 149), ('15', 106), ('25', 98), ('1', 98)]
+  suma top5: 664 = 73.8 % del total, 75.9 % de los asignados
+MLST Oxford: 375/900 = 41.7 %
+KL distintos: 65   OCL distintos: 12
+  KL9: 155 (17.2 %)
+  KL7: 126 (14.0 %)
+  KL22: 117 (13.0 %)
+con rep tipificable: 797/900 = 88.6 %
+  r3-T1: 407
+  r3-T14: 269
+  rP-T1: 121
+  r3-T3: 112
+  r3-T13: 106
+  r3-T18: 46
+
+--- 3.5/3.6 blaOXA-72 ---
+portadores: 73   co-localizados: 63 (86.3 %)
+por pais: {'Colombia': 2, 'Brasil': 42, 'Ecuador': 9, 'Peru': 20}
+andinos r3-T18: 24   brasilenos: 35
+  ST de los andinos: {'ST2': 23, 'ST2724': 1}
+  contexto brasileno: {'r3-T1,r3-T14': 18, 'r3-T1': 12, 'r3-T14': 4, 'r3-T13': 1}
+genomas con r3-T18: 46  paises: 6  linajes: 8
+  de esos, con el gen: 24
+
+--- 3.3 MODELOS ---
+  variable	sd_pais	sd_proy	VPC	P_VPC_mayor_0.5	divergentes	rhat_max
+  sin_carbapenemasa	0.80 [0.04-2.45]	2.45 [1.62-3.69]	0.905 [0.456-1.000]	0.963	0	1.001
+  ST2	1.06 [0.05-3.33]	3.45 [2.36-4.96]	0.916 [0.464-1.000]	0.963	0	1.001
+  blaOXA23	0.71 [0.04-2.35]	2.42 [1.65-3.58]	0.922 [0.484-1.000]	0.971	0	1.001
+  blaOXA72	2.03 [0.16-4.23]	1.98 [0.92-3.52]	0.484 [0.080-0.996]	0.483	0	1.001
+
+--- 3.10 EVALUABILIDAD ---
+  analisis	evaluables	total	pct	limitacion_dominante
+  MLST Pasteur	875	900	97.2	Perfiles alelicos no descritos
+  MLST Oxford	375	900	41.7	Perfiles no descritos y paralogos del esquema
+  Tipo capsular KL	900	900	100.0	-
+  Locus OCL	900	900	100.0	-
+  Tipificacion plasmidica APT	797	900	88.6	Ausencia de genes rep tipificables
+  Contexto de blaOXA-72	63	73	86.3	Gen y rep en contigs distintos
+  Contexto de ISAba1 (copias)	841	1002	83.9	Fragmentacion del ensamblado
+ISAba1: Counter({'ausente': 834, 'no_determinable': 161, 'presente': 7})
+
+--- VERIFICACIONES ADICIONALES (scripts F) ---
+
+  [verif/fisher_homogeneo.tsv]
+    brazo	portadores	eventos	eventos_r3T18
+    ST2 andinos	23	9	9
+    ST79 brasilenos	26	10	0
+    #p_fisher	1.08251e-05
+
+  [verif/cgmlst_estructura.tsv]
+    umbral	grupos_enlace_completo	grupos_enlace_simple	diametro_max_simple
+    0	15	15	0
+    1	14	13	2
+    2	12	12	2
+    3	12	12	2
+    4	12	11	6
+    5	12	11	6
+    6	10	10	6
+
+  [amr_v4_900.tsv]
+    categoria	elemento	valor
+    carbapenemasa	blaGES-11	1
+    carbapenemasa	blaIMP-1	2
+    carbapenemasa	blaIMP-16	1
+    carbapenemasa	blaKPC	2
+    carbapenemasa	blaNDM	7
+    carbapenemasa	blaNDM-1	41
+    carbapenemasa	blaOXA-143	1

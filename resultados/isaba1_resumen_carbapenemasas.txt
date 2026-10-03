@@ -1,0 +1,7 @@
+Gen             Copias Presente  Ausente   No_evaluable Evaluabilidad
+oxa23              696       51        0            645          7.3 %
+oxa24               89        0       69             20         77.5 %
+oxa58               49        0       13             36         26.5 %
+oxa143              47        0       23             24         48.9 %
+ndm                 44        0       30             14         68.2 %
+oxa51 (int.)      1002        7      834            161         83.9 %

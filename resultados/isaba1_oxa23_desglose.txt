@@ -1,0 +1,25 @@
+=== ISAba1 rio arriba de blaOXA-23: 44 genomas ===
+
+Por pais:
+     12   Paraguay
+     12   Brasil
+      7   Bolivia
+      6   Argentina
+      4   Chile
+      1   Venezuela
+      1   Ecuador
+      1   Colombia
+
+Por linaje:
+     14   ST25
+      7   ST79
+      7   ST2
+      7   ST15
+      3   ST991
+      2   ST162
+      1   ST78
+      1   ST2526
+      1   ST188
+      1   ST1
+
+Los 5 genomas peruanos con blaOXA-23 quedaron todos como no evaluables.
