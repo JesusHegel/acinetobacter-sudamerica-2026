@@ -132,4 +132,3 @@ dependencies:
   - wrapt=2.2.2
   - zipp=4.1.0
   - zstd=1.5.7
-prefix: /home/hegel/miniforge3/envs/qc

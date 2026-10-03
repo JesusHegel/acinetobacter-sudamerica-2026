@@ -12,7 +12,7 @@ set -euo pipefail
 BASE=~/abaumannii
 IN=$BASE/datos/genomas_900
 OUT=$BASE/resultados/tipificacion
-REF=$BASE/repo/pipeline/01_datos/referencias_acb
+REF=$BASE/datos/referencias_acb
 mkdir -p "$OUT"
 
 # ---------------------------------------------------------------------
@@ -62,11 +62,17 @@ kaptive assembly "$KDB/Acinetobacter_baumannii_OC_locus_primary_reference.gbk" \
 # 4. Genes de resistencia                          entorno: abaumannii
 # ---------------------------------------------------------------------
 echo "=== 4/4  AMRFinderPlus ==="
+# Se produce un fichero por genoma en analisis_amr4/, ademas del fichero
+# concatenado. El paso 04 localiza las coordenadas de cada gen por genoma,
+# de modo que necesita las salidas individuales.
+mkdir -p "$BASE/analisis_amr4"
 : > "$OUT/amrfinder_todos.tsv"
 for f in "$IN"/*.fna; do
   n=$(basename "$f" .fna)
+  n=$(echo "$n" | sed -E 's/^(GC[AF]_[0-9]+\.[0-9]+).*/\1/')
   amrfinder -n "$f" --organism Acinetobacter_baumannii --plus --name "$n" \
-    | tail -n +2 >> "$OUT/amrfinder_todos.tsv"
+    > "$BASE/analisis_amr4/$n.tsv"
+  tail -n +2 "$BASE/analisis_amr4/$n.tsv" >> "$OUT/amrfinder_todos.tsv"
 done
 
 echo

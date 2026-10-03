@@ -38,7 +38,7 @@ def ctg_oxa(acc):
         if r[ci["genoma"]]==acc and r[ci["gen"]]=="blaOXA-72" and r[ci["estado"]]=="COLOCALIZADO":
             return r[ci["gen_contig"]]
 
-AMR=glob.glob(f"{os.path.expanduser('~')}/miniforge3/envs/*/share/amrfinderplus/data/*/AMR_CDS.fa")
+AMR=glob.glob(f"{os.environ.get('CONDA_PREFIX','')}/share/amrfinderplus/data/*/AMR_CDS.fa")
 os.makedirs(f"{B}/tmp_fig6", exist_ok=True)
 q=f"{B}/tmp_fig6/genes.fa"
 if AMR:

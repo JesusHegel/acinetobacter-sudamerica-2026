@@ -69,7 +69,7 @@ for tag,acc,ctg in SEQ:
             if h==ctg: print(f"  identificador: {h}")
 
 print("\n=== D. blaOXA-72 en cada secuencia ===")
-AMR=glob.glob(f"{os.path.expanduser('~')}/miniforge3/envs/*/share/amrfinderplus/data/*/AMR_CDS.fa")
+AMR=glob.glob(f"{os.environ.get('CONDA_PREFIX','')}/share/amrfinderplus/data/*/AMR_CDS.fa")
 if AMR:
     Ac=fasta(AMR[0])
     sel={k:v for k,v in Ac.items() if re.search(r"blaOXA-72\b",k)}

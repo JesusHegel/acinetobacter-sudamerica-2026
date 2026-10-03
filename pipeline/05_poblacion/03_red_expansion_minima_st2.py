@@ -9,7 +9,7 @@ import networkx as nx, csv, os, re
 
 B = os.path.expanduser("~/abaumannii")
 meta = {r['ID']: r for r in csv.DictReader(
-        open(f"{B}/resultados/metadatos_grapetree_st2.tsv"), delimiter='\t')}
+        open(f"{B}/resultados/grapetree/metadatos_grapetree_st2.tsv"), delimiter='\t')}
 
 # --- leer el newick como grafo (nodos + longitudes de rama) ---
 from Bio import Phylo

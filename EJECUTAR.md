@@ -36,7 +36,9 @@ Cada paso indica en su cabecera qué entorno necesita.
 
 | Paso | Qué hace | Entorno | Duración |
 |---|---|---|---|
-| `01_descargar_genomas.sh` | Descarga los 842 genomas públicos a partir de la lista fija de accesiones | base | 30-60 min |
+| `01_descargar_genomas.sh` | Descarga los 842 ensamblados públicos a partir de la lista fija de accesiones | abaumannii | 30-60 min |
+| `02_descargar_referencias_acb.sh` | Las cinco referencias del complejo ACB para la confirmación de especie | abaumannii | 1 min |
+| `03_descargar_esquemas.sh` | Catálogo de AMRFinderPlus, esquema APT y esquema cgMLST | abaumannii + ensamblaje | 20-40 min |
 
 La lista `accesiones_900.txt` contiene los 900 identificadores del conjunto:
 842 ensamblados públicos (GCA) y 58 registros del SRA que se ensamblan en
@@ -52,7 +54,12 @@ un conjunto distinto. La lista fija garantiza el mismo punto de partida.
 
 | Paso | Qué hace | Entorno | Duración |
 |---|---|---|---|
-| `01_ensamblar_lecturas.sh` | Descarga y ensambla los 63 registros disponibles solo como lecturas crudas | ensamblaje | 6-10 h |
+| `00_descargar_lecturas.sh` | Descarga del SRA las lecturas crudas de los 58 registros | ensamblaje | 2-4 h |
+| `01_ensamblar_lecturas.sh` | Ensambla esas lecturas con SPAdes | ensamblaje | 6-10 h |
+
+Se procesaron 63 registros, de los cuales 58 superaron el control de calidad
+del paso 03 e integran el conjunto final. La lista de accesiones está en
+`accesiones_sra_58.txt`.
 
 ### Este paso es opcional
 
@@ -61,9 +68,17 @@ verifica el funcionamiento de SPAdes, no las conclusiones del trabajo. Hay
 dos formas de proceder:
 
 **Opción A, recomendada: omitir el ensamblado.** Los 58 ensamblados que
-resultaron de este paso están depositados en GenBank bajo el BioProject
-PRJNA1505778 y se descargan en minutos. El conjunto de 900 genomas queda
-completo y todas las cifras de verificación son aplicables.
+resultaron de este paso se han remitido a GenBank bajo el BioProject
+PRJNA1505778, **cuya liberación queda condicionada a la publicación del
+trabajo**. Hasta entonces no son descargables desde el NCBI, y deben
+solicitarse a los autores. Se entregan como un único archivo comprimido que
+se extrae en `datos/ensamblados_63/`:
+
+````bash
+mkdir -p ~/abaumannii/datos/ensamblados_63
+tar -xzf ensamblados_58.tar.gz -C ~/abaumannii/datos/ensamblados_63 --strip-components=1
+ls ~/abaumannii/datos/ensamblados_63/*.fna | wc -l   # debe dar 58
+```
 
 **Opción B: reensamblar.** Solo si el objetivo es comprobar también el
 procedimiento de ensamblado. En ese caso, los ensamblados obtenidos pueden
@@ -124,7 +139,8 @@ quedará incompleto y ninguna de las cifras de verificación coincidirá.
 
 ## 07 · Figuras y 08 · Tablas
 
-Se ejecutan en cualquier orden, una vez completados los pasos anteriores.
+Ambos requieren el entorno `abaumannii`. Se ejecutan en cualquier orden, una
+vez completados los pasos anteriores.
 Las tablas se generan en el orden numerado: la S1 primero y después sus
 correcciones.
 

@@ -14,7 +14,7 @@ for f in datos/ensamblados_63/*.fna; do
 done
 echo "    secuencias: $(grep -c '>' tmp_rescan/all.fna)"
 echo "[2/4] extrayendo referencia blaOXA-72..."
-AMR=$(ls ~/miniforge3/envs/abaumannii/share/amrfinderplus/data/*/AMR_CDS.fa | head -1)
+AMR=$(ls $CONDA_PREFIX/share/amrfinderplus/data/*/AMR_CDS.fa | head -1)
 python3 - "$AMR" << 'PY'
 import sys,re
 k=None;buf=[];out=[]

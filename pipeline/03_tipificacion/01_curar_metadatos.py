@@ -8,8 +8,10 @@ Salida:   metadatos/maestra_curada.tsv + reporte en pantalla
 import csv, re, unicodedata
 from collections import Counter
 
-ENTRADA = "maestra_cruda.tsv"
-SALIDA = "maestra_curada.tsv"
+import os
+B = os.path.expanduser("~/abaumannii")
+ENTRADA = f"{B}/repo/metadatos/maestra_cruda.tsv"
+SALIDA = f"{B}/repo/metadatos/maestra_curada.tsv"
 
 # ---------------------------------------------------------------- utilidades
 def sin_tildes(s):

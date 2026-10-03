@@ -88,7 +88,7 @@ if r.stderr.strip(): print("  stderr:", r.stderr.strip()[:300])
 
 print("\n=== D. blaOXA-72 y sitios pdif en cada secuencia ===")
 S=fasta(fa)
-AMR=glob.glob(f"{os.path.expanduser('~')}/miniforge3/envs/abaumannii/share/amrfinderplus/data/*/AMR_CDS*")
+AMR=glob.glob(f"{os.environ.get('CONDA_PREFIX','')}/share/amrfinderplus/data/*/AMR_CDS*")
 print(f"  catalogo AMR_CDS: {AMR[0] if AMR else 'NO ENCONTRADO'}")
 for k,s in S.items():
     xd=len(re.findall(r"ATTTAACATAA......TTATACGAAAT",s))+len(re.findall(r"ATTTCGTATAA......TTATGTTAAAT",s))
