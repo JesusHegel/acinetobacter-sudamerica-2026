@@ -16,6 +16,17 @@ REF=$BASE/repo/pipeline/01_datos/referencias_acb
 mkdir -p "$OUT"
 
 # ---------------------------------------------------------------------
+# 0. Bases de datos            (solo la primera vez)
+# ---------------------------------------------------------------------
+# AMRFinderPlus requiere descargar su catalogo antes del primer uso.
+# Este trabajo empleo la version 2026-05-15.1; una version posterior
+# puede notificar variantes adicionales.
+#   amrfinder -u
+#
+# El esquema cgMLST del paso 05 se descarga de Chewie-NS:
+#   chewBBACA.py DownloadSchema -sp 5 -sc 1 -o ~/abaumannii/datos/cgmlst_abaumannii
+
+# ---------------------------------------------------------------------
 # 1. Confirmacion de especie            entorno: qc
 # ---------------------------------------------------------------------
 # ANI frente a las cinco referencias del complejo A. calcoaceticus-baumannii.

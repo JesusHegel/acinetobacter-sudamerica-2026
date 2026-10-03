@@ -54,9 +54,25 @@ un conjunto distinto. La lista fija garantiza el mismo punto de partida.
 |---|---|---|---|
 | `01_ensamblar_lecturas.sh` | Descarga y ensambla los 63 registros disponibles solo como lecturas crudas | ensamblaje | 6-10 h |
 
-**Este paso puede omitirse.** Si el objetivo es verificar los resultados del
-análisis y no el procedimiento de ensamblado, los 58 ensamblados resultantes
-están depositados en GenBank bajo el BioProject PRJNA1505778.
+### Este paso es opcional
+
+El ensamblado de los 63 registros añade entre 6 y 10 horas de cómputo y
+verifica el funcionamiento de SPAdes, no las conclusiones del trabajo. Hay
+dos formas de proceder:
+
+**Opción A, recomendada: omitir el ensamblado.** Los 58 ensamblados que
+resultaron de este paso están depositados en GenBank bajo el BioProject
+PRJNA1505778 y se descargan en minutos. El conjunto de 900 genomas queda
+completo y todas las cifras de verificación son aplicables.
+
+**Opción B: reensamblar.** Solo si el objetivo es comprobar también el
+procedimiento de ensamblado. En ese caso, los ensamblados obtenidos pueden
+diferir mínimamente de los originales en el número de contigs, sin que ello
+afecte a la tipificación.
+
+**En ambos casos los 900 genomas deben estar presentes** antes de continuar
+con el paso 03. Si se omite el ensamblado sin descargar los 58, el conjunto
+quedará incompleto y ninguna de las cifras de verificación coincidirá.
 
 ---
 
