@@ -163,6 +163,9 @@ Si la reproducción es correcta, estos valores deben coincidir:
 | Genomas ST2 | 213 |
 | Loci cgMLST retenidos al umbral 0,95 | 2133 de 2390 |
 | Portadores de blaOXA-72 | 73 |
+| Genomas sin carbapenemasa adquirida | 139 |
+| Genomas con carbapenemasa adquirida | 761 |
+| Copias de blaOXA-23 evaluadas para ISAba1 | 696, evaluabilidad 7,3 % |
 | Portadores con replicón tipificado | 63 (86,3 %) |
 | blaOXA-23 co-localizado con replicón | 5 de 600 (0,83 %) |
 | Genomas con ISAba1 río arriba de blaOXA-23 | 44 |
@@ -183,3 +186,29 @@ publicado. Se conserva por trazabilidad.
 - `analisis_descartado/` — partición de varianza y validación en *K. pneumoniae*, no incluidas en el manuscrito
 - `versiones_previas/` — scripts reemplazados por versiones posteriores
 - `deposito/` — preparación del envío de los ensamblados a GenBank
+
+---
+
+## Nota sobre una correccion del analisis
+
+Las cifras de esta guia corresponden al analisis corregido el 4 de octubre
+de 2026. Una version anterior reportaba **176 genomas sin carbapenemasa
+adquirida**; la cifra correcta es **139**.
+
+**Que ocurrio.** El procedimiento que construia la tabla de tipificacion
+buscaba las carbapenemasas por nombre literal (`blaOXA-23`, `blaOXA-72`,
+`blaOXA-58`, `blaOXA-143`), de modo que las variantes de esas mismas
+familias registradas con otro nombre no se contabilizaban. El apartado 2.4
+de metodos declara que el recuento se hace por familia y no por variante,
+pero ese criterio solo se habia aplicado a la familia intrinseca.
+
+**Alcance.** Cuarenta y cuatro genomas pasan de figurar sin carbapenemasa a
+portador, todos con coincidencia exacta y 100 % de identidad y cobertura:
+38 con `blaOXA-253`, 4 con `blaOXA-366` y 2 con `blaOXA-657`. La familia
+OXA-143 pasa de 1 a 41 genomas. Se corrigen ademas tres asignaciones
+erroneas: `blaOXA-407` y `blaOXA-241` pertenecen a la familia intrinseca y
+`blaGES-11` es una cefalosporinasa, no una carbapenemasa.
+
+**Lo que no cambia.** El hallazgo central no se altera. blaOXA-72 sigue
+presente en 73 genomas, 63 con replicon co-localizado, y la separacion entre
+el replicon andino y el brasileno mantiene su significacion (p = 3,2e-07).
