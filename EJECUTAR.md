@@ -111,18 +111,27 @@ quedará incompleto y ninguna de las cifras de verificación coincidirá.
 
 | Paso | Qué hace | Entorno | Duración |
 |---|---|---|---|
-| `01_coordenadas_carbapenemasas.py` | Extrae las coordenadas de cada gen desde la salida de AMRFinderPlus | base | min |
-| `02_cruce_isaba1.awk` | Cruza esas coordenadas con las posiciones de ISAba1 | base | min |
-| `03_anexo_isaba1_oxa23.py` | Anexo de los genomas con ISAba1 río arriba de blaOXA-23 | base | min |
-| `04_rastreo_dirigido.sh` | Busca blaOXA-72 sin umbral de cobertura, para recuperar los partidos por el punto de linealización | abaumannii | 20 min |
-| `05_informe_rastreo.py` | Compara lo recuperado frente a lo notificado | base | min |
-| `06_recalcular_colocalizacion.py` | Recalcula el contexto exigiendo replicón en el mismo contig | base | min |
-| `07_sitios_pdif.py` | Localiza los sitios pdif en los elementos | base | min |
-| `08_comparar_plasmidos_cerrados.py` | Compara el elemento andino con plásmidos circulares cerrados | abaumannii | min |
-| `09_armazon_con_y_sin_gen.py` | Contrasta el armazón r3-T18 vacío frente al portador | base | min |
-| `10_r3t18_fuera_del_cc2.py` | Distribución de r3-T18 en los linajes no andinos | base | min |
+| `01_coordenadas_carbapenemasas.py` | Extrae las coordenadas de cada gen desde las salidas por genoma de AMRFinderPlus | base | min |
+| `02_buscar_isaba1.sh` | Localiza ISAba1 en los 900 genomas por BLASTN, y calcula las longitudes de contig | abaumannii | 15-30 min |
+| `03_cruce_isaba1.sh` | Cruza las posiciones de ISAba1 con las coordenadas de cada gen y clasifica cada copia | base | seg |
+| `04_anexo_isaba1_oxa23.py` | Anexo de los genomas con ISAba1 rio arriba de blaOXA-23 | base | min |
+| `05_rastreo_dirigido.sh` | Busca blaOXA-72 sin umbral de cobertura | abaumannii | 20 min |
+| `06_informe_rastreo.py` | Compara lo recuperado frente a lo notificado. Debe indicar 9 portadores nuevos | base | min |
+| `07_recalcular_colocalizacion.py` | Recalcula el contexto exigiendo replicon en el mismo contig | base | min |
+| `08_sitios_pdif.py` | Localiza los sitios pdif en los elementos | base | min |
+| `09_comparar_plasmidos_cerrados.py` | Compara el elemento andino con plasmidos circulares cerrados | abaumannii | min |
+| `10_armazon_con_y_sin_gen.py` | Contrasta el armazon r3-T18 vacio frente al portador | base | min |
+| `11_r3t18_fuera_del_cc2.py` | Distribucion de r3-T18 en los linajes no andinos | base | min |
 
----
+El paso `03_cruce_isaba1.sh` invoca el fichero `03_cruce_isaba1.awk`, que no se ejecuta por si solo.
+
+**Orden de ejecución.** Los pasos `07` y `11` leen la Tabla S1, que produce `08_tablas/01_tabla_S1.py`. El orden ejecutable es:
+
+```
+03  ->  08/01  ->  04  ->  08/02  ->  06  ->  07 y 08/03
+```
+
+Los pasos 01 a 06 del contexto pueden correrse antes de la Tabla S1; los posteriores, no.
 
 ## 05 · Estructura poblacional
 

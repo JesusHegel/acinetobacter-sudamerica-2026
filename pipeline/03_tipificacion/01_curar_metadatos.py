@@ -176,7 +176,7 @@ def main():
             ['pais', 'origen', 'tipo_muestra', 'nivel_geo', 'anio']}
 
     with open(SALIDA, 'w', newline='', encoding='utf-8') as fh:
-        w = csv.DictWriter(fh, fieldnames=salida, delimiter='\t')
+        w = csv.DictWriter(fh, lineterminator='\n', fieldnames=salida, delimiter='\t')
         w.writeheader()
         for row in filas:
             pais, ciudad, sitio, nivel = parse_location(

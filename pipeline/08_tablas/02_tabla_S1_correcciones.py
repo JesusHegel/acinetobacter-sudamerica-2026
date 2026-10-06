@@ -52,7 +52,7 @@ for d in rows:
 print(f"2. contigs calculados para {n} ensamblados propios")
 
 # 3. ciudad desde la columna curada
-M = tsv(f"{B}/metadatos/maestra_curada.tsv")
+M = tsv(f"{B}/repo/metadatos/maestra_curada.tsv")
 h = {x: i for i, x in enumerate(M[0])}
 ciu = {}
 for r in M[1:]:

@@ -4,6 +4,17 @@
 import os, re, csv
 from collections import Counter
 B = os.path.expanduser("~/abaumannii")
+def limpia(v):
+    """Normaliza las comillas de los campos de texto libre.
+
+    Algunos metadatos del NCBI traen comillas dobles en el nombre del centro.
+    Cada ciclo de lectura y escritura con csv las duplica, de modo que el
+    fichero cambia en cada ejecucion sin que cambie la informacion. Se
+    eliminan para que la salida sea estable.
+    """
+    return v.replace('"', '').strip() if isinstance(v, str) else v
+
+
 def tsv(p):
     return [l.rstrip("\n").split("\t") for l in open(p, encoding="utf-8", errors="replace") if l.strip()]
 
@@ -14,11 +25,11 @@ if not re.match(r"^(GC[AF]_|ERR|SRR|DRR)", rows[0][0]): rows = rows[1:]
 clin = {r[0]: dict(zip(C,(r+[""]*10)[:10])) for r in rows}
 print(f"genomas clinicos: {len(clin)}")
 
-bp = {r[0]: r[1] for r in tsv(f"{B}/datos/acc_bioproject_944.tsv")
+bp = {r[0]: r[1] for r in tsv(f"{B}/repo/datos/acc_bioproject_944.tsv")
       if len(r) >= 2 and r[1].startswith("PRJ")}
 print(f"con BioProject: {sum(1 for g in clin if g in bp)}")
 
-M = tsv(f"{B}/metadatos/maestra_curada.tsv")
+M = tsv(f"{B}/repo/metadatos/maestra_curada.tsv")
 h = {n: i for i, n in enumerate(M[0])}
 mae = {}
 for r in M[1:]:
@@ -36,7 +47,7 @@ def g(r, col):
 
 ncont = Counter()
 clen = {}
-for r in tsv(f"{B}/datos/contig_len.tsv"):
+for r in tsv(f"{B}/repo/datos/contig_len.tsv"):
     if len(r) >= 3:
         ncont[r[0]] += 1
         clen[r[0]] = clen.get(r[0], 0) + int(r[2])
@@ -91,7 +102,7 @@ p = f"{B}/resultados/TablaS1_900_genomas.tsv"
 with open(p, "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=cols, delimiter="\t")
     w.writeheader()
-    for d in OUT: w.writerow(d)
+    for d in OUT: w.writerow({k: limpia(v) for k, v in d.items()})
 print(f"\n=== escrita: {p} ===")
 print(f"  filas: {len(OUT)}   columnas: {len(cols)}")
 

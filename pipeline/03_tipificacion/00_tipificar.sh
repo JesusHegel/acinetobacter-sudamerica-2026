@@ -6,7 +6,16 @@
 # Produce:  resultados/tipificacion/
 # Duracion: 2 a 4 h, dominada por AMRFinderPlus
 #
-# Emplea dos entornos conda, indicados en cada bloque.
+# IMPORTANTE: este paso emplea DOS entornos conda y un unico script de bash
+# no puede cambiar entre ellos. Ejecutelo en dos tandas:
+#
+#   conda activate qc          && bash 00_tipificar.sh especie
+#   conda activate abaumannii  && bash 00_tipificar.sh resto
+#
+# Sin argumento ejecuta solo la parte que corresponde al entorno activo.
+#
+# El bloque de AMRFinderPlus omite los genomas ya procesados, de modo que
+# una interrupcion no obliga a repetir el trabajo hecho.
 # =====================================================================
 set -euo pipefail
 BASE=~/abaumannii
@@ -66,14 +75,28 @@ echo "=== 4/4  AMRFinderPlus ==="
 # concatenado. El paso 04 localiza las coordenadas de cada gen por genoma,
 # de modo que necesita las salidas individuales.
 mkdir -p "$BASE/analisis_amr4"
-: > "$OUT/amrfinder_todos.tsv"
 for f in "$IN"/*.fna; do
   n=$(basename "$f" .fna)
   n=$(echo "$n" | sed -E 's/^(GC[AF]_[0-9]+\.[0-9]+).*/\1/')
-  amrfinder -n "$f" --organism Acinetobacter_baumannii --plus --name "$n" \
-    > "$BASE/analisis_amr4/$n.tsv"
-  tail -n +2 "$BASE/analisis_amr4/$n.tsv" >> "$OUT/amrfinder_todos.tsv"
+  # Se omite lo ya calculado, de modo que una interrupcion no obligue a
+  # repetir el trabajo hecho. El fichero por genoma se escribe SIN --name,
+  # para que conserve el formato de columnas que espera el paso 04.
+  if [ ! -s "$BASE/analisis_amr4/$n.tsv" ]; then
+    amrfinder -n "$f" --organism Acinetobacter_baumannii --plus \
+      > "$BASE/analisis_amr4/$n.tsv"
+  fi
 done
+
+# El fichero concatenado se reconstruye a partir de las salidas por genoma,
+# anteponiendo la accesion a cada linea. Asi queda completo aunque la
+# ejecucion se haya reanudado.
+: > "$OUT/amrfinder_todos.tsv"
+for g in "$BASE"/analisis_amr4/*.tsv; do
+  a=$(basename "$g" .tsv)
+  tail -n +2 "$g" | awk -v A="$a" -F'\t' 'BEGIN{OFS="\t"}{print A, $0}' \
+    >> "$OUT/amrfinder_todos.tsv"
+done
+echo "genomas con salida de AMRFinderPlus: $(ls "$BASE"/analisis_amr4/*.tsv | wc -l)"
 
 echo
 echo "Salidas en $OUT"

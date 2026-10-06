@@ -12,7 +12,7 @@ rows=tsv(f"{B}/resultados/tabla_clinica_900.tsv")
 if not re.match(r"^(GC[AF]_|ERR|SRR|DRR)",rows[0][0]): rows=rows[1:]
 C=["accesion","pais","st","anio","carb","genes","st_ox","kl","ocl","rep"]
 clin={norm(r[0]):dict(zip(C,(r+[""]*10)[:10])) for r in rows}
-bp={norm(r[0]):r[1] for r in tsv(f"{B}/datos/acc_bioproject_944.tsv")
+bp={norm(r[0]):r[1] for r in tsv(f"{B}/repo/datos/acc_bioproject_944.tsv")
     if len(r)>=2 and r[1].startswith("PRJ")}
 
 o72=defaultdict(set)
