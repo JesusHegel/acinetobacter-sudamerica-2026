@@ -1,0 +1,11 @@
+# Entorno minimo para el control de calidad de los ensamblados (paso 02).
+#
+#   conda env create -f entornos/minimos/qc.yml
+name: qc
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - seqkit=2.13.0
+  - biopython=1.87

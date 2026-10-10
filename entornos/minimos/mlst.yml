@@ -1,0 +1,19 @@
+# Tipificacion de secuencias multilocus. Entorno aparte por el conflicto
+# entre el blast que arrastra mlst 2.35.0 (2.16.0) y el blast 2.17.0 que
+# usa el resto del analisis.
+#
+#   conda env create -f entornos/minimos/mlst.yml
+#
+# Lo usan las dos llamadas a mlst de 03_tipificacion/00_tipificar.sh:
+#
+#   conda activate mlst
+#   mlst --scheme abaumannii_2 ...   (Pasteur)
+#   mlst --scheme abaumannii   ...   (Oxford)
+#
+# El resto de ese paso corre en el entorno abaumannii.
+name: mlst
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - mlst=2.35.0

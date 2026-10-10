@@ -1,0 +1,37 @@
+# Entorno minimo para el analisis: solo lo que el pipeline invoca, con las
+# mismas versiones de la maquina de desarrollo.
+#
+# Los .yml completos de entornos/ son la exportacion exacta de esa maquina
+# (302 paquetes) y pueden no resolver en otra plataforma, porque fijan la
+# version de cada dependencia transitiva.
+#
+#   conda env create -f entornos/minimos/abaumannii.yml
+#
+# mlst va aparte, en minimos/mlst.yml: la version 2.35.0 arrastra blast
+# 2.16.0, de modo que el solver ya no planifica desde cero la convivencia
+# con blast 2.17.0 que si existe en la maquina de desarrollo. Antes que
+# relajar la version de blast, que es la que produjo los resultados
+# publicados, se separa mlst a su propio entorno.
+#
+# Lo usan los pasos 03 (salvo las dos llamadas a mlst), 04, 05/00c, 05/02,
+# 05/03, 06, 07 y 08.
+name: abaumannii
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - chewbbaca=3.5.4
+  - ncbi-amrfinderplus=4.2.7
+  - blast=2.17.0
+  - kaptive=3.2.2
+  - seqkit=2.13.0
+  - biopython=1.87
+  # matplotlib-base 3.11.1 solo esta compilado para Python 3.11; se deja
+  # abierta para que el solver escoja la compilacion que encaje con 3.12.
+  - matplotlib-base>=3.9
+  - dna_features_viewer=3.1.5
+  - pip
+  - pip:
+      - grapetree==2.2
+      - networkx==3.6.1

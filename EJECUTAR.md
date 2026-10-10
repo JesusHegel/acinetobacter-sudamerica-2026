@@ -20,15 +20,36 @@ git clone https://github.com/JesusHegel/acinetobacter-sudamerica-2026.git repo
 **La herramienta `datasets` del NCBI** vive en el entorno `abaumannii`. Los
 pasos que la emplean lo indican en su cabecera.
 
-**Entornos conda.** Tres entornos, reconstruibles desde `entornos/`:
+**Entornos conda.** Use los de `entornos/minimos/`, que son los que resuelven
+en una máquina limpia:
 
 ```bash
-conda env create -f entornos/abaumannii.yml   # tipificación, anotación, figuras
-conda env create -f entornos/ensamblaje.yml   # ensamblado y cgMLST
-conda env create -f entornos/qc.yml           # control de calidad y ANI
+conda env create -f entornos/minimos/abaumannii.yml   # tipificación, anotación, figuras
+conda env create -f entornos/minimos/ensamblaje.yml   # ensamblado y cgMLST
+conda env create -f entornos/minimos/qc.yml           # control de calidad y ANI
+conda env create -f entornos/minimos/mlst.yml         # solo las dos llamadas a mlst
 ```
 
 Cada paso indica en su cabecera qué entorno necesita.
+
+**Por qué hay dos juegos de `.yml`.** Los de `entornos/` son la exportación
+exacta de la máquina de desarrollo: fijan la versión de los 302 paquetes
+instalados, dependencias transitivas incluidas, y basta con que una ya no esté
+disponible para que el solver no encuentre solución. Sirven como registro de lo
+que había instalado, no para reconstruir.
+
+Los de `entornos/minimos/` declaran solo lo que el pipeline invoca —ocho
+herramientas y cuatro módulos de Python— con las mismas versiones que
+produjeron los resultados publicados. La única excepción es `matplotlib-base`,
+que se deja abierta porque la 3.11.1 solo está compilada para Python 3.11;
+ninguna cifra depende de ella.
+
+**`mlst` va en su propio entorno.** La versión 2.35.0 arrastra `blast` 2.16.0,
+mientras que el resto del análisis usa `blast` 2.17.0. En la máquina de
+desarrollo ambas conviven, pero el solver ya no planifica esa combinación desde
+cero. Antes que relajar la versión de `blast`, que es la que produjo los
+resultados, se separa `mlst`. Afecta a las dos llamadas de
+`03_tipificacion/00_tipificar.sh`; el resto de ese paso corre en `abaumannii`.
 
 ---
 
