@@ -129,8 +129,13 @@ El paso `03_cruce_isaba1.sh` invoca el fichero `03_cruce_isaba1.awk`, que no se 
 **Orden de ejecución.** Los pasos `07` y `11` leen la Tabla S1, que produce `08_tablas/01_tabla_S1.py`. El orden ejecutable es:
 
 ```
-03  ->  08/01  ->  04  ->  08/02  ->  08/04  ->  06  ->  07 y 08/03
+03  ->  08/01  ->  04  ->  08/02  ->  05/00b  ->  05/00c  ->  08/04  ->  06  ->  07 y 08/03
 ```
+
+**`05/00b` y `05/00c` van despues de la Tabla S1.** El `00b` selecciona los 213
+ST2 leyendo la columna `st_pasteur` de la Tabla S1, de modo que no puede
+correrse antes de `08/01`. El `00c` necesita la matriz que produce el `00b`, y
+`08/04` necesita esa misma matriz para el agrupamiento del CC2 andino.
 
 **`08/04` va antes que `06`.** `04_recuento_final.py` escribe el numero de eventos
 andinos en `resultados/verif/eventos_andinos.txt`, que lee el Fisher. Si falta, el
@@ -143,9 +148,17 @@ Fisher avisa y usa el valor publicado (9).
 | Paso | Qué hace | Entorno | Duración |
 |---|---|---|---|
 | `00_cgmlst.sh` | AlleleCall y ExtractCgMLST sobre los 900 genomas | ensamblaje | 20 min |
+| `00b_cgmlst_st2.sh` | AlleleCall y ExtractCgMLST restringidos a los 213 ST2. Produce la matriz de distancias del linaje | ensamblaje | 5 min |
+| `00c_arbol_y_metadatos_st2.sh` | Red de expansión mínima de los ST2 y sus metadatos de anotación | abaumannii | 1 min |
 | `01_arbol_grapetree.sh` | Red de expansión mínima, algoritmo MSTreeV2 | abaumannii | 2 min |
 | `02_agrupamiento_enlace_completo.py` | Agrupamiento jerárquico y barrido de umbrales | abaumannii | min |
 | `03_red_expansion_minima_st2.py` | Red de resolución fina sobre ST2 | abaumannii | min |
+
+Los pasos `00b` y `00c` no existían hasta el 10 de octubre de 2026: la matriz
+de ST2, su árbol y sus metadatos se habían generado a mano y no eran
+reproducibles. Los consumen `02`, `03`, `07_figuras/fig5_dendrograma_andino.py`
+y `08_tablas/04_recuento_final.py`. El `00c` reproduce el árbol y los metadatos
+publicados byte a byte.
 
 ---
 
