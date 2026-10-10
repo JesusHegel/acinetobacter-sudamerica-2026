@@ -117,6 +117,7 @@ quedará incompleto y ninguna de las cifras de verificación coincidirá.
 | `04_anexo_isaba1_oxa23.py` | Anexo de los genomas con ISAba1 rio arriba de blaOXA-23 | base | min |
 | `05_rastreo_dirigido.sh` | Busca blaOXA-72 sin umbral de cobertura | abaumannii | 20 min |
 | `06_informe_rastreo.py` | Compara lo recuperado frente a lo notificado. Debe indicar 9 portadores nuevos | base | min |
+| `06b_propagar_rastreo.py` | Escribe los 9 recuperados en la tabla clinica y en la Tabla S1. El `06` solo informa; sin este paso ambas quedan en 64 portadores | base | seg |
 | `07_recalcular_colocalizacion.py` | Recalcula el contexto exigiendo replicon en el mismo contig | base | min |
 | `08_sitios_pdif.py` | Localiza los sitios pdif en los elementos | base | min |
 | `09_comparar_plasmidos_cerrados.py` | Compara el elemento andino con plasmidos circulares cerrados | abaumannii | min |
@@ -128,10 +129,14 @@ El paso `03_cruce_isaba1.sh` invoca el fichero `03_cruce_isaba1.awk`, que no se 
 **Orden de ejecución.** Los pasos `07` y `11` leen la Tabla S1, que produce `08_tablas/01_tabla_S1.py`. El orden ejecutable es:
 
 ```
-03  ->  08/01  ->  04  ->  08/02  ->  06  ->  07 y 08/03
+03  ->  08/01  ->  04  ->  08/02  ->  08/04  ->  06  ->  07 y 08/03
 ```
 
-Los pasos 01 a 06 del contexto pueden correrse antes de la Tabla S1; los posteriores, no.
+**`08/04` va antes que `06`.** `04_recuento_final.py` escribe el numero de eventos
+andinos en `resultados/verif/eventos_andinos.txt`, que lee el Fisher. Si falta, el
+Fisher avisa y usa el valor publicado (9).
+
+**Dentro del paso 04 el orden numerado no es el de ejecucion.** El `01` lee `datos/contig_len_900.tsv`, que produce el `02`, de modo que el orden real es `02 → 01 → 03 → 04 → …`. Los pasos `01`, `04`, `07` y `11` leen ademas la Tabla S1, que produce `08_tablas/01_tabla_S1.py`.
 
 ## 05 · Estructura poblacional
 
@@ -149,6 +154,9 @@ Los pasos 01 a 06 del contexto pueden correrse antes de la Tabla S1; los posteri
 | Paso | Qué hace | Entorno | Duración |
 |---|---|---|---|
 | `01_fisher_exclusividad.py` | Prueba exacta de Fisher sobre eventos independientes | base | seg |
+
+El numero de eventos andinos ya no va fijo en el codigo: lo toma de
+`resultados/verif/eventos_andinos.txt`, que produce `08_tablas/04_recuento_final.py`.
 
 ---
 
@@ -172,8 +180,8 @@ Si la reproducción es correcta, estos valores deben coincidir:
 | Genomas ST2 | 213 |
 | Loci cgMLST retenidos al umbral 0,95 | 2133 de 2390 |
 | Portadores de blaOXA-72 | 73 |
-| Genomas sin carbapenemasa adquirida | 139 |
-| Genomas con carbapenemasa adquirida | 761 |
+| Genomas sin carbapenemasa adquirida | 133 |
+| Genomas con carbapenemasa adquirida | 767 |
 | Copias de blaOXA-23 evaluadas para ISAba1 | 696, evaluabilidad 7,3 % |
 | Portadores con replicón tipificado | 63 (86,3 %) |
 | blaOXA-23 co-localizado con replicón | 5 de 600 (0,83 %) |
@@ -221,3 +229,35 @@ erroneas: `blaOXA-407` y `blaOXA-241` pertenecen a la familia intrinseca y
 **Lo que no cambia.** El hallazgo central no se altera. blaOXA-72 sigue
 presente en 73 genomas, 63 con replicon co-localizado, y la separacion entre
 el replicon andino y el brasileno mantiene su significacion (p = 3,2e-07).
+
+---
+
+## Segunda correccion: propagacion del rastreo dirigido (10 de octubre de 2026)
+
+Las cifras de genomas con y sin carbapenemasa adquirida vuelven a moverse:
+**139 -> 133** sin carbapenemasa y **761 -> 767** con carbapenemasa.
+
+**Que ocurrio.** El rastreo dirigido de blaOXA-72 (`04_contexto/05` y `06`)
+recupera 9 portadores que AMRFinderPlus etiqueta como `blaOXA` generico por
+tratarse de alineamientos partidos entre fragmentos de un contig
+(`PARTIAL_CONTIG_ENDX`). El paso `06` solo imprimia el resultado: nadie lo
+escribia. La columna `oxa72_contexto` de la Tabla S1 si recogia los 9, pero
+`genes_carbapenemasa` y `carbapenemasa_adquirida` se quedaban en el recuento
+de AMRFinderPlus, de modo que la propia tabla se contradecia (73 frente a 64).
+
+**Alcance.** Nueve genomas suman `blaOXA-72` en `genes_carbapenemasa`
+(4 brasilenos y 5 peruanos); de ellos, seis pasan ademas de `no` a `si` en
+`carbapenemasa_adquirida`. Todos con identidad BLASTN de 99,5 a 100 % frente
+a la referencia, por encima del umbral de 95 % del rastreo. Lo escribe el
+paso nuevo `04_contexto/06b_propagar_rastreo.py`, que es idempotente.
+
+**Lo que no cambia.** Los 73 portadores de blaOXA-72, los 63 con replicon
+co-localizado (86,3 %) y el contraste principal (p = 3,2e-07) se mantienen.
+Las dos tablas son ahora coherentes entre si.
+
+**Tercer arreglo de la misma tanda.** El numero de eventos andinos ya no va
+fijo en el codigo del Fisher: lo escribe `08_tablas/04_recuento_final.py` en
+`resultados/verif/eventos_andinos.txt`. Y los seis escritores CSV del
+pipeline llevan ya `lineterminator="\n"`, de modo que las tablas no salen
+con fin de linea CRLF (afectaba a la Tabla S1 y a la tabla clinica, y hacia
+que la ultima columna arrastrase un retorno de carro al leerla con awk).

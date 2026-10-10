@@ -8,7 +8,7 @@ def tsv(p): return [l.rstrip("\n").split("\t") for l in open(p, encoding="utf-8"
 def wr(nm, cols, rows):
     p=f"{B}/resultados/{nm}"
     with open(p,"w",newline="",encoding="utf-8") as f:
-        w=csv.writer(f,delimiter="\t"); w.writerow(cols); w.writerows(rows)
+        w=csv.writer(f,delimiter="\t", lineterminator="\n"); w.writerow(cols); w.writerows(rows)
     print(f"  {nm}: {len(rows)} filas x {len(cols)} columnas")
 
 S1=tsv(f"{B}/resultados/TablaS1_900_genomas.tsv"); h=S1[0]

@@ -77,7 +77,12 @@ def comp(nd,t):
     return sorted(cl,key=len,reverse=True)
 print("  umbral  simple  completo")
 for t in range(0,26): print(f"  {t:5d}  {len(single(N,t)):6d}  {len(comp(N,t)):8d}")
-print(f"\n  --- enlace COMPLETO, umbral 8: {len(comp(N,8))} eventos ---")
+_ev = comp(N,8)
+os.makedirs(f"{B}/resultados/verif", exist_ok=True)
+# lo lee 06_estadistica/01_fisher_exclusividad.py; evita el valor a mano
+with open(f"{B}/resultados/verif/eventos_andinos.txt","w") as _f:
+    _f.write(f"{len(_ev)}\n")
+print(f"\n  --- enlace COMPLETO, umbral 8: {len(_ev)} eventos ---")
 for i,gr in enumerate(comp(N,8),1):
     dia=max((dist(a,b) for a in gr for b in gr if a!=b),default=0)
     print(f"   grupo {i}: n={len(gr)} diam={dia} "

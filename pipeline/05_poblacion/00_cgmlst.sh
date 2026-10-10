@@ -6,11 +6,16 @@
 #           datos/cgmlst_abaumannii/   (esquema de 2390 loci, Chewie-NS)
 # Produce:  resultados/cgmlst_900/      perfiles alelicos
 #           resultados/cgmlst_900_eval/ matrices por umbral de presencia
-# Entorno:  conda activate ensamblaje
+# Entorno:  ensamblaje
+#
+# Este script NO activa el entorno por si mismo: un script de bash no puede
+# cambiar el entorno conda del proceso que lo invoca. Ejecutelo asi:
+#
+#   conda activate ensamblaje && bash 00_cgmlst.sh
 # Duracion: 13 min (AlleleCall) + 5 min (ExtractCgMLST)
 #
 # El esquema se descarga de Chewie-NS:
-#   chewBBACA.py DownloadSchema -sp 5 -sc 1 -o datos/cgmlst_abaumannii
+#   chewBBACA.py DownloadSchema -sp 2 -sc 1 -o datos/cgmlst_abaumannii
 # =====================================================================
 set -euo pipefail
 BASE=~/abaumannii

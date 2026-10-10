@@ -52,7 +52,7 @@ for a, v, n in cambios[:20]:
     print(f"  {a:20s} [{v}] -> [{n}]")
 
 with open(f"{B}/resultados/TablaS1_900_genomas.tsv", "w", newline="", encoding="utf-8") as f:
-    w = csv.DictWriter(f, fieldnames=hdr, delimiter="\t")
+    w = csv.DictWriter(f, fieldnames=hdr, delimiter="\t", lineterminator="\n")
     w.writeheader()
     for d in rows: w.writerow(d)
 print(f"\n=== tabla reescrita ===")

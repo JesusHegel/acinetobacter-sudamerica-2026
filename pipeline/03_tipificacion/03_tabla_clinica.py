@@ -120,7 +120,7 @@ for a, m in meta.items():
 
 filas.sort(key=lambda r: r[0])
 with open(SALIDA, "w", newline="", encoding="utf-8") as fh:
-    w = csv.writer(fh, delimiter="\t")
+    w = csv.writer(fh, delimiter="\t", lineterminator="\n")
     w.writerow(["accesion","pais","st_pasteur","anio","carbapenemasa",
                 "genes_carb","st_oxford","kl","ocl","rep_apt"])
     w.writerows(filas)

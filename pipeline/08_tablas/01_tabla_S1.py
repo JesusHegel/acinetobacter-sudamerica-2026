@@ -100,7 +100,7 @@ for acc in sorted(clin):
 cols = list(OUT[0].keys())
 p = f"{B}/resultados/TablaS1_900_genomas.tsv"
 with open(p, "w", newline="", encoding="utf-8") as f:
-    w = csv.DictWriter(f, fieldnames=cols, delimiter="\t")
+    w = csv.DictWriter(f, fieldnames=cols, delimiter="\t", lineterminator="\n")
     w.writeheader()
     for d in OUT: w.writerow({k: limpia(v) for k, v in d.items()})
 print(f"\n=== escrita: {p} ===")

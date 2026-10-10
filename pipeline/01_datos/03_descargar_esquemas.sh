@@ -31,6 +31,6 @@ echo
 echo "=== 3/3  Esquema cgMLST (Chewie-NS) ==="
 if [ ! -d "$BASE/datos/cgmlst_abaumannii" ]; then
   conda run -n ensamblaje chewBBACA.py DownloadSchema \
-    -sp 5 -sc 1 -o "$BASE/datos/cgmlst_abaumannii"
+    -sp 2 -sc 1 -o "$BASE/datos/cgmlst_abaumannii"
 fi
 find "$BASE/datos/cgmlst_abaumannii" -name "*.fasta" | wc -l

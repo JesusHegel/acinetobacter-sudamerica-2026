@@ -32,7 +32,16 @@ print(f"  Brasil  {bra_t18:6d} {bra_otr:6d}")
 print(f"  p = {fisher(and_t18, and_otr, bra_t18, bra_otr):.3g}")
 
 print("\n=== B. sobre EVENTOS (version defendible) ===")
-EV_AND = 9   # enlace completo, umbral 8, seccion 3.9
+# Numero de eventos andinos: agrupamiento por enlace completo al umbral 8
+# (seccion 3.9). Lo calcula 08_tablas/04_recuento_final.py, que debe correrse
+# antes; si su salida no esta, se usa el valor publicado y se avisa.
+_evf = f"{B}/resultados/verif/eventos_andinos.txt"
+if os.path.exists(_evf):
+    EV_AND = int(open(_evf).read().strip())
+else:
+    EV_AND = 9
+    print("  AVISO: falta resultados/verif/eventos_andinos.txt;"
+          " se usa EV_AND=9. Ejecute antes 08_tablas/04_recuento_final.py")
 import collections
 bra_ev = len({(d["pais"], d["st_pasteur"], d["bioproject"], d["anio"])
               for d in col if d["pais"] == "Brasil"})

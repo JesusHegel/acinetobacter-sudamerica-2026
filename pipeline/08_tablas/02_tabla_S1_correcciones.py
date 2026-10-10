@@ -76,7 +76,7 @@ print(f"   valores vacios o '-': {dict(Counter(d['st_oxford'] for d in rows if d
 
 p = f"{B}/resultados/TablaS1_900_genomas.tsv"
 with open(p, "w", newline="", encoding="utf-8") as f:
-    w = csv.DictWriter(f, fieldnames=hdr, delimiter="\t")
+    w = csv.DictWriter(f, fieldnames=hdr, delimiter="\t", lineterminator="\n")
     w.writeheader()
     for d in rows: w.writerow(d)
 print(f"\n=== tabla reescrita ===")

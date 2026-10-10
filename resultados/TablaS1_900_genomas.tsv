@@ -147,8 +147,8 @@ GCA_003697885.1	ensamblado_publico	PRJNA497216	SAMN10251004	Brasil	Porto Alegre	
 GCA_003812485.1	ensamblado_publico	PRJNA505170	SAMN10411605	Brasil	Salvador	2008	2008	cerebrospinal fluid	clinical	Homo sapiens	MRSN		4	4250823	79	-	KL49	OCL10	si	blaOXA-23	r3-T1,r3-T14,r3-T22,r3-T24	
 GCA_004282835.1	ensamblado_publico	PRJNA497429	SAMN10341989	Brasil	Roraima	2016	2016-10-16	respiratory tract	clinical	Homo sapiens	Hospital Geral de Roraima Rubens de Souza Bento		91	3934686	78	-	KL3	OCL1	si	blaOXA-72	ninguno	no_evaluable
 GCA_004282845.1	ensamblado_publico	PRJNA497429	SAMN10342509	Brasil	Roraima	2016	2016	respiratory tract	clinical	Homo sapiens	Hospital Geral de Roraima Rubens de Souza Bento		104	3955162	78	-	KL3	OCL1	si	blaOXA-72	ninguno	no_evaluable
-GCA_004347305.1	ensamblado_publico	PRJNA516770	SAMN10797507	Brasil	Sao Paulo	2017	2017	blood	clinical	Homo sapiens	Instituto Adolfo Lutz		57	3834411	1	-	KL18	OCL1	si	blaOXA-23	r3-T1,r3-T14	r3-T1,r3-T14
-GCA_004347325.1	ensamblado_publico	PRJNA516770	SAMN10797503	Brasil	Sao Paulo	2017	2017	blood	clinical	Homo sapiens	Instituto Adolfo Lutz		122	3984489	79	-	KL49	OCL10	no	ninguna	r3-T1,r3-T14	r3-T1,r3-T14
+GCA_004347305.1	ensamblado_publico	PRJNA516770	SAMN10797507	Brasil	Sao Paulo	2017	2017	blood	clinical	Homo sapiens	Instituto Adolfo Lutz		57	3834411	1	-	KL18	OCL1	si	blaOXA-23,blaOXA-72	r3-T1,r3-T14	r3-T1,r3-T14
+GCA_004347325.1	ensamblado_publico	PRJNA516770	SAMN10797503	Brasil	Sao Paulo	2017	2017	blood	clinical	Homo sapiens	Instituto Adolfo Lutz		122	3984489	79	-	KL49	OCL10	si	blaOXA-72	r3-T1,r3-T14	r3-T1,r3-T14
 GCA_004359905.1	ensamblado_publico	PRJNA516770	SAMN10797505	Brasil	Sao Paulo	2017	2017	blood	clinical	Homo sapiens	Instituto Adolfo Lutz		107	4017885	79	-	KL210	OCL10	si	blaOXA-72	r3-T1,r3-T14	r3-T1,r3-T14
 GCA_006493735.1	ensamblado_publico	PRJNA545079	SAMN12087690	Peru		2013	2013	respiratory	clinical	Homo sapiens	MRSN (WRAIR)		128	3931403	79	-	KL4	OCL10	si	blaOXA-253	r3-T1,r3-T18	
 GCA_006493975.1	ensamblado_publico	PRJNA545079	SAMN12087691	Peru		2013	2013	blood	clinical	Homo sapiens	MRSN (WRAIR)		239	4052536	193	1110	KL52	OCL6	si	blaIMP-16	r3-T7	
@@ -205,7 +205,7 @@ GCA_015537275.1	ensamblado_publico	PRJNA613847	SAMN14911888	Brasil	Sao Paulo	201
 GCA_015537285.1	ensamblado_publico	PRJNA613847	SAMN14911885	Brasil	Sao Paulo	2017	2017	tracheal secretion	clinical	Homo sapiens	Instituto Adolfo Lutz		66	3856582	1	-	KL1	OCL1	si	blaOXA-23	r3-T1	
 GCA_015537295.1	ensamblado_publico	PRJNA613847	SAMN14911884	Brasil	Sao Paulo	2016	2016	blood	clinical	Homo sapiens	Instituto Adolfo Lutz		170	4109155	79	-	KL9	OCL10	si	blaOXA-23	r3-T1,rP-T1	
 GCA_015537345.1	ensamblado_publico	PRJNA613847	SAMN14911883	Brasil	Aracaju	2016	2016	blood	clinical	Homo sapiens	Instituto Adolfo Lutz		102	3953693	15	225	KL22	OCL7	si	blaOXA-253	r3-T1,r3-T14,r3-T3	
-GCA_015537365.1	ensamblado_publico	PRJNA613847	SAMN14911881	Brasil	Sao Paulo	2016	2016	blood	clinical	Homo sapiens	Instituto Adolfo Lutz		113	4000325	79	-	KL9	OCL10	si	blaOXA-23	r3-T1,rP-T1	no_evaluable
+GCA_015537365.1	ensamblado_publico	PRJNA613847	SAMN14911881	Brasil	Sao Paulo	2016	2016	blood	clinical	Homo sapiens	Instituto Adolfo Lutz		113	4000325	79	-	KL9	OCL10	si	blaOXA-23,blaOXA-72	r3-T1,rP-T1	no_evaluable
 GCA_015537385.1	ensamblado_publico	PRJNA613847	SAMN14911882	Brasil	Assis	2016	2016	tracheal secretion	clinical	Homo sapiens	Instituto Adolfo Lutz		103	4008374	1447	225	KL22	OCL7	si	blaOXA-23	r3-T1,r3-T13	
 GCA_015537405.1	ensamblado_publico	PRJNA613847	SAMN14911880	Brasil	Presidente Prudente	2016	2016	tracheal secretion	clinical	Homo sapiens	Instituto Adolfo Lutz		119	4331817	25	229	KL139	OCL10	si	blaOXA-23,blaOXA-72	r3-T1,r3-T14,r3-T9	r3-T14
 GCA_015537415.1	ensamblado_publico	PRJNA613847	SAMN14911879	Brasil	Botucatu	2012	2012	blood	clinical	Homo sapiens	Instituto Adolfo Lutz		108	3970265	15	236	KL9	OCL7	si	blaOXA-23	r3-T13,r3-T14	
@@ -247,7 +247,7 @@ GCA_015538125.1	ensamblado_publico	PRJNA613847	SAMN14911844	Brasil	Botucatu	2008
 GCA_015538135.1	ensamblado_publico	PRJNA613847	SAMN14911842	Brasil	Aracaju	2016	2016	urine	clinical	Homo sapiens	Instituto Adolfo Lutz		99	3995361	15	236	KL9	OCL7	si	blaOXA-23	r3-T13,r3-T14,r3-T3	
 GCA_015538155.1	ensamblado_publico	PRJNA613847	SAMN14911843	Brasil	Vitoria	2016	2016	Bone fragment	clinical	Homo sapiens	Instituto Adolfo Lutz		158	3968078	151	2592	KL199	OCL5	si	blaOXA-23	r3-T13,rP-T1	
 GCA_015538165.1	ensamblado_publico	PRJNA613847	SAMN14911840	Brasil	Presidente Prudente	2016	2016	tracheal secretion	clinical	Homo sapiens	Instituto Adolfo Lutz		129	4041798	79	-	KL49	OCL10	si	blaOXA-72	r3-T1,r3-T14	r3-T1,r3-T14
-GCA_015538205.1	ensamblado_publico	PRJNA613847	SAMN14911841	Brasil	Presidente Prudente	2016	2016	urine	clinical	Homo sapiens	Instituto Adolfo Lutz		155	4341571	25	229	KL139	OCL10	si	blaOXA-23	r3-T1,r3-T14,r3-T9	r3-T1
+GCA_015538205.1	ensamblado_publico	PRJNA613847	SAMN14911841	Brasil	Presidente Prudente	2016	2016	urine	clinical	Homo sapiens	Instituto Adolfo Lutz		155	4341571	25	229	KL139	OCL10	si	blaOXA-23,blaOXA-72	r3-T1,r3-T14,r3-T9	r3-T1
 GCA_015538225.1	ensamblado_publico	PRJNA613847	SAMN14911839	Brasil	Guarulhos	2016	2016	urine	clinical	Homo sapiens	Instituto Adolfo Lutz		125	4018036	15	225	KL22	OCL7	si	blaOXA-23	r3-T1,r3-T13	
 GCA_015538235.1	ensamblado_publico	PRJNA613847	SAMN14911838	Brasil	Sao Paulo	2017	2017	Surveillance swab	clinical	Homo sapiens	Instituto Adolfo Lutz		89	3923652	1	-	KL1	OCL1	si	blaOXA-23	r3-T1	
 GCA_015538255.1	ensamblado_publico	PRJNA613847	SAMN14911836	Brasil	Vitoria	2016	2016	abdominal fluid	clinical	Homo sapiens	Instituto Adolfo Lutz		120	4082036	79	-	KL9	OCL10	si	blaOXA-23	r3-T1,rP-T1	
@@ -571,7 +571,7 @@ GCA_036533995.1	ensamblado_publico	PRJNA982036	SAMN35684174	Brasil		2019	2019-09
 GCA_037545705.1	ensamblado_publico	PRJNA936143	SAMN33339886	Peru	Ayacucho	2022	2022	Bronchial secretion	clinical	Homo sapiens	Laboratorio de Bacteriologia Clinica		143	4080695	2	-	KL9	OCL1	si	blaOXA-72	r3-T18,r3-T28	r3-T18
 GCA_037545745.1	ensamblado_publico	PRJNA936143	SAMN33339885	Peru	Ayacucho	2022	2022	Bronchial secretion	clinical	Homo sapiens	Laboratorio de Bacteriologia Clinica		137	4075721	2	-	KL9	OCL1	si	blaOXA-72	r3-T18,r3-T28	r3-T18
 GCA_037545755.1	ensamblado_publico	PRJNA936143	SAMN33339884	Peru	Ayacucho	2022	2022	Bronchial secretion	clinical	Homo sapiens	Laboratorio de Bacteriologia Clinica		130	4076437	2	-	KL9	OCL1	si	blaOXA-72	r3-T18,r3-T28	r3-T18
-GCA_037545805.1	ensamblado_publico	PRJNA936143	SAMN33339883	Peru	Amazonas	2022	2022	Bronchial secretion	clinical	Homo sapiens	Laboratorio de Bacteriologia Clinica		160	4011766	2	-	KL2	OCL1	no	ninguna	r3-T18,r3-T28	r3-T18
+GCA_037545805.1	ensamblado_publico	PRJNA936143	SAMN33339883	Peru	Amazonas	2022	2022	Bronchial secretion	clinical	Homo sapiens	Laboratorio de Bacteriologia Clinica		160	4011766	2	-	KL2	OCL1	si	blaOXA-72	r3-T18,r3-T28	r3-T18
 GCA_039677705.1	ensamblado_publico	PRJNA677881	SAMN41327081	Brasil		2021	2021-11	blood	clinical	Homo sapiens	LACEN-BA		41	4051912	-	-	KL6	OCL2	si	blaNDM-1,blaOXA-58	r3-T15,r3-T61	
 GCA_039677725.1	ensamblado_publico	PRJNA677881	SAMN41327080	Brasil		2021	2021-11	blood	clinical	Homo sapiens	LACEN-BA		56	4058296	-	-	KL6	OCL2	si	blaNDM-1,blaOXA-58	r3-T15,r3-T61	
 GCA_039677745.1	ensamblado_publico	PRJNA677881	SAMN41327078	Brasil		2021	2021-03	urine	clinical	Homo sapiens	LACEN-AM		129	4257998	464	878	KL210	OCL6	si	blaNDM,blaOXA-58	r3-T13,r3-T3	
@@ -786,13 +786,13 @@ GCA_053320315.1	ensamblado_publico	PRJNA1339005	SAMN52617581	Peru	Lima	2024	2024
 GCA_053320335.1	ensamblado_publico	PRJNA1339005	SAMN52617580	Peru	Lima	2023	2023-07-02	blood	clinical	Homo sapiens	UNMSM		131	4055329	2	-	KL2	OCL1	si	blaOXA-72	r3-T18,r3-T28,r3-T3	r3-T18
 GCA_053320355.1	ensamblado_publico	PRJNA1339005	SAMN52617579	Peru	Lima	2023	2023-06-21	blood	clinical	Homo sapiens	UNMSM		97	4102655	2	-	KL9	OCL1	si	blaOXA-72	r3-T18,r3-T28,r3-T3	r3-T18
 GCA_053320375.1	ensamblado_publico	PRJNA1339005	SAMN52617578	Peru	Lima	2023	2023-06-13	Bronchial secretion	clinical	Homo sapiens	UNMSM		119	4094511	2	-	KL9	OCL1	si	blaOXA-72	r3-T18,r3-T28,r3-T3	r3-T18
-GCA_053320395.1	ensamblado_publico	PRJNA1339005	SAMN52617577	Peru	Lima	2023	2023-05-26	Bronchial secretion	clinical	Homo sapiens	UNMSM		109	4100930	2	-	KL9	OCL1	no	ninguna	r3-T18,r3-T28,r3-T3	r3-T18
+GCA_053320395.1	ensamblado_publico	PRJNA1339005	SAMN52617577	Peru	Lima	2023	2023-05-26	Bronchial secretion	clinical	Homo sapiens	UNMSM		109	4100930	2	-	KL9	OCL1	si	blaOXA-72	r3-T18,r3-T28,r3-T3	r3-T18
 GCA_053320415.1	ensamblado_publico	PRJNA1339005	SAMN52617576	Peru	Lima	2023	2023-05-26	Bronchoalveolar lavage fluid	clinical	Homo sapiens	UNMSM		127	4037187	2	-	KL2	OCL1	si	blaOXA-72	r3-T18,r3-T3	r3-T18
 GCA_053320435.1	ensamblado_publico	PRJNA1339005	SAMN52617572	Peru	Lima	2024	2024-04-19	Bronchoalveolar lavage fluid	clinical	Homo sapiens	UNMSM		77	3997496	1079	1483	KL107	OCL3	si	blaOXA-23	r3-T14	
 GCA_053320455.1	ensamblado_publico	PRJNA1339005	SAMN52617571	Peru	Lima	2024	2024-04-20	cerebrospinal fluid	clinical	Homo sapiens	UNMSM		108	4115950	2	-	KL9	OCL1	si	blaOXA-72	r3-T28,r3-T3	no_evaluable
-GCA_053373735.1	ensamblado_publico	PRJNA1339005	SAMN52617575	Peru	Lima	2024	2024-05-08	Necrotic wound swabs	clinical	Homo sapiens	UNMSM		152	4051201	2	-	KL2	OCL1	no	ninguna	r3-T18,r3-T3	r3-T18
-GCA_053373755.1	ensamblado_publico	PRJNA1339005	SAMN52617574	Peru	Lima	2024	2024-05-09	Abscesses	clinical	Homo sapiens	UNMSM		149	3957871	2	-	KL2	OCL1	no	ninguna	r3-T18,r3-T3	r3-T18
-GCA_053373775.1	ensamblado_publico	PRJNA1339005	SAMN52617573	Peru	Lima	2024	2024-04-29	Bronchial secretion	clinical	Homo sapiens	UNMSM		107	4116083	2	-	KL9	OCL1	no	ninguna	r3-T18,r3-T28,r3-T3	r3-T18
+GCA_053373735.1	ensamblado_publico	PRJNA1339005	SAMN52617575	Peru	Lima	2024	2024-05-08	Necrotic wound swabs	clinical	Homo sapiens	UNMSM		152	4051201	2	-	KL2	OCL1	si	blaOXA-72	r3-T18,r3-T3	r3-T18
+GCA_053373755.1	ensamblado_publico	PRJNA1339005	SAMN52617574	Peru	Lima	2024	2024-05-09	Abscesses	clinical	Homo sapiens	UNMSM		149	3957871	2	-	KL2	OCL1	si	blaOXA-72	r3-T18,r3-T3	r3-T18
+GCA_053373775.1	ensamblado_publico	PRJNA1339005	SAMN52617573	Peru	Lima	2024	2024-04-29	Bronchial secretion	clinical	Homo sapiens	UNMSM		107	4116083	2	-	KL9	OCL1	si	blaOXA-72	r3-T18,r3-T28,r3-T3	r3-T18
 GCA_053373795.1	ensamblado_publico	PRJNA1339005	SAMN52617570	Peru	Lima	2024	2024-06-07	sputum	clinical	Homo sapiens	UNMSM		89	4014271	79	-	KL13	OCL10	si	blaOXA-23	r3-T1,r3-T15,r3-T18	
 GCA_053373815.1	ensamblado_publico	PRJNA1339005	SAMN52617569	Peru	Lima	2024	2024-05-25	Bronchial secretion	clinical	Homo sapiens	UNMSM		79	3999542	1079	1483	KL107	OCL3	si	blaOXA-23	r3-T14	
 GCA_053373835.1	ensamblado_publico	PRJNA1339005	SAMN52617568	Peru	Lima	2024	2024-05-18	Bronchoalveolar lavage fluid	clinical	Homo sapiens	UNMSM		75	3998671	1079	1483	KL107	OCL3	si	blaOXA-23	r3-T14	
