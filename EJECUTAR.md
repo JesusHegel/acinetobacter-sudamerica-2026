@@ -147,6 +147,28 @@ quedará incompleto y ninguna de las cifras de verificación coincidirá.
 
 El paso `03_cruce_isaba1.sh` invoca el fichero `03_cruce_isaba1.awk`, que no se ejecuta por si solo.
 
+**Los ficheros de hits de ISAba1.** El paso `04/02` produce
+`datos/isaba1_hits900.tsv` y `datos/contig_len_900.tsv`, que consume el `04/03`.
+Son intermedios: se regeneran y no estan versionados.
+
+En `archivo/versiones_previas/` quedan dos corridas anteriores, guardadas solo
+como registro y que **no debe usar nadie**:
+
+| Fichero | Copias | Genomas | Fuera de los 900 |
+|---|---|---|---|
+| `isaba1_hits_746genomas_jul.tsv` | 1179 | 746 | 37 |
+| `isaba1_hits_831genomas_jul.tsv` | 1441 | 831 | 35 |
+| `datos/isaba1_hits900.tsv` (vigente) | **1436** | **828** | **0** |
+
+Las tres cifras difieren porque corresponden a conjuntos de genomas distintos,
+no a metodos de busqueda distintos: las dos primeras son anteriores al filtrado
+definitivo del conjunto de 900. La cifra del estudio es **1436 copias en 828
+genomas**, y los 828 estan todos dentro de los 900.
+
+El `blastn` de ese paso lleva `-max_target_seqs 100000` a proposito: sin ese
+parametro BLAST aplica su tope por defecto de 500 secuencias sujeto y devuelve
+bastantes menos copias.
+
 **Orden de ejecución.** Los pasos `07` y `11` leen la Tabla S1, que produce `08_tablas/01_tabla_S1.py`. El orden ejecutable es:
 
 ```
