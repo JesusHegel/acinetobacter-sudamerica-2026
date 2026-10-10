@@ -1,4 +1,28 @@
 ======================================================================
+FICHERO OBSOLETO - NO USAR COMO REFERENCIA DE CIFRAS
+======================================================================
+
+Volcado de julio de 2026. Se conserva solo como registro historico.
+
+Varias de sus cifras quedaron superadas por correcciones posteriores:
+
+  blaOXA-143            dice 1       es 41      (correccion del 4 oct)
+  sin carbapenemasa     dice 176     es 133     (4 y 10 oct)
+  con carbapenemasa     dice 724     es 767     (4 y 10 oct)
+  copias de ISAba1      dice 841     son 696    (conjunto anterior)
+  ISAba1 presente       dice 7       son 51     (conjunto anterior)
+
+Lo producia scripts/H1_cifras_manuscrito.py (copia en esta misma
+carpeta), que lee de resultados/amr_v4_900.tsv y otras salidas
+anteriores a esas correcciones: volver a ejecutarlo reproduce las
+cifras viejas, no las corrige.
+
+La referencia vigente de cifras es la tabla de verificacion de
+EJECUTAR.md, que se actualiza con cada correccion.
+
+======================================================================
+
+======================================================================
 CIFRAS VERIFICADAS DEL MANUSCRITO
 ======================================================================
 
