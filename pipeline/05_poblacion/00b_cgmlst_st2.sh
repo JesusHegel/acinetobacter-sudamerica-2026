@@ -15,14 +15,19 @@
 # Entorno:  ensamblaje
 #
 #   conda activate ensamblaje && bash 00b_cgmlst_st2.sh
-# Duracion: 4 min (AlleleCall) + 1 min (ExtractCgMLST)
+# Duracion: 4 min (AlleleCall) + 1 min (ExtractCgMLST) + segundos (matriz)
+#
+# El paso 4 lo hace 00b2_matriz_distancias_st2.py, en este mismo
+# directorio: ExtractCgMLST no calcula distancias y los dos ficheros que
+# consumen el 00c, el 05/02, fig5_dendrograma_andino.py y el 08/04 no los
+# producia ningun paso.
 # =====================================================================
 set -euo pipefail
 BASE=~/abaumannii
 LISTA="$BASE/resultados/genomas_st2.txt"
 DIR="$BASE/datos/genomas_st2"
 
-echo "=== 1/3  seleccionando los ST2 de la Tabla S1 ==="
+echo "=== 1/4  seleccionando los ST2 de la Tabla S1 ==="
 awk -F'\t' 'NR==1{for(i=1;i<=NF;i++) if($i=="st_pasteur") c=i; next}
             $c=="2"{print $1}' "$BASE/resultados/TablaS1_900_genomas.tsv" > "$LISTA"
 echo "    genomas ST2: $(wc -l < "$LISTA")"
@@ -39,16 +44,25 @@ done < "$LISTA"
 echo "    enlazados: $n   faltantes: $faltan"
 [ "$faltan" -eq 0 ] || { echo "ERROR: faltan genomas en datos/genomas_900"; exit 1; }
 
-echo "=== 2/3  AlleleCall ==="
+echo "=== 2/4  AlleleCall ==="
 chewBBACA.py AlleleCall \
   -i "$DIR" \
   -g "$BASE/datos/cgmlst_abaumannii/Acinetobacter_baumannii_cgMLST" \
   -o "$BASE/resultados/cgmlst_st2" \
   --cpu 4 --bsr 0.6 --no-inferred
 
-echo "=== 3/3  ExtractCgMLST ==="
+echo "=== 3/4  ExtractCgMLST ==="
 chewBBACA.py ExtractCgMLST \
   -i "$BASE/resultados/cgmlst_st2/results_alleles.tsv" \
   -o "$BASE/resultados/cgmlst_st2_eval"
 
-echo "listo: resultados/cgmlst_st2_eval/distance_matrix_symmetric.tsv"
+echo "=== 4/4  perfiles y matriz de distancias ==="
+# ExtractCgMLST no calcula distancias: hay que derivarlas del cgMLST100.tsv.
+python3 "$(dirname "$0")/00b2_matriz_distancias_st2.py" \
+  "$BASE/resultados/cgmlst_st2_eval"
+
+for f in cgMLST_profiles.tsv distance_matrix_symmetric.tsv; do
+  r="$BASE/resultados/cgmlst_st2_eval/$f"
+  [ -s "$r" ] || { echo "ERROR: no se produjo $f"; exit 1; }
+done
+echo "listo"

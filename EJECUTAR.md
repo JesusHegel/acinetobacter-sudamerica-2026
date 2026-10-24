@@ -192,16 +192,34 @@ Fisher avisa y usa el valor publicado (9).
 |---|---|---|---|
 | `00_cgmlst.sh` | AlleleCall y ExtractCgMLST sobre los 900 genomas | ensamblaje | 20 min |
 | `00b_cgmlst_st2.sh` | AlleleCall y ExtractCgMLST restringidos a los 213 ST2. Produce la matriz de distancias del linaje | ensamblaje | 5 min |
+| `00b2_matriz_distancias_st2.py` | Perfiles y matriz de distancias de los ST2 a partir del `cgMLST100.tsv`. Lo llama el `00b` al final | abaumannii | seg |
 | `00c_arbol_y_metadatos_st2.sh` | Red de expansión mínima de los ST2 y sus metadatos de anotación | abaumannii | 1 min |
 | `01_arbol_grapetree.sh` | Red de expansión mínima, algoritmo MSTreeV2 | abaumannii | 2 min |
 | `02_agrupamiento_enlace_completo.py` | Agrupamiento jerárquico y barrido de umbrales | abaumannii | min |
 | `03_red_expansion_minima_st2.py` | Red de resolución fina sobre ST2 | abaumannii | min |
 
-Los pasos `00b` y `00c` no existían hasta el 10 de octubre de 2026: la matriz
+Los pasos `00b`, `00b2` y `00c` no existían hasta octubre de 2026: la matriz
 de ST2, su árbol y sus metadatos se habían generado a mano y no eran
 reproducibles. Los consumen `02`, `03`, `07_figuras/fig5_dendrograma_andino.py`
-y `08_tablas/04_recuento_final.py`. El `00c` reproduce el árbol y los metadatos
-publicados byte a byte.
+y `08_tablas/04_recuento_final.py`.
+
+**ExtractCgMLST no calcula distancias.** Escribe `cgMLST95/99/100.tsv`, sus
+listas de esquema, `cgMLST.html`, `missing_loci_stats.tsv` y
+`presence_absence.tsv`, y nada más; chewBBACA 3.5.4 no trae ningún módulo que
+las calcule. Los dos ficheros que faltaban los produce `00b2`, que el `00b`
+llama como cuarto paso: `cgMLST_profiles.tsv` es el `cgMLST100.tsv` sin
+modificar (1719 loci al umbral 1,00) y `distance_matrix_symmetric.tsv` es el
+recuento de loci con alelo distinto para cada pareja.
+
+El `00b2` reproduce los dos ficheros publicados byte a byte, verificado en dos
+máquinas: sobre los 213 ST2 imprime `213 genomas x 1719 loci` y `distancia
+minima no nula: 1   maxima: 408`.
+
+Hasta el 24 de octubre de 2026 esta guía afirmaba que el `00c` reproducía el
+árbol y los metadatos byte a byte. Esa comprobación se hizo sobre ficheros que
+ya estaban en disco de la generación manual original: el `00b` no llegaba a
+producir sus entradas y terminaba con un `echo` de texto fijo que las anunciaba
+sin comprobarlas. Lo destapó la reejecución independiente en máquina limpia.
 
 ---
 
