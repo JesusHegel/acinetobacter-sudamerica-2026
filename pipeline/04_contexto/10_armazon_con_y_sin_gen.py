@@ -32,17 +32,24 @@ o72=defaultdict(list)
 for r in cr[1:]:
     if r[ci["gen"]]=="blaOXA-72": o72[norm(r[ci["genoma"]])].append(r)
 
-VAC=["GCA_037545805.1","GCA_053320395.1","GCA_053373735.1","GCA_053373755.1",
-     "GCA_053373775.1","GCA_006493735.1","GCA_053320255.1","GCA_053373795.1"]
-print("=== A. los 8 peruanos con r3-T18 vacio: portan blaOXA-72? ===")
+# Los armazones r3-T18 peruanos sin blaOXA-72 se derivan de la tabla
+# clinica, que recoge el rastreo dirigido del paso 06b. Antes iban en una
+# lista fija de ocho accesiones tomada de apt_v2/colocalizacion.tsv, que no
+# se actualizo tras ese rastreo: cinco de los ocho si portan el gen, y el
+# bloque llegaba a imprimir "NO porta blaOXA-72  genes=[blaOXA-72]".
+VAC=sorted(g for g,d in clin.items()
+           if d.get("pais")=="Peru" and "r3-T18" in d.get("rep","")
+           and "blaOXA-72" not in d.get("genes",""))
+POR=sorted(g for g,d in clin.items()
+           if d.get("pais")=="Peru" and "r3-T18" in d.get("rep","")
+           and "blaOXA-72" in d.get("genes",""))
+print(f"=== A. armazones r3-T18 peruanos: {len(POR)} portadores, {len(VAC)} vacios ===")
 for g in VAC:
     d=clin.get(g,{})
+    print(f"  {g:20s} ST{d.get('st','?'):6s} sin blaOXA-72   genes=[{d.get('genes','?')}]")
     if g in o72:
-        for r in o72[g]:
-            print(f"  {g:20s} ST{d.get('st','?'):6s} SI -> estado={r[ci['estado']]:16s} "
-                  f"contig={r[ci['gen_contig']]} reps_otros=[{r[ci['reps_otros_contigs']]}]")
-    else:
-        print(f"  {g:20s} ST{d.get('st','?'):6s} NO porta blaOXA-72   genes=[{d.get('genes','?')}]")
+        print(f"  {'':20s} AVISO: colocalizacion.tsv si le asigna blaOXA-72;"
+              f" las dos fuentes discrepan")
 
 SEQ=[("ANDES_con_gen","GCA_053320315.1","JBROGJ010000074.1"),
      ("ANDES_con_gen2","GCA_051942065.1","JBFECW010000069.1"),

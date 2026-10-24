@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Punto 51: r3-T18 fuera del CC2 andino; co-localizacion con blaOXA-58 en Chile."""
+"""Punto 51: r3-T18 fuera del CC2 andino y que genes lleva co-localizados.
+
+En Chile no co-localiza con ningun gen de resistencia: el bloque C da cero
+contigs chilenos. Una version anterior de esta linea anunciaba
+co-localizacion con blaOXA-58 en Chile, que la propia salida desmiente."""
 import re, os, glob, subprocess
 from collections import Counter, defaultdict
 B = os.path.expanduser("~/abaumannii")
@@ -47,7 +51,16 @@ for g in sorted(t18, key=lambda x:(clin[x]['pais'], clin[x]['st'], x)):
         gs=[r[ci["gen"]] for r in coloc.get(g,[])
             if r[ci["gen_contig"]]==ctg
             and "r3-T18" in [x.strip() for x in r[ci["reps_mismo_contig"]].split(",")]]
-        tag=",".join(sorted(set(gs))) if gs else "-"
+        # apt_v2/colocalizacion.tsv no recoge el rastreo dirigido del paso
+        # 06b: a los genomas recuperados alli les falta la fila de blaOXA-72
+        # y saldrian como armazon vacio. La tabla clinica si lo recoge, de
+        # modo que se contrasta y se marcan aparte.
+        if gs:
+            tag=",".join(sorted(set(gs)))
+        elif "blaOXA-72" in d.get("genes",""):
+            tag="blaOXA-72(rastreo)"
+        else:
+            tag="-"
         res[(d['pais'],tag)]+=1
         print(f"  {g:20s} {d['pais']:10s} ST{d['st']:5s} {ctg:22s} {cl:>8s}  {tag}")
         if d['pais']=="Chile" and gs: chile_ctg.append((g,ctg,cl))
