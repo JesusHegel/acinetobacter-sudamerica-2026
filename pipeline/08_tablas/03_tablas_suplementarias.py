@@ -75,7 +75,9 @@ wr("TablaS4_evaluabilidad.tsv",
    [[a,e,t,round(100*e/t,1),l] for a,e,t,l in ev])
 
 # --- S5: los 58 ensamblados ---
-M=tsv(f"{B}/deposito/metadatos_58_ensamblados.tsv"); mh=M[0]
+# El fichero vive en el repositorio; deposito/ es un directorio de trabajo
+# local que ningun paso del pipeline crea.
+M=tsv(f"{B}/repo/datos/metadatos_58_ensamblados.tsv"); mh=M[0]
 wr("TablaS5_ensamblados_propios.tsv", mh, M[1:])
 
 print("\n=== S4: evaluabilidad ===")
