@@ -58,6 +58,22 @@ wr("TablaS3_peru.tsv",
      d["oxa72_contexto"] or "-",d["n_contigs"],d["fuente_aislamiento"] or "-"]
     for d in sorted(pe,key=lambda x:(x["anio"],x["accesion"]))])
 
+def _isaba1_oxa23():
+    """Copias de blaOXA-23 en que se pudo determinar si ISAba1 va rio arriba.
+
+    Hasta octubre de 2026 esta fila iba escrita a mano como 44/988. Los dos
+    numeros eran reales pero no comparables: el 44 son genomas distintos con
+    ISAba1 presente y el 988 son copias de blaOXA-51, de otro analisis. El
+    cociente mezclaba unidades y genes. Se calcula ahora sobre un solo
+    analisis y una sola unidad, la copia, que es lo que mide el apartado 3.10.
+    """
+    f = f"{B}/resultados/isaba1_oxa23_900.tsv"
+    # El fichero no lleva cabecera: la primera linea ya es una copia.
+    est = [l.rstrip("\n").split("\t")[-1] for l in open(f) if l.strip()]
+    return ["Contexto de ISAba1 en blaOXA-23 (copias)",
+            sum(1 for e in est if e == "presente"), len(est),
+            "Fragmentacion del ensamblado"]
+
 # --- S4: evaluabilidad ---
 n=len(R)
 ev=[["MLST Pasteur",sum(1 for d in R if d["st_pasteur"] not in ("-","")),n,"Perfiles alelicos no descritos"],
@@ -69,7 +85,7 @@ ev=[["MLST Pasteur",sum(1 for d in R if d["st_pasteur"] not in ("-","")),n,"Perf
     ["Contexto de blaOXA-72",
      sum(1 for d in R if d["oxa72_contexto"] not in ("","no_evaluable")),
      sum(1 for d in R if d["oxa72_contexto"]!=""),"Gen y rep en contigs distintos"],
-    ["Contexto de ISAba1 (copias)",44,988,"Fragmentacion del ensamblado"]]
+    _isaba1_oxa23()]
 wr("TablaS4_evaluabilidad.tsv",
    ["analisis","evaluables","total","pct","limitacion_dominante"],
    [[a,e,t,round(100*e/t,1),l] for a,e,t,l in ev])

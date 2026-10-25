@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Red de expansion minima de los 213 genomas ST2 (GrapeTree MSTreeV2),
-dibujada con networkx. Tres versiones: por pais, por plasmido y por anio."""
+dibujada con networkx. Cuatro versiones: por pais, por plasmido portador,
+por ano y por BioProject."""
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
@@ -33,6 +34,16 @@ PAL = {
           "Plásmido portador de blaOXA-72"),
 }
 ETI = {"r3-T18":"r3-T18","no_evaluable":"no evaluable","-":"sin blaOXA-72"}
+
+# anio y bioproject son categoricos sin color convenido: la paleta se deriva
+# del mapa tab20 sobre los valores presentes, ordenados.
+def _paleta(campo, titulo):
+    vals = sorted({m[campo] for m in meta.values() if m.get(campo)})
+    cm = plt.get_cmap("tab20")
+    return ({v: matplotlib.colors.to_hex(cm(i % 20)) for i, v in enumerate(vals)},
+            titulo)
+PAL["anio"] = _paleta("anio", "Ano de aislamiento")
+PAL["bioproject"] = _paleta("bioproject", "BioProject")
 
 pos = nx.spring_layout(G, weight=None, seed=7, iterations=250)
 for campo, (cols, tit) in PAL.items():

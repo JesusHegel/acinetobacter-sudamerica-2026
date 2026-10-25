@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Mapa comparado del elemento andino r3-T18 y del armazon chileno cerrado."""
+"""Mapa comparado del elemento andino r3-T18 y del armazon chileno cerrado.
+
+Las coordenadas van escritas en el propio script: no lee ningun fichero.
+Escribe la figura en resultados/, como el resto del paso 07."""
+import os
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from dna_features_viewer import GraphicFeature, GraphicRecord
+
+B = os.path.expanduser("~/abaumannii")
 
 C = {"rep": "#2F5597", "mob": "#7A9CC6", "res": "#C0392B",
      "hip": "#D9D9D9", "frag": "#F0F0F0", "pdif": "#E8A33D"}
@@ -65,6 +71,6 @@ fig.legend(handles=[Patch(color=C["rep"], label="rep"),
                     Patch(color=C["pdif"], label="sitio pdif")],
            loc="lower center", ncol=5, frameon=False, fontsize=9)
 plt.tight_layout(rect=[0, 0.06, 1, 1])
-plt.savefig("figura_plasmidos.png", dpi=300)
-plt.savefig("figura_plasmidos.svg")
-print("escrito: figura_plasmidos.png / .svg")
+plt.savefig(f"{B}/resultados/figura_plasmidos.png", dpi=300)
+plt.savefig(f"{B}/resultados/figura_plasmidos.svg")
+print(f"escrito: {B}/resultados/figura_plasmidos.png / .svg")

@@ -3,7 +3,12 @@
 """Paneles A y B sobre la red de expansion minima de los 900 genomas.
 A: color segun la carbapenemasa adquirida.
 B: color segun el replicon en que reside blaOXA-72.
-Ambos paneles comparten la misma topologia."""
+Ambos paneles comparten la misma topologia.
+
+REQUIERE resultados/grapetree_900/mst_900.nwk, que produce 05_poblacion/
+01_arbol_grapetree.sh a partir del cgMLST de los 900 (05_poblacion/
+00_cgmlst.sh). Es la unica figura del paso 07 con esa dependencia: las
+demas leen de la Tabla S1 y de las salidas del paso 04."""
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
