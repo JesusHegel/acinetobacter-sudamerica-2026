@@ -221,6 +221,47 @@ ya estaban en disco de la generación manual original: el `00b` no llegaba a
 producir sus entradas y terminaba con un `echo` de texto fijo que las anunciaba
 sin comprobarlas. Lo destapó la reejecución independiente en máquina limpia.
 
+### Qué se reproduce al byte y qué no
+
+**El árbol de los 213 ST2 sí: topología idéntica.** 71 particiones en cada
+árbol, las 71 compartidas.
+
+**El árbol de los 900 no, y no debe esperarse que lo haga.** Medido contra la
+reejecución independiente: 307 particiones en cada árbol, 302 compartidas, el
+96,8 %. Las cinco que difieren en cada dirección caen todas entre Chile,
+Argentina, Brasil, Colombia, Paraguay y Venezuela; ninguna contiene un solo
+genoma de Perú o Ecuador y ninguna toca a un portador andino. El clado andino
+es el mismo conjunto en los dos árboles.
+
+### El esquema cgMLST no es un objeto fijo
+
+Esto es lo más importante que salió de la reejecución independiente y conviene
+tenerlo presente al interpretar cualquier distancia de este trabajo.
+
+chewBBACA incorpora al esquema cada alelo nuevo que encuentra, de modo que el
+esquema que se descarga hoy de Chewie-NS no es el que quedó tras la ejecución
+original. Dos ejecuciones separadas no parten del mismo objeto.
+
+Lo medido, comparando los perfiles de los 900 genomas entre ambas ejecuciones:
+
+| | |
+|---|---|
+| Celdas que difieren | 128 de 1 919 700 (0,007 %) |
+| Loci afectados | 7: `cgMLST-00003070`, `00003715`, `00004159`, `00004331`, `00004429`, `00004495`, `00005425` |
+| Pares de genomas cuya distancia cambia | 15 847 de 404 550 (3,9 %) |
+| De esos, los que cambian en un solo locus | 14 064 |
+| Cambio máximo | 3 loci sobre 2133 |
+
+En esos siete loci una ejecución separa en dos clases alélicas lo que la otra
+une: las cuentas de alelos por locus son 63 contra 62, 32 contra 31, 44 contra
+41 y así, de modo que no es una renumeración.
+
+**Los márgenes del trabajo son de tres a nueve veces mayores que esa
+inestabilidad.** Los dos huecos que sostienen el análisis tienen márgenes de 9
+y 28 loci (21 → 30 y 49 → 77), frente a un cambio máximo medido de 3 loci. La
+estructura se reproduce con holgura. Esta cuantificación no existía y solo
+podía obtenerse con un segundo esquema independiente.
+
 ---
 
 ## 06 · Estadística
