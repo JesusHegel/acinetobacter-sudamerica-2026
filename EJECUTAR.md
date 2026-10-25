@@ -233,12 +233,12 @@ Argentina, Brasil, Colombia, Paraguay y Venezuela; ninguna contiene un solo
 genoma de Perú o Ecuador y ninguna toca a un portador andino. El clado andino
 es el mismo conjunto en los dos árboles.
 
-### El esquema cgMLST no es un objeto fijo
+### Qué varía entre ejecuciones del cgMLST
 
 Esto es lo más importante que salió de la reejecución independiente y conviene
 tenerlo presente al interpretar cualquier distancia de este trabajo.
 
-**El esquema de partida es el mismo; lo que difiere son las etiquetas.** El
+**El esquema de partida es el mismo en ambas ejecuciones.** El
 esquema está identificado: 2390 loci de *A. baumannii* de Chewie-NS
 (`http://chewbbaca.online/NS/api/species/2/schemas/1`), versión
 `2025-07-31T14:24:53`, creado con chewBBACA 3.4.0, con BSR 0,6, tabla de
@@ -249,19 +249,41 @@ objeto.
 Ambos pasos del pipeline invocan `AlleleCall` con `--no-inferred`, que según su
 propia ayuda *no añade al esquema las secuencias de los alelos inferidos*, pero
 *los perfiles alélicos siguen incluyendo los identificadores atribuidos a esos
-alelos inferidos*. Es decir: el esquema no se modifica —ninguna de las dos
-ejecuciones escribió en él— pero cada corrida numera por su cuenta los alelos
-que no estaban en el esquema, y esa numeración depende del orden en que
-aparecen.
+alelos inferidos*. El esquema, por tanto, no se modifica: ninguna de las dos
+ejecuciones escribió en él, y cada corrida resuelve por su cuenta los alelos que
+no estaban.
 
-Esa es la causa de la divergencia, y encaja con lo medido: en los siete loci
-afectados una ejecución separa en dos clases lo que la otra une, con cuentas de
-63 contra 62, 32 contra 31, 44 contra 41. Son alelos nuevos etiquetados de otra
-forma, no alelos distintos.
+**La causa sigue sin estar establecida.** Tres explicaciones se han propuesto y
+las tres están descartadas:
 
-Dos explicaciones anteriores quedaron descartadas al comprobarlo: que el
-esquema descargado hoy no fuera el original (su versión es de julio de 2025) y
-que cada ejecución le añadiera alelos (`--no-inferred` lo impide).
+| Explicación | Por qué no |
+|---|---|
+| El esquema descargado hoy no es el original | Su versión es de julio de 2025, anterior a ambas ejecuciones |
+| Cada ejecución añade alelos al esquema | `--no-inferred` lo impide, y los dos pasos lo usan |
+| Los alelos nuevos se etiquetan distinto | Un renombrado conserva el número de clases, y lo medido son 63 clases contra 62. Además, 19 de las 128 celdas son presencia contra ausencia (18 con alelo solo en una ejecución, 1 al revés) y una etiqueta no puede producir una celda vacía |
+
+Que 15 847 pares cambien de distancia es la prueba directa de que la partición
+difiere: si fuera numeración, serían cero.
+
+Quedan dos candidatos, los dos salidos de comparar las dos ejecuciones:
+**la versión de chewBBACA** (3.5.3 aquí, 3.5.4 en la reejecución) y **el
+reparto del trabajo entre núcleos**. Con `--no-inferred` los alelos nuevos se
+resuelven dentro de cada corrida, de modo que dos secuencias nuevas idénticas
+que caigan en trozos distintos del reparto podrían resolverse como una clase o
+como dos. Eso produciría exactamente el 63 contra 62 observado.
+
+Un dato acota el problema sin resolverlo: la matriz de los 213 ST2 salió
+idéntica en los 22 791 pares, con las mismas dos versiones de chewBBACA de por
+medio, lo que apunta más al reparto o a la escala que a la versión. Pero esa
+comparación es al umbral 1,00 —solo los loci presentes en los 213 genomas, los
+menos propensos a alelos nuevos— y es por tanto una prueba más benévola que la
+de los 900 al 95 %.
+
+Queda pendiente el experimento que lo zanjaría: tres `AlleleCall` sobre los 213
+ST2 desde una copia limpia del esquema, dos con el mismo número de núcleos y
+uno con otro distinto, comparando los `results_alleles.tsv` en bruto. Las dos
+primeras dicen si el proceso es determinista consigo mismo; la tercera, si el
+reparto es la variable.
 
 Lo medido, comparando los perfiles de los 900 genomas entre ambas ejecuciones:
 
