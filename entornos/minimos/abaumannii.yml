@@ -21,7 +21,7 @@ channels:
   - bioconda
 dependencies:
   - python=3.12
-  - chewbbaca=3.5.4
+  - chewbbaca=3.5.3
   - ncbi-amrfinderplus=4.2.7
   - blast=2.17.0
   - kaptive=3.2.2

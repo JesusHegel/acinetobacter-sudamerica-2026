@@ -238,9 +238,30 @@ es el mismo conjunto en los dos árboles.
 Esto es lo más importante que salió de la reejecución independiente y conviene
 tenerlo presente al interpretar cualquier distancia de este trabajo.
 
-chewBBACA incorpora al esquema cada alelo nuevo que encuentra, de modo que el
-esquema que se descarga hoy de Chewie-NS no es el que quedó tras la ejecución
-original. Dos ejecuciones separadas no parten del mismo objeto.
+**El esquema de partida es el mismo; lo que difiere son las etiquetas.** El
+esquema está identificado: 2390 loci de *A. baumannii* de Chewie-NS
+(`http://chewbbaca.online/NS/api/species/2/schemas/1`), versión
+`2025-07-31T14:24:53`, creado con chewBBACA 3.4.0, con BSR 0,6, tabla de
+traducción 11, longitud mínima de locus 0 y umbral de tamaño 0,2. Esa versión
+es anterior a ambas ejecuciones, de modo que las dos partieron del mismo
+objeto.
+
+Ambos pasos del pipeline invocan `AlleleCall` con `--no-inferred`, que según su
+propia ayuda *no añade al esquema las secuencias de los alelos inferidos*, pero
+*los perfiles alélicos siguen incluyendo los identificadores atribuidos a esos
+alelos inferidos*. Es decir: el esquema no se modifica —ninguna de las dos
+ejecuciones escribió en él— pero cada corrida numera por su cuenta los alelos
+que no estaban en el esquema, y esa numeración depende del orden en que
+aparecen.
+
+Esa es la causa de la divergencia, y encaja con lo medido: en los siete loci
+afectados una ejecución separa en dos clases lo que la otra une, con cuentas de
+63 contra 62, 32 contra 31, 44 contra 41. Son alelos nuevos etiquetados de otra
+forma, no alelos distintos.
+
+Dos explicaciones anteriores quedaron descartadas al comprobarlo: que el
+esquema descargado hoy no fuera el original (su versión es de julio de 2025) y
+que cada ejecución le añadiera alelos (`--no-inferred` lo impide).
 
 Lo medido, comparando los perfiles de los 900 genomas entre ambas ejecuciones:
 
@@ -255,6 +276,17 @@ Lo medido, comparando los perfiles de los 900 genomas entre ambas ejecuciones:
 En esos siete loci una ejecución separa en dos clases alélicas lo que la otra
 une: las cuentas de alelos por locus son 63 contra 62, 32 contra 31, 44 contra
 41 y así, de modo que no es una renumeración.
+
+**Declarar la URI y la versión del esquema es necesario pero no basta.** Lo
+único que fijaría el análisis por completo es archivar el directorio del
+esquema tal como quedó tras la ejecución, que son 2390 ficheros. Queda como
+decisión pendiente.
+
+Dos detalles más de la ejecución original, que no afectan a las llamadas
+alélicas pero conviene no prometer de más: se corrió con **chewBBACA 3.5.3**
+(la reejecución independiente usó 3.5.4), y el cgMLST de los 900 se hizo con 4
+núcleos el 9 de octubre de 2026 mientras que el de los 213 ST2 se hizo con 6 el
+28 de julio, aunque el `00b` del repositorio declare 4.
 
 **Los márgenes del trabajo son de tres a nueve veces mayores que esa
 inestabilidad.** Los dos huecos que sostienen el análisis tienen márgenes de 9

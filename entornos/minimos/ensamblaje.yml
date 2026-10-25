@@ -9,7 +9,7 @@ channels:
 dependencies:
   - python=3.10
   - shovill=1.4.2
-  - chewbbaca=3.5.4
+  - chewbbaca=3.5.3
   - blast=2.17.0
   - seqkit=2.13.0
   - biopython=1.87
