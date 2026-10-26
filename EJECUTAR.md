@@ -16,6 +16,14 @@ están depositados como TPA bajo `PRJNA1505778`, y GenBank los libera
 ensamblados públicos restantes se descargan en el paso `01`. El detalle y los
 comandos están en el paso `02`, opción A.
 
+Si en el futuro el paso `01` pasa a descargar esos 58 desde un depósito con
+DOI, ese paso quedará fuera de lo que certificó la reproducción independiente
+de octubre de 2026, que cubre los pasos `01` a `08` tal como están hoy. El
+resto seguiría en pie, porque nada aguas abajo cambia, pero haría falta una
+comprobación dirigida: que la descarga funcione y que los 58 ficheros que
+llegan tengan la misma huella que los del archivo usado en aquella pasada.
+Son diez minutos y un `md5sum`, no una reejecución.
+
 **Ubicación del proyecto.** Por omisión los scripts trabajan bajo
 `~/abaumannii/`: el repositorio se clona en `~/abaumannii/repo` y los datos
 se escriben en `~/abaumannii/datos` y `~/abaumannii/resultados`.
