@@ -8,6 +8,14 @@ carpeta.
 
 **Espacio en disco:** 50 GB libres recomendados.
 
+**Un fichero no se descarga: los 58 ensamblados propios.** La reproducción
+completa necesita, además de este repositorio, el archivo con esos 58
+ensamblados, que se proporciona a petición. No son descargables del NCBI:
+están depositados como TPA bajo `PRJNA1505778`, y GenBank los libera
+únicamente cuando existe la publicación revisada por pares. Los 842
+ensamblados públicos restantes se descargan en el paso `01`. El detalle y los
+comandos están en el paso `02`, opción A.
+
 **Ubicación del proyecto.** Por omisión los scripts trabajan bajo
 `~/abaumannii/`: el repositorio se clona en `~/abaumannii/repo` y los datos
 se escriben en `~/abaumannii/datos` y `~/abaumannii/resultados`.

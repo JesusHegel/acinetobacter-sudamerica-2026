@@ -69,6 +69,11 @@ proceden de lecturas depositadas por otros grupos en cinco BioProjects
 depositaron enlazados a sus BioSamples originales; la correspondencia completa
 está en `datos/metadatos_58_ensamblados.tsv`.
 
+Esos 58 no son descargables mientras no se publique el trabajo: como depósito
+TPA, GenBank los libera solo cuando existe la publicación revisada por pares.
+Se proporcionan a petición, y el repositorio se reproduce por completo con
+ellos. Los 842 restantes sí se descargan desde el paso `01`.
+
 ## Cita
 
 [Referencia del artículo, pendiente]
