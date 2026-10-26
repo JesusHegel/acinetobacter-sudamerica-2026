@@ -1,0 +1,65 @@
+=== A. gen co-localizado EN EL CONTIG de r3-T18 ===
+  genoma               pais       ST      contig                      len  gen
+  GCA_016055595.1      Brasil     ST79    JAECTH010000059.1         24118  -
+  GCA_000966305.1      Chile      ST-     LANH01000107.1             4326  -
+  GCA_050896775.1      Chile      ST1     JBPBDN010000047.1         13679  -
+  GCA_050897095.1      Chile      ST1     JBPBDF010000066.1          3105  -
+  GCA_018156055.1      Chile      ST109   JAGTAK010000059.1          8356  -
+  GCA_024139015.1      Chile      ST109   CP076810.1                 8229  -
+  GCA_024151585.1      Chile      ST109   JAHICF010000064.1          8325  -
+  GCA_024151605.1      Chile      ST109   JAHICG010000069.1          5749  -
+  GCA_024151615.1      Chile      ST109   JAHICI010000063.1          8329  -
+  GCA_024151645.1      Chile      ST109   JAHICH010000067.1          8325  -
+  GCA_024151665.1      Chile      ST109   JAHICJ010000072.1          8325  -
+  GCA_024151685.1      Chile      ST109   JAHICM010000061.1          8325  -
+  GCA_024151695.1      Chile      ST109   JAHICK010000066.1          8325  -
+  GCA_024151825.1      Chile      ST109   JAHICL010000066.1          8325  -
+  GCA_016485745.1      Chile      ST15    DADAKL010000040.1          6803  -
+  GCA_024151945.1      Chile      ST15    JAHICX010000041.1          7650  -
+  GCA_024151525.1      Chile      ST162   JAHICD010000031.1          7951  -
+  ERR17057656          Colombia   ST-     contig00027                5372  -
+  GCA_026311855.1      Ecuador    ST2     DAJZTF010000083.1          7851  blaOXA-72
+  GCA_026311855.1      Ecuador    ST2     DAJZTF010000153.1          7891  blaOXA-72
+  GCA_026311875.1      Ecuador    ST2     DAJZTG010000079.1          7851  blaOXA-72
+  GCA_026311875.1      Ecuador    ST2     DAJZTG010000141.1          7891  blaOXA-72
+  GCA_026340685.1      Ecuador    ST2     DAKBLD010000142.1          7851  blaOXA-72
+  GCA_026340685.1      Ecuador    ST2     DAKBLD010000331.1          7891  blaOXA-72
+  GCA_026340785.1      Ecuador    ST2     DAKBLI010000063.1          7851  blaOXA-72
+  GCA_026340785.1      Ecuador    ST2     DAKBLI010000110.1          7891  blaOXA-72
+  GCA_026340935.1      Ecuador    ST2     DAKBLF010000086.1          7851  blaOXA-72
+  GCA_026340935.1      Ecuador    ST2     DAKBLF010000153.1          7891  blaOXA-72
+  GCA_029955785.1      Ecuador    ST2     JASBHG010000073.1          7795  blaOXA-72
+  GCA_030016875.1      Ecuador    ST2     JASDEA010000049.1          7851  blaOXA-72
+  GCA_037545705.1      Peru       ST2     JARBXH010000061.1          7999  blaOXA-72
+  GCA_037545745.1      Peru       ST2     JARBXI010000063.1          7999  blaOXA-72
+  GCA_037545755.1      Peru       ST2     JARBXJ010000061.1          7999  blaOXA-72
+  GCA_037545805.1      Peru       ST2     JARBXK010000089.1          8149  -
+  GCA_051942065.1      Peru       ST2     JBFECW010000069.1          8111  blaOXA-72
+  GCA_053320195.1      Peru       ST2     JBROGE010000052.1          7850  blaOXA-72
+  GCA_053320295.1      Peru       ST2     JBROGI010000056.1          7850  blaOXA-72
+  GCA_053320315.1      Peru       ST2     JBROGJ010000074.1          7851  blaOXA-72
+  GCA_053320335.1      Peru       ST2     JBROGK010000049.1          7851  blaOXA-72
+  GCA_053320355.1      Peru       ST2     JBROGL010000053.1          7851  blaOXA-72
+  GCA_053320375.1      Peru       ST2     JBROGM010000061.1          7851  blaOXA-72
+  GCA_053320395.1      Peru       ST2     JBROGN010000054.1          7851  -
+  GCA_053320415.1      Peru       ST2     JBROGO010000059.1          7851  blaOXA-72
+  GCA_053373735.1      Peru       ST2     JBRZLA010000060.1          7928  -
+  GCA_053373755.1      Peru       ST2     JBRZLB010000057.1          7928  -
+  GCA_053373775.1      Peru       ST2     JBRZLC010000067.1          7928  -
+  GCA_051941745.1      Peru       ST2724  JBEUKO010000148.1          7978  blaOXA-72
+  GCA_006493735.1      Peru       ST79    VHGM01000080.1             5732  -
+  GCA_053320255.1      Peru       ST79    JBROGG010000033.1          8786  -
+  GCA_053373795.1      Peru       ST79    JBRZLD010000044.1          9655  -
+  GCA_016485725.1      Venezuela  ST25    DADAKP010000051.1          5261  -
+
+=== B. resumen pais x gen ===
+  Brasil       -                    1
+  Chile        -                    16
+  Colombia     -                    1
+  Ecuador      blaOXA-72            12
+  Peru         -                    8
+  Peru         blaOXA-72            12
+  Venezuela    -                    1
+
+=== C. contigs chilenos con gen co-localizado en r3-T18: 0 ===
+  ninguno: en Chile r3-T18 NO co-localiza con ningun gen de resistencia

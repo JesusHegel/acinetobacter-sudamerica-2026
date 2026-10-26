@@ -1,0 +1,116 @@
+=== A. co-localizacion recalculada (por genoma) ===
+  portadores=73  co-localizados=63 (86.3 %)  no evaluables=10   [antes 54/64 = 84,4 %]
+  por pais: {'Peru': 17, 'Ecuador': 9, 'Brasil': 35, 'Colombia': 2}
+
+=== B. CC2 andino: 24 genomas [antes 19] ===
+  GCA_026311855.1      Ecuador  ST2     2020  KL2    PRJEB56918     r3-T18       len=7851,7891
+  GCA_026311875.1      Ecuador  ST2     2020  KL2    PRJEB56918     r3-T18       len=7891,7851
+  GCA_026340685.1      Ecuador  ST2     2020  KL2    PRJEB56918     r3-T18       len=7851,7891
+  GCA_026340785.1      Ecuador  ST2     2020  KL2    PRJEB56918     r3-T18       len=7891,7851
+  GCA_026340935.1      Ecuador  ST2     2020  KL2    PRJEB56918     r3-T18       len=7891,7851
+  GCA_029955785.1      Ecuador  ST2     2022  KL2    PRJNA953974    r3-T18       len=7795
+  GCA_030016875.1      Ecuador  ST2     2021  KL2    PRJNA953974    r3-T18       len=7851
+  GCA_037545705.1      Peru     ST2     2022  KL9    PRJNA936143    r3-T18       len=7999
+  GCA_037545745.1      Peru     ST2     2022  KL9    PRJNA936143    r3-T18       len=7999
+  GCA_037545755.1      Peru     ST2     2022  KL9    PRJNA936143    r3-T18       len=7999
+  GCA_037545805.1      Peru     ST2     2022  KL2    PRJNA936143    r3-T18       len=8149
+  GCA_051941745.1      Peru     ST2724  2021  KL9    PRJNA1128084   r3-T18       len=7978
+  GCA_051942065.1      Peru     ST2     2021  KL9    PRJNA1128084   r3-T18       len=8111
+  GCA_053320195.1      Peru     ST2     2024  KL9    PRJNA1339005   r3-T18       len=7850
+  GCA_053320295.1      Peru     ST2     2024  KL9    PRJNA1339005   r3-T18       len=7850
+  GCA_053320315.1      Peru     ST2     2024  KL2    PRJNA1339005   r3-T18       len=7851
+  GCA_053320335.1      Peru     ST2     2023  KL2    PRJNA1339005   r3-T18       len=7851
+  GCA_053320355.1      Peru     ST2     2023  KL9    PRJNA1339005   r3-T18       len=7851
+  GCA_053320375.1      Peru     ST2     2023  KL9    PRJNA1339005   r3-T18       len=7851
+  GCA_053320395.1      Peru     ST2     2023  KL9    PRJNA1339005   r3-T18       len=7851
+  GCA_053320415.1      Peru     ST2     2023  KL2    PRJNA1339005   r3-T18       len=7851
+  GCA_053373735.1      Peru     ST2     2024  KL2    PRJNA1339005   r3-T18       len=7928
+  GCA_053373755.1      Peru     ST2     2024  KL2    PRJNA1339005   r3-T18       len=7928
+  GCA_053373775.1      Peru     ST2     2024  KL9    PRJNA1339005   r3-T18       len=7928
+  replicones: {'r3-T18': 29}
+  Brasil n=35 replicones: {'r3-T1,r3-T14': 18, 'r3-T1': 15, 'r3-T14': 5, 'r3-T13': 1}
+
+=== C. agrupamiento: 23 en matriz, fuera=['GCA_051941745.1'] ===
+  umbral  simple  completo
+      0      15        15
+      1      13        14
+      2      12        12
+      3      12        12
+      4      11        12
+      5      11        12
+      6      10        10
+      7      10        10
+      8       5         9
+      9       4         9
+     10       3         7
+     11       2         5
+     12       2         5
+     13       2         5
+     14       2         4
+     15       2         4
+     16       2         4
+     17       2         4
+     18       2         4
+     19       2         4
+     20       2         4
+     21       2         2
+     22       2         2
+     23       2         2
+     24       2         2
+     25       2         2
+
+  --- enlace COMPLETO, umbral 8: 9 eventos ---
+   grupo 1: n=8 diam=8 KL=['KL2'] paises=['Ecuador', 'Peru']
+      GCA_026311855.1 2020
+      GCA_026311875.1 2020
+      GCA_026340685.1 2020
+      GCA_026340785.1 2020
+      GCA_026340935.1 2020
+      GCA_029955785.1 2022
+      GCA_030016875.1 2021
+      GCA_053320335.1 2023
+   grupo 2: n=4 diam=6 KL=['KL9'] paises=['Peru']
+      GCA_053320355.1 2023
+      GCA_053320375.1 2023
+      GCA_053320395.1 2023
+      GCA_053373775.1 2024
+   grupo 3: n=3 diam=2 KL=['KL9'] paises=['Peru']
+      GCA_037545705.1 2022
+      GCA_037545745.1 2022
+      GCA_037545755.1 2022
+   grupo 4: n=2 diam=0 KL=['KL9'] paises=['Peru']
+      GCA_053320195.1 2024
+      GCA_053320295.1 2024
+   grupo 5: n=2 diam=6 KL=['KL2'] paises=['Peru']
+      GCA_053320315.1 2024
+      GCA_053373735.1 2024
+   grupo 6: n=1 diam=0 KL=['KL2'] paises=['Peru']
+      GCA_037545805.1 2022
+   grupo 7: n=1 diam=0 KL=['KL9'] paises=['Peru']
+      GCA_051942065.1 2021
+   grupo 8: n=1 diam=0 KL=['KL2'] paises=['Peru']
+      GCA_053320415.1 2023
+   grupo 9: n=1 diam=0 KL=['KL2'] paises=['Peru']
+      GCA_053373755.1 2024
+
+=== D. hueco KL2/KL9 ===
+  KL2 n=13  KL9 n=10  otros=[]
+  KL2 intra 0-21   KL9 intra 0-21   inter 30-49
+  HUECO: 21 -> 30
+
+=== E. Tabla 2 corregida (regla del representante) ===
+  pais          ev   OXA-23   OXA-72   OXA-58      NDM  sinCarb
+  Brasil       179    73.2%     7.8%     2.8%     6.7%     9.5%
+  Chile         56    19.6%     0.0%    21.4%     1.8%    57.1%
+  Argentina     41    51.2%     0.0%     2.4%     9.8%    36.6%
+  Paraguay      18    88.9%     0.0%     0.0%     0.0%    11.1%
+  Colombia      32    31.2%     6.2%     0.0%     9.4%    53.1%
+  Bolivia       10    60.0%     0.0%     0.0%     0.0%    40.0%
+  Peru          14    14.3%    35.7%     0.0%     0.0%    35.7%
+  Ecuador        6     0.0%    66.7%     0.0%     0.0%     0.0%
+  Venezuela      4    75.0%     0.0%    25.0%    25.0%     0.0%
+
+  sin desduplicar:
+    Peru: 20/33 = 60.6 %
+    Ecuador: 9/11 = 81.8 %
+    Brasil: 42/479 = 8.8 %

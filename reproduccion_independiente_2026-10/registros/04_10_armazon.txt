@@ -1,0 +1,138 @@
+=== A. los 8 peruanos con r3-T18 vacio: portan blaOXA-72? ===
+  GCA_037545805.1      ST2      NO porta blaOXA-72   genes=[blaOXA-72]
+  GCA_053320395.1      ST2      NO porta blaOXA-72   genes=[blaOXA-72]
+  GCA_053373735.1      ST2      NO porta blaOXA-72   genes=[blaOXA-72]
+  GCA_053373755.1      ST2      NO porta blaOXA-72   genes=[blaOXA-72]
+  GCA_053373775.1      ST2      NO porta blaOXA-72   genes=[blaOXA-72]
+  GCA_006493735.1      ST79     NO porta blaOXA-72   genes=[blaOXA-253]
+  GCA_053320255.1      ST79     NO porta blaOXA-72   genes=[blaOXA-23]
+  GCA_053373795.1      ST79     NO porta blaOXA-72   genes=[blaOXA-23]
+
+=== B. secuencias extraidas: 11 -> /home/naomi/abaumannii/tmp_plas/armazon_r3t18.fa ===
+
+=== C. BLASTN todos contra todos ===
+  query              subject              cov%     id%
+  PERU_vacio_7928    PERU_vacio_8149     100.0  100.00
+  ANDES_con_gen      PERU_vacio_8149     100.0  100.00
+  PERU_vacio_7851    PERU_vacio_8149     100.0  100.00
+  ECUADOR_con_gen    PERU_vacio_8149     100.0  100.00
+  VENEZUELA_5261     COLOMBIA_5372       100.0  100.00
+  PERU_vacio_8149    PERU_vacio_7928     100.0  100.00
+  ANDES_con_gen      PERU_vacio_7928     100.0  100.00
+  PERU_vacio_7851    PERU_vacio_7928     100.0  100.00
+  ECUADOR_con_gen    PERU_vacio_7928     100.0  100.00
+  CHILE_CP076810     CHILE_8356          100.0  100.00
+  ANDES_con_gen2     PERU_vacio_8149     100.0  100.00
+  CHILE_CP076810     CHILE_8329          100.0  100.00
+  COLOMBIA_5372      VENEZUELA_5261      100.0  100.00
+  ANDES_con_gen      ANDES_con_gen2      100.0  100.00
+  PERU_vacio_7851    ANDES_con_gen2      100.0  100.00
+  PERU_vacio_7928    ANDES_con_gen2      100.0  100.00
+  ECUADOR_con_gen    ANDES_con_gen2      100.0  100.00
+  PERU_vacio_8149    ANDES_con_gen2      100.0  100.00
+  ANDES_con_gen      PERU_vacio_7851     100.0  100.00
+  PERU_vacio_7851    ANDES_con_gen       100.0  100.00
+  PERU_vacio_7928    PERU_vacio_7851     100.0  100.00
+  PERU_vacio_7928    ANDES_con_gen       100.0  100.00
+  ECUADOR_con_gen    ANDES_con_gen       100.0  100.00
+  ECUADOR_con_gen    PERU_vacio_7851     100.0  100.00
+  PERU_vacio_8149    PERU_vacio_7851     100.0  100.00
+  PERU_vacio_8149    ANDES_con_gen       100.0  100.00
+  ANDES_con_gen      ECUADOR_con_gen     100.0  100.00
+  PERU_vacio_7851    ECUADOR_con_gen     100.0  100.00
+  PERU_vacio_7928    ECUADOR_con_gen     100.0  100.00
+  PERU_vacio_8149    ECUADOR_con_gen     100.0  100.00
+  CHILE_8356         CHILE_CP076810      100.0  100.00
+  CHILE_8329         CHILE_CP076810      100.0  100.00
+  CHILE_8329         CHILE_8356          100.0  100.00
+  CHILE_8356         CHILE_8329          100.0  100.00
+  ANDES_con_gen2     PERU_vacio_7928      99.6  100.00
+  ANDES_con_gen2     PERU_vacio_7851      98.6  100.00
+  ANDES_con_gen2     ANDES_con_gen        98.6  100.00
+  ANDES_con_gen2     ECUADOR_con_gen      97.9  100.00
+  ANDES_con_gen      CHILE_8356           91.1  100.00
+  PERU_vacio_7851    CHILE_8356           91.1  100.00
+  ECUADOR_con_gen    CHILE_8356           91.0  100.00
+  PERU_vacio_7928    CHILE_8356           90.2  100.00
+  ANDES_con_gen      CHILE_8329           88.3  100.00
+  ANDES_con_gen      CHILE_CP076810       88.3  100.00
+  PERU_vacio_7851    CHILE_8329           88.3  100.00
+  PERU_vacio_7851    CHILE_CP076810       88.3  100.00
+  ECUADOR_con_gen    CHILE_8329           88.2  100.00
+  ECUADOR_con_gen    CHILE_CP076810       88.2  100.00
+  ANDES_con_gen2     CHILE_8356           88.2  100.00
+  PERU_vacio_8149    CHILE_8356           87.8  100.00
+  PERU_vacio_7928    CHILE_8329           87.5  100.00
+  PERU_vacio_7928    CHILE_CP076810       87.5  100.00
+  CHILE_8356         ANDES_con_gen        85.6  100.00
+  CHILE_8356         PERU_vacio_8149      85.6  100.00
+  CHILE_8356         PERU_vacio_7928      85.6  100.00
+  CHILE_8356         PERU_vacio_7851      85.6  100.00
+  CHILE_8356         ANDES_con_gen2       85.6  100.00
+  ANDES_con_gen2     CHILE_8329           85.5  100.00
+  ANDES_con_gen2     CHILE_CP076810       85.5  100.00
+  PERU_vacio_8149    CHILE_8329           85.1  100.00
+  PERU_vacio_8149    CHILE_CP076810       85.1  100.00
+  CHILE_8356         ECUADOR_con_gen      84.9  100.00
+  CHILE_CP076810     PERU_vacio_8149      84.3  100.00
+  CHILE_CP076810     PERU_vacio_7928      84.3  100.00
+  CHILE_CP076810     PERU_vacio_7851      84.3  100.00
+  CHILE_CP076810     ANDES_con_gen2       84.3  100.00
+  CHILE_CP076810     ANDES_con_gen        84.3  100.00
+  CHILE_CP076810     ECUADOR_con_gen      83.6  100.00
+  CHILE_8329         PERU_vacio_8149      83.3  100.00
+  CHILE_8329         PERU_vacio_7928      83.3  100.00
+  CHILE_8329         PERU_vacio_7851      83.3  100.00
+  CHILE_8329         ANDES_con_gen2       83.3  100.00
+  CHILE_8329         ANDES_con_gen        83.3  100.00
+  CHILE_8329         ECUADOR_con_gen      82.6  100.00
+  COLOMBIA_5372      PERU_vacio_8149      81.7  100.00
+  COLOMBIA_5372      PERU_vacio_7928      81.7  100.00
+  COLOMBIA_5372      ANDES_con_gen        81.7  100.00
+  COLOMBIA_5372      CHILE_8356           81.2  100.00
+  COLOMBIA_5372      PERU_vacio_7851      81.1  100.00
+  COLOMBIA_5372      ANDES_con_gen2       80.9  100.00
+  VENEZUELA_5261     ANDES_con_gen        80.7  100.00
+  VENEZUELA_5261     PERU_vacio_8149      80.7  100.00
+  VENEZUELA_5261     PERU_vacio_7928      80.7  100.00
+  VENEZUELA_5261     CHILE_8356           80.1  100.00
+  VENEZUELA_5261     PERU_vacio_7851      80.0  100.00
+  COLOMBIA_5372      ECUADOR_con_gen      80.0  100.00
+  VENEZUELA_5261     ANDES_con_gen2       79.8  100.00
+  COLOMBIA_5372      CHILE_CP076810       79.4  100.00
+  VENEZUELA_5261     ECUADOR_con_gen      78.9  100.00
+  COLOMBIA_5372      CHILE_8329           78.8  100.00
+  VENEZUELA_5261     CHILE_CP076810       78.3  100.00
+  VENEZUELA_5261     CHILE_8329           77.7  100.00
+  ANDES_con_gen      COLOMBIA_5372        55.9  100.00
+  PERU_vacio_7851    COLOMBIA_5372        55.9  100.00
+  ECUADOR_con_gen    COLOMBIA_5372        55.6  100.00
+  PERU_vacio_7928    COLOMBIA_5372        55.4  100.00
+  ANDES_con_gen2     COLOMBIA_5372        54.0  100.00
+  PERU_vacio_8149    COLOMBIA_5372        53.9  100.00
+  ANDES_con_gen      VENEZUELA_5261       53.6  100.00
+  PERU_vacio_7851    VENEZUELA_5261       53.6  100.00
+  ECUADOR_con_gen    VENEZUELA_5261       53.3  100.00
+  PERU_vacio_7928    VENEZUELA_5261       53.1  100.00
+  CHILE_8356         COLOMBIA_5372        52.6  100.00
+  CHILE_CP076810     COLOMBIA_5372        51.9  100.00
+  ANDES_con_gen2     VENEZUELA_5261       51.8  100.00
+  PERU_vacio_8149    VENEZUELA_5261       51.7  100.00
+  CHILE_8329         COLOMBIA_5372        51.2  100.00
+  CHILE_8356         VENEZUELA_5261       50.4  100.00
+  CHILE_CP076810     VENEZUELA_5261       49.7  100.00
+  CHILE_8329         VENEZUELA_5261       49.1  100.00
+
+=== D. blaOXA-72 y sitios pdif en cada secuencia ===
+  catalogo AMR_CDS: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/latest/AMR_CDS.fa
+  ANDES_con_gen      len=  7851  sitios_pdif_exactos=2
+  ANDES_con_gen2     len=  8111  sitios_pdif_exactos=2
+  ECUADOR_con_gen    len=  7795  sitios_pdif_exactos=2
+  PERU_vacio_7851    len=  7851  sitios_pdif_exactos=2
+  PERU_vacio_7928    len=  7928  sitios_pdif_exactos=2
+  PERU_vacio_8149    len=  8149  sitios_pdif_exactos=2
+  CHILE_CP076810     len=  8229  sitios_pdif_exactos=1
+  CHILE_8356         len=  8356  sitios_pdif_exactos=2
+  CHILE_8329         len=  8329  sitios_pdif_exactos=1
+  COLOMBIA_5372      len=  5372  sitios_pdif_exactos=0
+  VENEZUELA_5261     len=  5261  sitios_pdif_exactos=0

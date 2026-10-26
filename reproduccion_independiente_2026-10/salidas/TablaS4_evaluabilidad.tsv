@@ -1,0 +1,8 @@
+analisis	evaluables	total	pct	limitacion_dominante
+MLST Pasteur	875	900	97.2	Perfiles alelicos no descritos
+MLST Oxford	375	900	41.7	Perfiles no descritos y paralogos del esquema
+Tipo capsular KL	900	900	100.0	-
+Locus OCL	900	900	100.0	-
+Tipificacion plasmidica APT	797	900	88.6	Ausencia de genes rep tipificables
+Contexto de blaOXA-72	63	73	86.3	Gen y rep en contigs distintos
+Contexto de ISAba1 (copias)	44	988	4.5	Fragmentacion del ensamblado

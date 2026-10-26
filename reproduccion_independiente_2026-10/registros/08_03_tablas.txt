@@ -1,0 +1,16 @@
+  TablaS2_proyectos.tsv: 22 filas x 16 columnas
+  TablaS3_peru.tsv: 33 filas x 11 columnas
+  TablaS4_evaluabilidad.tsv: 7 filas x 5 columnas
+  TablaS5_ensamblados_propios.tsv: 58 filas x 15 columnas
+
+=== S4: evaluabilidad ===
+  MLST Pasteur                      875/ 900   97.2 %
+  MLST Oxford                       375/ 900   41.7 %
+  Tipo capsular KL                  900/ 900  100.0 %
+  Locus OCL                         900/ 900  100.0 %
+  Tipificacion plasmidica APT       797/ 900   88.6 %
+  Contexto de blaOXA-72              63/  73   86.3 %
+  Contexto de ISAba1 (copias)        44/ 988    4.5 %
+
+=== S2: 22 proyectos ===
+  paises: {'Argentina': 4, 'Bolivia': 1, 'Brasil': 9, 'Chile': 2, 'Colombia': 2, 'Paraguay': 3, 'Peru': 1}

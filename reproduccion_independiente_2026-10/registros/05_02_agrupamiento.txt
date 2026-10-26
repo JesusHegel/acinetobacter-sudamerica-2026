@@ -1,0 +1,128 @@
+subconjunto CC2 con blaOXA-72 co-localizado: 19 genomas
+evaluados en la matriz: 18   fuera: ['GCA_051941745.1']
+
+=== A. numero de grupos: enlace SIMPLE vs COMPLETO ===
+umbral  simple  completo
+    0      10        10
+    1       9         9
+    2       8         8
+    3       8         8
+    4       8         8
+    5       8         8
+    6       8         8
+    7       8         8
+    8       5         7
+    9       4         6
+   10       3         4
+   11       3         4
+   12       2         4
+   13       2         4
+   14       2         4
+   15       2         4
+   16       2         4
+   17       2         4
+   18       2         3
+   19       2         3
+   20       2         3
+   21       2         2
+   22       2         2
+   23       2         2
+   24       2         2
+   25       2         2
+
+=== B. enlace COMPLETO a umbral 5 ===
+  grupo 1: n=7  diametro=0
+     GCA_026311855.1      Ecuador  2020  KL2
+     GCA_026311875.1      Ecuador  2020  KL2
+     GCA_026340685.1      Ecuador  2020  KL2
+     GCA_026340785.1      Ecuador  2020  KL2
+     GCA_026340935.1      Ecuador  2020  KL2
+     GCA_029955785.1      Ecuador  2022  KL2
+     GCA_030016875.1      Ecuador  2021  KL2
+  grupo 2: n=3  diametro=2
+     GCA_037545705.1      Peru     2022  KL9
+     GCA_037545745.1      Peru     2022  KL9
+     GCA_037545755.1      Peru     2022  KL9
+  grupo 3: n=2  diametro=0
+     GCA_053320195.1      Peru     2024  KL9
+     GCA_053320295.1      Peru     2024  KL9
+  grupo 4: n=2  diametro=1
+     GCA_053320355.1      Peru     2023  KL9
+     GCA_053320375.1      Peru     2023  KL9
+  grupo 5: n=1  diametro=0
+     GCA_051942065.1      Peru     2021  KL9
+  grupo 6: n=1  diametro=0
+     GCA_053320315.1      Peru     2024  KL2
+  grupo 7: n=1  diametro=0
+     GCA_053320335.1      Peru     2023  KL2
+  grupo 8: n=1  diametro=0
+     GCA_053320415.1      Peru     2023  KL2
+
+=== B. enlace COMPLETO a umbral 8 ===
+  grupo 1: n=8  diametro=8
+     GCA_026311855.1      Ecuador  2020  KL2
+     GCA_026311875.1      Ecuador  2020  KL2
+     GCA_026340685.1      Ecuador  2020  KL2
+     GCA_026340785.1      Ecuador  2020  KL2
+     GCA_026340935.1      Ecuador  2020  KL2
+     GCA_029955785.1      Ecuador  2022  KL2
+     GCA_030016875.1      Ecuador  2021  KL2
+     GCA_053320335.1      Peru     2023  KL2
+  grupo 2: n=3  diametro=2
+     GCA_037545705.1      Peru     2022  KL9
+     GCA_037545745.1      Peru     2022  KL9
+     GCA_037545755.1      Peru     2022  KL9
+  grupo 3: n=2  diametro=0
+     GCA_053320195.1      Peru     2024  KL9
+     GCA_053320295.1      Peru     2024  KL9
+  grupo 4: n=2  diametro=1
+     GCA_053320355.1      Peru     2023  KL9
+     GCA_053320375.1      Peru     2023  KL9
+  grupo 5: n=1  diametro=0
+     GCA_051942065.1      Peru     2021  KL9
+  grupo 6: n=1  diametro=0
+     GCA_053320315.1      Peru     2024  KL2
+  grupo 7: n=1  diametro=0
+     GCA_053320415.1      Peru     2023  KL2
+
+=== B. enlace COMPLETO a umbral 10 ===
+  grupo 1: n=8  diametro=8
+     GCA_026311855.1      Ecuador  2020  KL2
+     GCA_026311875.1      Ecuador  2020  KL2
+     GCA_026340685.1      Ecuador  2020  KL2
+     GCA_026340785.1      Ecuador  2020  KL2
+     GCA_026340935.1      Ecuador  2020  KL2
+     GCA_029955785.1      Ecuador  2022  KL2
+     GCA_030016875.1      Ecuador  2021  KL2
+     GCA_053320335.1      Peru     2023  KL2
+  grupo 2: n=6  diametro=10
+     GCA_037545705.1      Peru     2022  KL9
+     GCA_037545745.1      Peru     2022  KL9
+     GCA_037545755.1      Peru     2022  KL9
+     GCA_051942065.1      Peru     2021  KL9
+     GCA_053320195.1      Peru     2024  KL9
+     GCA_053320295.1      Peru     2024  KL9
+  grupo 3: n=2  diametro=9
+     GCA_053320315.1      Peru     2024  KL2
+     GCA_053320415.1      Peru     2023  KL2
+  grupo 4: n=2  diametro=1
+     GCA_053320355.1      Peru     2023  KL9
+     GCA_053320375.1      Peru     2023  KL9
+
+=== C. hueco de la biparticion KL2 / KL9 ===
+  KL2 n=10: intra min=0 max=18
+  KL9 n=8: intra min=0 max=21
+  entre grupos:      min=30 max=49
+  HUECO: intra maxima=21  ->  inter minima=30
+
+=== D. pares que exceden el umbral dentro de cada grupo (simple, t=8) ===
+  grupo 1 (n=8): 0 pares >8
+  grupo 2 (n=6): 5 pares >8
+     GCA_037545755.1 - GCA_051942065.1  d=10
+     GCA_037545755.1 - GCA_053320195.1  d=10
+     GCA_037545755.1 - GCA_053320295.1  d=10
+     GCA_051942065.1 - GCA_053320195.1  d=10
+     GCA_051942065.1 - GCA_053320295.1  d=10
+  grupo 3 (n=2): 0 pares >8
+  grupo 4 (n=1): 0 pares >8
+  grupo 5 (n=1): 0 pares >8

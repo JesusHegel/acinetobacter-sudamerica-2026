@@ -1,0 +1,91 @@
+ENTORNO DE LA REPRODUCCION INDEPENDIENTE
+fecha de la captura: 2026-10-25T10:30:27-05:00
+
+=== sistema ===
+Linux 6.18.54.1-microsoft-standard-WSL2 x86_64
+PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
+
+=== esquema cgMLST descargado de Chewie-NS ===
+  ruta: /home/naomi/abaumannii/datos/cgmlst_abaumannii
+  descargado el: 2026-10-04 12:20:06.566621420 -0500
+  ficheros de locus (.fasta): 0
+  -- .ns_config
+     (ausente o no legible)
+  -- .schema_config
+     (ausente o no legible)
+
+=== entornos conda ===
+
+# conda environments:
+#
+# * -> active
+# + -> frozen
+base                 *   /home/naomi/miniforge3
+abaumannii               /home/naomi/miniforge3/envs/abaumannii
+ensamblaje               /home/naomi/miniforge3/envs/ensamblaje
+mlst                     /home/naomi/miniforge3/envs/mlst
+qc                       /home/naomi/miniforge3/envs/qc
+
+
+=== versiones de herramientas ===
+  skani        skani 0.3.2
+  mlst         mlst 2.35.0
+  blastn       blastn: 2.17.0+
+  kaptive      3.2.2
+  seqkit       seqkit v2.13.0
+  amrfinder    4.2.7
+  chewBBACA    /tmp/tmpx0dfwlu6: line 3: chewBBACA.py: command not found
+  numpy        2.5.3
+  biopython    1.87
+  networkx     3.7
+
+=== base de datos de AMRFinderPlus ===
+/home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1/
+/home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/latest/
+2026-08-07.1
+
+=== esquema cgMLST: listado real ===
+Acinetobacter_baumannii_cgMLST
+total de entradas: 1
+subdirectorios:
+/home/naomi/abaumannii/datos/cgmlst_abaumannii/Acinetobacter_baumannii_cgMLST
+ficheros ocultos:
+loci en el nivel superior: 0
+ficheros en short/: 0
+
+=== chewBBACA (entorno ensamblaje) ===
+chewBBACA version: 3.5.4
+
+=== esquema cgMLST: contenido real ===
+ruta: /home/naomi/abaumannii/datos/cgmlst_abaumannii/Acinetobacter_baumannii_cgMLST
+Acinetobacter_baumannii.trn
+cgMLST-00003045.fasta
+cgMLST-00003046.fasta
+cgMLST-00003047.fasta
+cgMLST-00003048.fasta
+cgMLST-00003049.fasta
+total de entradas: 2397
+subdirectorios:
+/home/naomi/abaumannii/datos/cgmlst_abaumannii/Acinetobacter_baumannii_cgMLST/pre_computed
+/home/naomi/abaumannii/datos/cgmlst_abaumannii/Acinetobacter_baumannii_cgMLST/short
+ficheros ocultos:
+-rw-r--r-- 1 naomi naomi 98 Oct  4 12:26 /home/naomi/abaumannii/datos/cgmlst_abaumannii/Acinetobacter_baumannii_cgMLST/.ns_config
+-rw-r--r-- 1 naomi naomi 346 Oct  4 12:26 /home/naomi/abaumannii/datos/cgmlst_abaumannii/Acinetobacter_baumannii_cgMLST/.schema_config
+-rw-r--r-- 1 naomi naomi 73337 Oct  4 12:26 /home/naomi/abaumannii/datos/cgmlst_abaumannii/Acinetobacter_baumannii_cgMLST/.genes_list
+loci en el nivel superior: 2392
+ficheros en short/: 2391
+por extension:
+   2390 fasta
+      1 trn
+
+=== configuracion del esquema ===
+--- .ns_config (pickle)
+['2025-07-31T14:24:53.593095', 'http://chewbbaca.online/NS/api/species/2/schemas/1']
+--- .ns_config (texto legible)
+..]q.(X....2025-07-31T14:24:53.593095q.X2...http://chewbbaca.online/NS/api/species/2/schemas/1q.e.
+--- .schema_config (pickle)
+{'bsr': [0.6], 'prodigal_training_file': ['3a838f651f63dfff5518481183a4966290aaa2a2355ca98e707770a5e610738efee4d95edc1dbb4b701484f50eff16e060e8e4ac31ce3637ff6b7cc2e0c597a8'], 'translation_table': [11], 'minimum_locus_length': [0], 'chewBBACA_version': ['chewBBACA 3.4.0'], 'size_threshold': [0.2]}
+--- .schema_config (texto legible)
+..}q.(X....bsrq.]q.G?.333333aX....prodigal_training_fileq.]q.X....3a838f651f63dfff5518481183a4966290aaa2a2355ca98e707770a5e610738efee4d95edc1dbb4b701484f50eff16e060e8e4ac31ce3637ff6b7cc2e0c597a8q.aX....translation_tableq.]q.K.aX....minimum_locus_lengthq.]q.K.aX....chewBBACA_versionq
+]q.X....chewBBACA 3.4.0q.aX....size_thresholdq.]q.G?.......au.
+loci del esquema: 2390 ficheros .fasta

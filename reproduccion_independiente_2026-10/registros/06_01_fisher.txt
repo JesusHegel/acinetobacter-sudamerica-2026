@@ -1,0 +1,21 @@
+=== A. sobre GENOMAS (version inflada, NO usar como principal) ===
+          r3-T18   otro
+  Andes       24      2
+  Brasil       0     35
+  p = 5.47e-15
+
+=== B. sobre EVENTOS (version defendible) ===
+  eventos andinos (cgMLST, enlace completo): 9, todos r3-T18
+  eventos brasilenos (pais+ST+proyecto+anio): 17, ninguno r3-T18
+          r3-T18   otro
+  Andes        9      0
+  Brasil       0     17
+  p = 3.2e-07
+
+=== C. salvedad obligatoria ===
+  Region y linaje estan confundidos: los portadores andinos son CC2 y los
+  brasilenos pertenecen a CC79, CC15, ST730 e IC-6. El test no distingue
+  'depende de la region' de 'depende del linaje'.
+
+  linajes brasilenos portadores: {'1': 2, '79': 26, '25': 6, '730': 1}
+  linajes andinos portadores   : {'2': 23, '108': 2, '2724': 1}

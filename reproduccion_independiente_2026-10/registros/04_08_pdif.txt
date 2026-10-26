@@ -1,0 +1,124 @@
+
+================================================================
+TOLERANCIA: 0 desajuste(s) en total sobre los 22 pb de brazos
+================================================================
+
+ANDINO r3-T18  (8111 pb): 2 sitio(s)
+  pos   4368  C>D  espaciador GAGTTT  desaj 0   ATTTCGTATAA GAGTTT TTATGTTAAAT
+  pos   7049  C>D  espaciador CGCCCA  desaj 0   ATTTCGTATAA CGCCCA TTATGTTAAAT
+
+ANDINO r3-T18 (Ecuador)  (7795 pb): 2 sitio(s)
+  pos   2280  C>D  espaciador GAGTTT  desaj 0   ATTTCGTATAA GAGTTT TTATGTTAAAT
+  pos   4961  C>D  espaciador CGCCCA  desaj 0   ATTTCGTATAA CGCCCA TTATGTTAAAT
+
+CHILE r3-T18 vacio  (8229 pb): 1 sitio(s)
+  pos   5378  D>C  espaciador AAACTC  desaj 0   ATTTAACATAA AAACTC TTATACGAAAT
+
+BRASIL r3-T1  (15829 pb): 0 sitio(s)
+
+BRASIL r3-T1+T14  (23481 pb): 0 sitio(s)
+
+================================================================
+TOLERANCIA: 1 desajuste(s) en total sobre los 22 pb de brazos
+================================================================
+
+ANDINO r3-T18  (8111 pb): 3 sitio(s)
+  pos    137  D>C  espaciador TACACC  desaj 1   AATTAACATAA TACACC TTATACGAAAT
+  pos   4368  C>D  espaciador GAGTTT  desaj 0   ATTTCGTATAA GAGTTT TTATGTTAAAT
+  pos   7049  C>D  espaciador CGCCCA  desaj 0   ATTTCGTATAA CGCCCA TTATGTTAAAT
+
+ANDINO r3-T18 (Ecuador)  (7795 pb): 3 sitio(s)
+  pos   2280  C>D  espaciador GAGTTT  desaj 0   ATTTCGTATAA GAGTTT TTATGTTAAAT
+  pos   4961  C>D  espaciador CGCCCA  desaj 0   ATTTCGTATAA CGCCCA TTATGTTAAAT
+  pos   5900  D>C  espaciador TACACC  desaj 1   AATTAACATAA TACACC TTATACGAAAT
+
+CHILE r3-T18 vacio  (8229 pb): 3 sitio(s)
+  pos   1381  C>D  espaciador GGCGTA  desaj 1   ATTTCGTATAA GGCGTA TTATGTTAATT
+  pos   2697  D>C  espaciador TGGAGC  desaj 1   ATTTAACATAA TGGAGC TTATACGAAGT
+  pos   5378  D>C  espaciador AAACTC  desaj 0   ATTTAACATAA AAACTC TTATACGAAAT
+
+BRASIL r3-T1  (15829 pb): 4 sitio(s)
+  pos     66  D>C  espaciador AATCTC  desaj 1   ATTTAACATAA AATCTC TTATGCGAAAT
+  pos   4340  C>D  espaciador CGTGTA  desaj 1   ATTTCGTATAA CGTGTA TTATGTTAATT
+  pos  10931  C>D  espaciador GGTGTA  desaj 1   ATTTCGTATAA GGTGTA TTATGTTAATT
+  pos  11870  D>C  espaciador TGGCGA  desaj 1   ATTTAACATAA TGGCGA TTATACGAAGT
+
+BRASIL r3-T1+T14  (23481 pb): 6 sitio(s)
+  pos     97  D>C  espaciador TACACC  desaj 1   AATTAACATAA TACACC TTATACGAAAT
+  pos   4822  C>D  espaciador GAGATT  desaj 1   ATTTCGCATAA GAGATT TTATGTTAAAT
+  pos   9240  C>D  espaciador TCGCCA  desaj 1   ACTTCGTATAA TCGCCA TTATGTTAAAT
+  pos  10179  D>C  espaciador TACACC  desaj 1   AATTAACATAA TACACC TTATACGAAAT
+  pos  16770  D>C  espaciador TACACC  desaj 1   AATTAACATAA TACACC TTATACGAAAT
+  pos  23361  D>C  espaciador TACACC  desaj 1   AATTAACATAA TACACC TTATACGAAAT
+
+================================================================
+TOLERANCIA: 2 desajuste(s) en total sobre los 22 pb de brazos
+================================================================
+
+ANDINO r3-T18  (8111 pb): 3 sitio(s)
+  pos    137  D>C  espaciador TACACC  desaj 1   AATTAACATAA TACACC TTATACGAAAT
+  pos   4368  C>D  espaciador GAGTTT  desaj 0   ATTTCGTATAA GAGTTT TTATGTTAAAT
+  pos   7049  C>D  espaciador CGCCCA  desaj 0   ATTTCGTATAA CGCCCA TTATGTTAAAT
+
+ANDINO r3-T18 (Ecuador)  (7795 pb): 3 sitio(s)
+  pos   2280  C>D  espaciador GAGTTT  desaj 0   ATTTCGTATAA GAGTTT TTATGTTAAAT
+  pos   4961  C>D  espaciador CGCCCA  desaj 0   ATTTCGTATAA CGCCCA TTATGTTAAAT
+  pos   5900  D>C  espaciador TACACC  desaj 1   AATTAACATAA TACACC TTATACGAAAT
+
+CHILE r3-T18 vacio  (8229 pb): 3 sitio(s)
+  pos   1381  C>D  espaciador GGCGTA  desaj 1   ATTTCGTATAA GGCGTA TTATGTTAATT
+  pos   2697  D>C  espaciador TGGAGC  desaj 1   ATTTAACATAA TGGAGC TTATACGAAGT
+  pos   5378  D>C  espaciador AAACTC  desaj 0   ATTTAACATAA AAACTC TTATACGAAAT
+
+BRASIL r3-T1  (15829 pb): 5 sitio(s)
+  pos     66  D>C  espaciador AATCTC  desaj 1   ATTTAACATAA AATCTC TTATGCGAAAT
+  pos   4340  C>D  espaciador CGTGTA  desaj 1   ATTTCGTATAA CGTGTA TTATGTTAATT
+  pos   7318  D>C  espaciador AATTTC  desaj 2   ATTTAACATAA AATTTC TTATACGAAGC
+  pos  10931  C>D  espaciador GGTGTA  desaj 1   ATTTCGTATAA GGTGTA TTATGTTAATT
+  pos  11870  D>C  espaciador TGGCGA  desaj 1   ATTTAACATAA TGGCGA TTATACGAAGT
+
+BRASIL r3-T1+T14  (23481 pb): 8 sitio(s)
+  pos     97  D>C  espaciador TACACC  desaj 1   AATTAACATAA TACACC TTATACGAAAT
+  pos   4822  C>D  espaciador GAGATT  desaj 1   ATTTCGCATAA GAGATT TTATGTTAAAT
+  pos   9240  C>D  espaciador TCGCCA  desaj 1   ACTTCGTATAA TCGCCA TTATGTTAAAT
+  pos  10179  D>C  espaciador TACACC  desaj 1   AATTAACATAA TACACC TTATACGAAAT
+  pos  13792  C>D  espaciador GAAATT  desaj 2   GCTTCGTATAA GAAATT TTATGTTAAAT
+  pos  16770  D>C  espaciador TACACC  desaj 1   AATTAACATAA TACACC TTATACGAAAT
+  pos  20383  C>D  espaciador GAAATT  desaj 2   GCTTCGTATAA GAAATT TTATGTTAAAT
+  pos  23361  D>C  espaciador TACACC  desaj 1   AATTAACATAA TACACC TTATACGAAAT
+
+================================================================
+TOLERANCIA: 3 desajuste(s) en total sobre los 22 pb de brazos
+================================================================
+
+ANDINO r3-T18  (8111 pb): 3 sitio(s)
+  pos    137  D>C  espaciador TACACC  desaj 1   AATTAACATAA TACACC TTATACGAAAT
+  pos   4368  C>D  espaciador GAGTTT  desaj 0   ATTTCGTATAA GAGTTT TTATGTTAAAT
+  pos   7049  C>D  espaciador CGCCCA  desaj 0   ATTTCGTATAA CGCCCA TTATGTTAAAT
+
+ANDINO r3-T18 (Ecuador)  (7795 pb): 3 sitio(s)
+  pos   2280  C>D  espaciador GAGTTT  desaj 0   ATTTCGTATAA GAGTTT TTATGTTAAAT
+  pos   4961  C>D  espaciador CGCCCA  desaj 0   ATTTCGTATAA CGCCCA TTATGTTAAAT
+  pos   5900  D>C  espaciador TACACC  desaj 1   AATTAACATAA TACACC TTATACGAAAT
+
+CHILE r3-T18 vacio  (8229 pb): 3 sitio(s)
+  pos   1381  C>D  espaciador GGCGTA  desaj 1   ATTTCGTATAA GGCGTA TTATGTTAATT
+  pos   2697  D>C  espaciador TGGAGC  desaj 1   ATTTAACATAA TGGAGC TTATACGAAGT
+  pos   5378  D>C  espaciador AAACTC  desaj 0   ATTTAACATAA AAACTC TTATACGAAAT
+
+BRASIL r3-T1  (15829 pb): 5 sitio(s)
+  pos     66  D>C  espaciador AATCTC  desaj 1   ATTTAACATAA AATCTC TTATGCGAAAT
+  pos   4340  C>D  espaciador CGTGTA  desaj 1   ATTTCGTATAA CGTGTA TTATGTTAATT
+  pos   7318  D>C  espaciador AATTTC  desaj 2   ATTTAACATAA AATTTC TTATACGAAGC
+  pos  10931  C>D  espaciador GGTGTA  desaj 1   ATTTCGTATAA GGTGTA TTATGTTAATT
+  pos  11870  D>C  espaciador TGGCGA  desaj 1   ATTTAACATAA TGGCGA TTATACGAAGT
+
+BRASIL r3-T1+T14  (23481 pb): 8 sitio(s)
+  pos     97  D>C  espaciador TACACC  desaj 1   AATTAACATAA TACACC TTATACGAAAT
+  pos   4822  C>D  espaciador GAGATT  desaj 1   ATTTCGCATAA GAGATT TTATGTTAAAT
+  pos   9240  C>D  espaciador TCGCCA  desaj 1   ACTTCGTATAA TCGCCA TTATGTTAAAT
+  pos  10179  D>C  espaciador TACACC  desaj 1   AATTAACATAA TACACC TTATACGAAAT
+  pos  13792  C>D  espaciador GAAATT  desaj 2   GCTTCGTATAA GAAATT TTATGTTAAAT
+  pos  16770  D>C  espaciador TACACC  desaj 1   AATTAACATAA TACACC TTATACGAAAT
+  pos  20383  C>D  espaciador GAAATT  desaj 2   GCTTCGTATAA GAAATT TTATGTTAAAT
+  pos  23361  D>C  espaciador TACACC  desaj 1   AATTAACATAA TACACC TTATACGAAAT
