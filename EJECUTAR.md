@@ -323,6 +323,18 @@ El esquema de después es por tanto el mismo que se descargó, y la URI con la
 versión `2025-07-31T14:24:53` lo fijan por completo. Archivar los 2390 loci
 sería redundante.
 
+**Aviso para quien verifique la huella del directorio.** En la primera
+ejecución chewBBACA sí escribe caché dentro del esquema: al menos
+`short/self_scores` y `pre_computed/PROTEINtable7`. Una huella global del
+directorio calculada antes y después de esa primera corrida cambiará, y eso es
+lo esperado, no un fallo. Los alelos no se tocan: la comparación válida es
+sobre los ficheros `.fasta` de los loci.
+
+```bash
+# Huella solo de los alelos, que es la que no debe cambiar
+find "$ESQUEMA" -name '*.fasta' -exec md5sum {} \; | sort -k2 | md5sum
+```
+
 Dos detalles más de la ejecución original, que no afectan a las llamadas
 alélicas pero conviene no prometer de más: se corrió con **chewBBACA 3.5.3**
 (la reejecución independiente usó 3.5.4), y el cgMLST de los 900 se hizo con 4
