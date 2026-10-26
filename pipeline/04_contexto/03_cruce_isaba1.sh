@@ -18,7 +18,7 @@
 # Duracion: segundos
 # =====================================================================
 set -euo pipefail
-B=~/abaumannii
+B=${ABAUMANNII_BASE:-$HOME/abaumannii}
 AWK=$B/repo/pipeline/04_contexto/03_cruce_isaba1.awk
 
 for gen in oxa51 oxa23 oxa24 oxa58 oxa143 ndm; do

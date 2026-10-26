@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-B=~/abaumannii; cd $B
+B=${ABAUMANNII_BASE:-$HOME/abaumannii}; cd $B
 mkdir -p tmp_rescan
 echo "[1/4] concatenando genomas con prefijo de accesion..."
 : > tmp_rescan/all.fna

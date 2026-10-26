@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 import networkx as nx, csv, os, re
 
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 meta = {r['ID']: r for r in csv.DictReader(
         open(f"{B}/resultados/grapetree/metadatos_grapetree_st2.tsv"), delimiter='\t')}
 

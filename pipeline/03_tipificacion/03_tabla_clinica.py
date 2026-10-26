@@ -12,7 +12,7 @@ Salida:   resultados/tabla_clinica_900.tsv
 """
 import csv, os, re, collections
 
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 T = f"{B}/resultados/tipificacion"
 SALIDA = f"{B}/resultados/tabla_clinica_900.tsv"
 

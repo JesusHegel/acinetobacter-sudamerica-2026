@@ -16,7 +16,7 @@
 # que se invoca su funcion interna directamente, igual que en el paso 01.
 # =====================================================================
 set -euo pipefail
-BASE=~/abaumannii
+BASE=${ABAUMANNII_BASE:-$HOME/abaumannii}
 mkdir -p "$BASE/resultados/grapetree"
 
 echo "=== 1/2  red de expansion minima ==="
@@ -31,7 +31,7 @@ print('    newick:', len(nwk), 'caracteres')
 echo "=== 2/2  metadatos de anotacion ==="
 python3 - <<'PY'
 import os, csv, re
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 ACC = re.compile(r"(GC[AF]_\d+\.\d+)")
 
 s1 = {r["accesion"].strip(): r for r in csv.DictReader(

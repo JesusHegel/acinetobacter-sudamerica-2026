@@ -3,7 +3,7 @@
 """Tabla Suplementaria S1: los 900 genomas clinicos con metadatos y tipificacion."""
 import os, re, csv
 from collections import Counter
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 def limpia(v):
     """Normaliza las comillas de los campos de texto libre.
 

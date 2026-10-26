@@ -13,7 +13,7 @@ Salida:   resultados/tabla_clinica_900.tsv     (reescrita en sitio)
           resultados/TablaS1_900_genomas.tsv   (reescrita en sitio)
 """
 import re, os, csv, shutil
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 ACC = re.compile(r"(GC[AF]_\d+\.\d+)")
 TC  = f"{B}/resultados/tabla_clinica_900.tsv"
 

@@ -18,7 +18,7 @@
 #   chewBBACA.py DownloadSchema -sp 2 -sc 1 -o datos/cgmlst_abaumannii
 # =====================================================================
 set -euo pipefail
-BASE=~/abaumannii
+BASE=${ABAUMANNII_BASE:-$HOME/abaumannii}
 
 echo "=== 1/2  AlleleCall ==="
 chewBBACA.py AlleleCall \

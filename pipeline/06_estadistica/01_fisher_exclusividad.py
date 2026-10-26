@@ -5,7 +5,7 @@ import os
 from math import comb
 def tsv(p):
     return [l.rstrip("\n").split("\t") for l in open(p, encoding="utf-8", errors="replace") if l.strip()]
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 S1 = tsv(f"{B}/resultados/TablaS1_900_genomas.tsv")
 h = S1[0]; rows = [dict(zip(h, r + [""]*len(h))) for r in S1[1:]]
 

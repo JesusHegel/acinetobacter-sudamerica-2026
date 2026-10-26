@@ -6,7 +6,7 @@ adquiridos. Salida: un fichero de coordenadas por familia de gen.
 """
 import os, glob, csv, collections
 
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 S1 = {r['accesion'].strip() for r in
       csv.DictReader(open(f"{B}/resultados/TablaS1_900_genomas.tsv"), delimiter='\t')}
 print(f"genomas en la Tabla S1: {len(S1)}")

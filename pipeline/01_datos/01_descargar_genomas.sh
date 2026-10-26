@@ -21,7 +21,7 @@
 # antes de los filtros de calidad, de los que resultaron 842 publicos.
 # =====================================================================
 set -euo pipefail
-BASE=~/abaumannii
+BASE=${ABAUMANNII_BASE:-$HOME/abaumannii}
 LISTA=$BASE/repo/pipeline/01_datos/accesiones_900.txt
 DEST=$BASE/datos/genomas_945
 TMP=$BASE/tmp_descarga

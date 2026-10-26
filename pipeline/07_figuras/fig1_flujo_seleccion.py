@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Figura 1: diagrama de flujo de seleccion del conjunto de datos."""
 import os
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 os.makedirs(f"{B}/resultados/figuras", exist_ok=True)
 
 W, H = 900, 1000

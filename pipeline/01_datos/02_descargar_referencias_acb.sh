@@ -11,7 +11,7 @@
 # Duracion: 1 min
 # =====================================================================
 set -euo pipefail
-DEST=~/abaumannii/datos/referencias_acb
+DEST=${ABAUMANNII_BASE:-$HOME/abaumannii}/datos/referencias_acb
 TMP=/tmp/ref_acb
 mkdir -p "$DEST" "$TMP"
 

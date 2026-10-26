@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Figura 7: los tres mecanismos de ausencia aparente."""
 import os
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 W,H = 940, 700
 def t(x,y,txt,sz=10,w="400",anc="start",col="#222",fam="Helvetica,Arial"):
     return (f'<text x="{x}" y="{y}" font-family="{fam}" font-size="{sz}" font-weight="{w}" '

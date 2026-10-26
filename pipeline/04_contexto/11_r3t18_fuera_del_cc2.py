@@ -7,7 +7,7 @@ contigs chilenos. Una version anterior de esta linea anunciaba
 co-localizacion con blaOXA-58 en Chile, que la propia salida desmiente."""
 import re, os, glob, subprocess
 from collections import Counter, defaultdict
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 ACC = re.compile(r"(GC[AF]_\d+\.\d+)")
 def norm(x):
     m = ACC.search(x); return m.group(1) if m else x.strip()

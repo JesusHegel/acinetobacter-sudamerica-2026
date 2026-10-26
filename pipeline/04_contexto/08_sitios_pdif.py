@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Sitios pdif: busca las dos orientaciones documentadas, con tolerancia."""
 import os, glob
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 def fasta(p):
     d={};k=None;buf=[]
     for l in open(p):

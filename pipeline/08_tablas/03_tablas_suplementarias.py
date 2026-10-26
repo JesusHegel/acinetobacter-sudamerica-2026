@@ -3,7 +3,7 @@
 """Tablas suplementarias S2, S3, S4, S5."""
 import os, csv
 from collections import Counter, defaultdict
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 def tsv(p): return [l.rstrip("\n").split("\t") for l in open(p, encoding="utf-8", errors="replace") if l.strip()]
 def wr(nm, cols, rows):
     p=f"{B}/resultados/{nm}"

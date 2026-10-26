@@ -15,7 +15,7 @@ from matplotlib.lines import Line2D
 import networkx as nx, csv, os, collections
 from Bio import Phylo
 
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 S1 = {r['accesion'].strip(): r for r in
       csv.DictReader(open(f"{B}/resultados/TablaS1_900_genomas.tsv"), delimiter='\t')}
 

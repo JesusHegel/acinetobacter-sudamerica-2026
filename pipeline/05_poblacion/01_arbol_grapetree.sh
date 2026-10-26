@@ -11,7 +11,7 @@
 # que se invoca su funcion interna directamente.
 # =====================================================================
 set -euo pipefail
-BASE=~/abaumannii
+BASE=${ABAUMANNII_BASE:-$HOME/abaumannii}
 mkdir -p "$BASE/resultados/grapetree_900"
 
 python3 -c "

@@ -3,7 +3,7 @@
 """B1: comparacion del elemento andino con plasmidos circulares cerrados de r3-T18."""
 import os, re, glob, subprocess
 from collections import defaultdict
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 def fasta(p):
     d={};k=None;buf=[]
     for l in open(p):

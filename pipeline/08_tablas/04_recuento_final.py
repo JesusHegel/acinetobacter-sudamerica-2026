@@ -3,7 +3,7 @@
 """Recuento definitivo con los 73 portadores."""
 import re, os
 from collections import defaultdict, Counter
-B=os.path.expanduser("~/abaumannii")
+B=os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 ACC=re.compile(r"(GC[AF]_\d+\.\d+)")
 def norm(x):
     m=ACC.search(x); return m.group(1) if m else x.strip()

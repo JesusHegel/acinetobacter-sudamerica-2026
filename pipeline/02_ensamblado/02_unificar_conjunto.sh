@@ -16,7 +16,7 @@
 # Duracion: segundos
 # =====================================================================
 set -euo pipefail
-BASE=~/abaumannii
+BASE=${ABAUMANNII_BASE:-$HOME/abaumannii}
 DEST=$BASE/datos/genomas_900
 mkdir -p "$DEST"
 

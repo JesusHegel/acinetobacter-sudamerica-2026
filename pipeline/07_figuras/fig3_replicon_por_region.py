@@ -3,7 +3,7 @@
 """Figura 3: A) replicon portador de blaOXA-72 por region. B) r3-T18 con y sin gen."""
 import os
 from collections import Counter, defaultdict
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 def tsv(p):
     return [l.rstrip("\n").split("\t") for l in open(p, encoding="utf-8", errors="replace") if l.strip()]
 S1 = tsv(f"{B}/resultados/TablaS1_900_genomas.tsv")

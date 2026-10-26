@@ -1,5 +1,5 @@
 import csv, os, collections
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 meta = {r['accesion'].strip(): r for r in
         csv.DictReader(open(f"{B}/resultados/TablaS1_900_genomas.tsv"), delimiter='\t')}
 hits = collections.defaultdict(list)

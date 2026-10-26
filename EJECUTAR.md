@@ -8,14 +8,27 @@ carpeta.
 
 **Espacio en disco:** 50 GB libres recomendados.
 
-**Ubicación del proyecto.** Los scripts emplean rutas absolutas bajo
-`~/abaumannii/`. El repositorio debe clonarse en `~/abaumannii/repo` y los
-datos se escribirán en `~/abaumannii/datos` y `~/abaumannii/resultados`:
+**Ubicación del proyecto.** Por omisión los scripts trabajan bajo
+`~/abaumannii/`: el repositorio se clona en `~/abaumannii/repo` y los datos
+se escriben en `~/abaumannii/datos` y `~/abaumannii/resultados`.
 
 ```bash
 mkdir -p ~/abaumannii && cd ~/abaumannii
 git clone https://github.com/JesusHegel/acinetobacter-sudamerica-2026.git repo
 ```
+
+Para usar otra ubicación basta exportar `ABAUMANNII_BASE` antes de ejecutar
+cualquier paso. Todos los scripts la respetan, en bash y en Python:
+
+```bash
+export ABAUMANNII_BASE=/donde/quiera/el/proyecto
+mkdir -p "$ABAUMANNII_BASE" && cd "$ABAUMANNII_BASE"
+git clone https://github.com/JesusHegel/acinetobacter-sudamerica-2026.git repo
+```
+
+Quien no defina la variable obtiene el comportamiento de siempre. Hasta
+octubre de 2026 la ruta iba clavada en los 41 scripts y había que reproducir
+esa estructura exacta para que algo funcionara.
 
 **La herramienta `datasets` del NCBI** vive en el entorno `abaumannii`. Los
 pasos que la emplean lo indican en su cabecera.
@@ -299,10 +312,16 @@ En esos siete loci una ejecución separa en dos clases alélicas lo que la otra
 une: las cuentas de alelos por locus son 63 contra 62, 32 contra 31, 44 contra
 41 y así, de modo que no es una renumeración.
 
-**Declarar la URI y la versión del esquema es necesario pero no basta.** Lo
-único que fijaría el análisis por completo es archivar el directorio del
-esquema tal como quedó tras la ejecución, que son 2390 ficheros. Queda como
-decisión pendiente.
+**Declarar la URI y la versión del esquema basta: no hace falta archivarlo.**
+Comprobado sobre el directorio del esquema en la máquina de desarrollo, que
+ocupa 1,9 GB en 4802 ficheros. Los 4780 `.fasta` de alelos llevan todos la
+fecha de descarga, el 28 de julio de 2026, y **ningún fichero del esquema es
+posterior al 1 de octubre**, mientras que el cgMLST de los 900 se ejecutó el 9
+de octubre. Esa ejecución, con `--no-inferred`, no escribió nada en el esquema.
+
+El esquema de después es por tanto el mismo que se descargó, y la URI con la
+versión `2025-07-31T14:24:53` lo fijan por completo. Archivar los 2390 loci
+sería redundante.
 
 Dos detalles más de la ejecución original, que no afectan a las llamadas
 alélicas pero conviene no prometer de más: se corrió con **chewBBACA 3.5.3**

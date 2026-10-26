@@ -23,7 +23,7 @@
 # producia ningun paso.
 # =====================================================================
 set -euo pipefail
-BASE=~/abaumannii
+BASE=${ABAUMANNII_BASE:-$HOME/abaumannii}
 LISTA="$BASE/resultados/genomas_st2.txt"
 DIR="$BASE/datos/genomas_st2"
 

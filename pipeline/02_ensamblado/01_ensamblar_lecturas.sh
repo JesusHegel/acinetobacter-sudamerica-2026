@@ -1,7 +1,7 @@
 #!/bin/bash
-READS=~/abaumannii/datos/reads
-OUT=~/abaumannii/datos/ensamblados_63
-TMP=~/abaumannii/datos/tmp_shovill
+READS=${ABAUMANNII_BASE:-$HOME/abaumannii}/datos/reads
+OUT=${ABAUMANNII_BASE:-$HOME/abaumannii}/datos/ensamblados_63
+TMP=${ABAUMANNII_BASE:-$HOME/abaumannii}/datos/tmp_shovill
 mkdir -p "$OUT" "$TMP"
 
 for r1 in "$READS"/*_1.fastq.gz; do

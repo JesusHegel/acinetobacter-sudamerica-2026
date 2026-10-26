@@ -36,7 +36,7 @@
 # una interrupcion no obliga a repetir el trabajo hecho.
 # =====================================================================
 set -euo pipefail
-BASE=~/abaumannii
+BASE=${ABAUMANNII_BASE:-$HOME/abaumannii}
 IN=$BASE/datos/genomas_900
 OUT=$BASE/resultados/tipificacion
 REF=$BASE/datos/referencias_acb

@@ -9,7 +9,7 @@ import csv, re, unicodedata
 from collections import Counter
 
 import os
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 ENTRADA = f"{B}/repo/metadatos/maestra_cruda.tsv"
 SALIDA = f"{B}/repo/metadatos/maestra_curada.tsv"
 

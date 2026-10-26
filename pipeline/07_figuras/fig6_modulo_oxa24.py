@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Figura 6: modulo oxa24 en el elemento andino, el brasileno y el armazon vacio."""
 import os, re, glob, subprocess
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 def fasta(p):
     d={};k=None;buf=[]
     for l in open(p):

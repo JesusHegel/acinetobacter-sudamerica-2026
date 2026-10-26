@@ -9,7 +9,7 @@
 # Duracion: 20 a 40 min
 # =====================================================================
 set -euo pipefail
-BASE=~/abaumannii
+BASE=${ABAUMANNII_BASE:-$HOME/abaumannii}
 cd "$BASE"
 
 echo "=== 1/3  Esquema Acinetobacter Plasmid Typing ==="

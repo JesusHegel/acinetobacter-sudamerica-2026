@@ -12,7 +12,7 @@
 # =====================================================================
 set -euo pipefail
 
-BASE=~/abaumannii
+BASE=${ABAUMANNII_BASE:-$HOME/abaumannii}
 ESQUEMA=$BASE/AcinetobacterPlasmidTyping-main/2026_May_rep_DNA-seqs_V3.fasta
 AMR=$BASE/resultados/tipificacion/amrfinder_todos.tsv
 AMR58=$BASE/resultados/tipificacion/amrfinder_58.tsv

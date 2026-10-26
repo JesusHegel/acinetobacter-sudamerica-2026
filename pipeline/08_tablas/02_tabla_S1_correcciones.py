@@ -3,7 +3,7 @@
 """Correcciones a la Tabla S1: oxa72 con rastreo dirigido, contigs propios, ciudad, ST Oxford."""
 import os, re, csv, glob
 from collections import Counter, defaultdict
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 def tsv(p):
     return [l.rstrip("\n").split("\t") for l in open(p, encoding="utf-8", errors="replace") if l.strip()]
 ACC = re.compile(r"(GC[AF]_\d+\.\d+)")

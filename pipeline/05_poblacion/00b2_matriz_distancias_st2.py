@@ -19,7 +19,7 @@ ausentes, de modo que no interviene ninguna convencion de datos faltantes.
 Uso:  python3 00b2_matriz_distancias_st2.py [directorio_eval]
 """
 import os, sys, numpy as np
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 EV = sys.argv[1] if len(sys.argv) > 1 else f"{B}/resultados/cgmlst_st2_eval"
 ENTRADA = f"{EV}/cgMLST100.tsv"
 PERFILES = f"{EV}/cgMLST_profiles.tsv"

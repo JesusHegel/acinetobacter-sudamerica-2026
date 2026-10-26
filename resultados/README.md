@@ -7,7 +7,6 @@ reproducción independiente sin necesidad de rehacer los pasos previos.
 
 | Ruta | Contenido |
 |---|---|
-| `CIFRAS_MANUSCRITO.txt` | Valores reportados en el texto, con su procedencia |
 | `TablaS1_900_genomas.tsv` | Los 900 genomas con metadatos y tipificación completa |
 | `tipificacion/` | ANI, especie asignada, CheckM2, Kaptive (KL y OCL) y AMRFinderPlus |
 | `cgmlst_900_eval/` | Perfiles alélicos de los 2390 loci y matriz al umbral de 0,95 |
@@ -16,7 +15,20 @@ reproducción independiente sin necesidad de rehacer los pasos previos.
 | `isaba1_*.tsv` | Contexto de ISAba1 por familia de carbapenemasa |
 | `plasmidos/` | Anotación de los elementos portadores y del armazón chileno |
 | `grapetree/`, `grapetree_900/` | Árboles en formato Newick, metadatos y figuras |
-| `figuras_rawgraphs/`, `figuras_grapetree_web/` | Figuras exportadas desde herramientas interactivas |
+| `figuras_rawgraphs/`, `figuras_grapetree_web/` | Figuras exportadas desde herramientas interactivas, no desde el pipeline |
+
+### Dónde están las figuras
+
+Hay tres sitios y conviene no confundirlos:
+
+| Ruta | Qué es |
+|---|---|
+| `figuras/` (en la raíz) | **Las figuras del manuscrito**, Fig1 a Fig7, en PDF y SVG |
+| `resultados/grapetree/`, `resultados/grapetree_900/` | Figuras que generan los pasos `05/03` y `07`, material de trabajo |
+| `resultados/figuras_rawgraphs/`, `resultados/figuras_grapetree_web/` | Exportadas a mano desde RAWGraphs y desde el GrapeTree web; no las produce ningún script |
+
+Las cifras de verificación están en `EJECUTAR.md`; este repositorio no mantiene
+una segunda lista de cifras, para que no puedan desincronizarse.
 
 ## Qué no hay
 

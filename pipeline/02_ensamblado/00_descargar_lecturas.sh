@@ -13,7 +13,7 @@
 # documento EJECUTAR.md).
 # =====================================================================
 set -euo pipefail
-BASE=~/abaumannii
+BASE=${ABAUMANNII_BASE:-$HOME/abaumannii}
 LISTA=$BASE/repo/pipeline/02_ensamblado/accesiones_sra_58.txt
 OUT=$BASE/datos/reads
 mkdir -p "$OUT" "$BASE/tmp_sra"

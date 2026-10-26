@@ -3,7 +3,7 @@
 """Figura 4: matriz de cobertura reciproca entre grupos de elementos."""
 import os, glob, subprocess
 from collections import defaultdict
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 def fasta(p, full=False):
     d={};k=None;buf=[]
     for l in open(p):

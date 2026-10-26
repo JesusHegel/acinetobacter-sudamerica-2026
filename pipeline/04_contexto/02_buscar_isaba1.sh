@@ -13,7 +13,7 @@
 # Duracion: 15 a 30 min
 # =====================================================================
 set -euo pipefail
-B=~/abaumannii
+B=${ABAUMANNII_BASE:-$HOME/abaumannii}
 REF=$B/datos/isaba1_ref.fa
 OUT=$B/datos/isaba1_hits900.tsv
 # El temporal va bajo el directorio del proyecto y no en /tmp, que en WSL

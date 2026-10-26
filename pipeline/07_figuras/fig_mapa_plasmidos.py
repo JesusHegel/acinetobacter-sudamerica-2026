@@ -10,7 +10,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from dna_features_viewer import GraphicFeature, GraphicRecord
 
-B = os.path.expanduser("~/abaumannii")
+B = os.environ.get("ABAUMANNII_BASE", os.path.expanduser("~/abaumannii"))
 
 C = {"rep": "#2F5597", "mob": "#7A9CC6", "res": "#C0392B",
      "hip": "#D9D9D9", "frag": "#F0F0F0", "pdif": "#E8A33D"}
