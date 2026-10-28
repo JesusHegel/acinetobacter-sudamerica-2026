@@ -61,6 +61,14 @@ conda env create -f entornos/minimos/mlst.yml         # solo las dos llamadas a 
 
 Cada paso indica en su cabecera qué entorno necesita.
 
+**Sobre la duración del paso `03`.** La domina AMRFinderPlus. En la máquina de
+desarrollo tardó de 2 a 4 horas; en un portátil con WSL2 el ritmo medido fue
+de 1,3 a 3,2 genomas por minuto, entre cinco y nueve horas para los 900. A eso
+se suman unos 90 minutos de MLST y menos de un minuto de skani. Conviene
+contar con una jornada completa en equipos modestos, y recordar que el bloque
+de AMRFinderPlus omite los genomas ya procesados: una interrupción no obliga a
+repetir lo hecho.
+
 **Por qué hay dos juegos de `.yml`.** Los de `entornos/` son la exportación
 exacta de la máquina de desarrollo: fijan la versión de los 302 paquetes
 instalados, dependencias transitivas incluidas, y basta con que una ya no esté
@@ -131,9 +139,10 @@ solicitarse a los autores. Se entregan como un único archivo comprimido que
 se extrae en `datos/ensamblados_63/`:
 
 ```bash
-mkdir -p ~/abaumannii/datos/ensamblados_63
-tar -xzf ensamblados_58.tar.gz -C ~/abaumannii/datos/ensamblados_63 --strip-components=1
-ls ~/abaumannii/datos/ensamblados_63/*.fna | wc -l   # debe dar 58
+B=${ABAUMANNII_BASE:-$HOME/abaumannii}
+mkdir -p "$B/datos/ensamblados_63"
+tar -xzf ensamblados_58.tar.gz -C "$B/datos/ensamblados_63" --strip-components=1
+ls "$B"/datos/ensamblados_63/*.fna | wc -l   # debe dar 58
 ```
 
 **Opción B: reensamblar.** Solo si el objetivo es comprobar también el
@@ -151,7 +160,7 @@ quedará incompleto y ninguna de las cifras de verificación coincidirá.
 
 | Paso | Qué hace | Entorno | Duración |
 |---|---|---|---|
-| `00_tipificar.sh` | Especie (skani), MLST, cápsula (Kaptive) y resistoma (AMRFinderPlus) | qc + abaumannii | 2-4 h |
+| `00_tipificar.sh` | Especie (skani), MLST, cápsula (Kaptive) y resistoma (AMRFinderPlus) | qc + abaumannii + mlst | 3-11 h |
 | `01_curar_metadatos.py` | Normaliza país, año y fuente de aislamiento | base | min |
 | `02_tipificar_plasmidos.sh` | Replicones del esquema APT y co-localización con los genes de resistencia | abaumannii | 1-2 h |
 

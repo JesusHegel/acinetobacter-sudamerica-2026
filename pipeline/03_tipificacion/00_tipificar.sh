@@ -4,7 +4,10 @@
 #
 # Entrada:  datos/genomas_900/        (pasos 01 y 02)
 # Produce:  resultados/tipificacion/
-# Duracion: 2 a 4 h, dominada por AMRFinderPlus
+# Duracion: 3 a 11 h, dominada por AMRFinderPlus. En la maquina de
+# desarrollo fueron 2 a 4 h; en un portatil con WSL2 se midieron de 1,3 a
+# 3,2 genomas por minuto, entre 5 y 9 h para los 900, mas unos 90 min de
+# MLST y menos de un minuto de skani.
 #
 # IMPORTANTE: este paso emplea VARIOS entornos conda y un unico script de
 # bash no puede cambiar entre ellos. Ejecutelo en tandas:
@@ -97,10 +100,18 @@ fi
 # ---------------------------------------------------------------------
 # 3. Tipificacion capsular                         entorno: abaumannii
 # ---------------------------------------------------------------------
-# Las bases vienen incluidas en el propio paquete de Kaptive.
-KDB=$(python3 -c "import kaptive,os;print(os.path.join(os.path.dirname(kaptive.__file__),'data'))")
 if [ "$HAZ_KAPTIVE" -eq 1 ]; then
+# Las bases vienen incluidas en el propio paquete de Kaptive. La consulta
+# va DENTRO de la guarda: fuera se ejecutaba en toda invocacion y, con
+# set -euo pipefail, abortaba el script en los entornos sin python3 (qc) o
+# sin Kaptive (mlst), de modo que ningun entorno minimo podia correr el
+# bloque de especie.
+KDB=$(python3 -c "import kaptive,os;print(os.path.join(os.path.dirname(kaptive.__file__),'data'))")
 echo "=== 3/4  Kaptive  (bases en $KDB) ==="
+# Kaptive 3.2.2 abre el fichero de salida en modo anadir si ya existe, de
+# modo que un relanzado tras una interrupcion deja las filas duplicadas sin
+# segunda cabecera que lo delate. Se borran antes de cada llamada.
+rm -f "$OUT/kaptive_kl.tsv" "$OUT/kaptive_ocl.tsv"
 kaptive assembly "$KDB/Acinetobacter_baumannii_k_locus_primary_reference.gbk" \
   "$IN"/*.fna -o "$OUT/kaptive_kl.tsv"
 kaptive assembly "$KDB/Acinetobacter_baumannii_OC_locus_primary_reference.gbk" \
