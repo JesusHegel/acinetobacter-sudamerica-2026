@@ -105,11 +105,17 @@ print(f"    hits unicos (genoma, tipo, contig): {len(mejor)}")
 PYEOF
 
 echo "=== PASO 6/6  Cruce con AMRFinderPlus: co-localizacion ==="
-python3 - "$OUT/apt_hits_v2.tsv" "$AMR" "$AMR58" "$OUT/colocalizacion.tsv" <<'PYEOF'
+# La lista de los 900 acota el cruce: amrfinder_todos.tsv cubre un conjunto
+# mayor que el del estudio, de modo que sin filtrar entraban 31 genomas
+# ajenos, todos como SIN_REP_EN_GENOMA.
+ls "$BASE/datos/genomas_900"/*.fna | xargs -n1 basename | sed 's/\.fna$//' \
+  | sort -u > "$TMP/lista_900.txt"
+python3 - "$OUT/apt_hits_v2.tsv" "$AMR" "$AMR58" "$OUT/colocalizacion.tsv" "$TMP/lista_900.txt" <<'PYEOF'
 import sys
 from collections import defaultdict
 
-apt_f, amr_f, amr58_f, salida = sys.argv[1:5]
+apt_f, amr_f, amr58_f, salida, lista_f = sys.argv[1:6]
+conjunto = {l.strip() for l in open(lista_f) if l.strip()}
 
 # columnas de amrfinder (sin encabezado): 1 genoma, 3 contig, 4 ini, 5 fin, 7 gen
 GENES = ("blaOXA-72", "blaOXA-23", "blaOXA-58", "blaNDM", "blaOXA-143",
@@ -129,6 +135,8 @@ for ruta in (amr_f, amr58_f):
                 try:
                     ini, fin = sorted((int(c[3]), int(c[4])))
                 except ValueError:
+                    continue
+                if c[0] not in conjunto:
                     continue
                 genes.append((c[0], c[2], ini, fin, nombre))
     except FileNotFoundError:
