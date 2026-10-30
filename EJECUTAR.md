@@ -280,11 +280,14 @@ sin comprobarlas. Lo destapó la reejecución independiente en máquina limpia.
 árbol, las 71 compartidas.
 
 **El árbol de los 900 no, y no debe esperarse que lo haga.** Medido contra la
-reejecución independiente: 307 particiones en cada árbol, 302 compartidas, el
-96,8 %. Las cinco que difieren en cada dirección caen todas entre Chile,
-Argentina, Brasil, Colombia, Paraguay y Venezuela; ninguna contiene un solo
-genoma de Perú o Ecuador y ninguna toca a un portador andino. El clado andino
-es el mismo conjunto en los dos árboles.
+primera reejecución independiente (octubre de 2026): 307 particiones en cada
+árbol, 302 compartidas, el 96,8 %, con cinco que difieren en cada dirección.
+Medido contra la certificación sobre `a3d4f8e`: 303 compartidas, el 97,4 %,
+con cuatro en cada dirección. En ambas comparaciones las particiones que
+difieren caen entre Bolivia, Chile, Argentina, Brasil, Colombia, Paraguay y
+Venezuela; ninguna contiene un solo genoma de Perú o Ecuador y ninguna toca a
+un portador andino. El clado mínimo que agrupa a los 24 portadores andinos
+comprende los mismos 27 genomas en las tres topologías.
 
 ### Qué varía entre ejecuciones del cgMLST
 
