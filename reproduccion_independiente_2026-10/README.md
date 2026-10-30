@@ -64,3 +64,26 @@ El `.gitattributes` de esta carpeta declara `* -text` para que git no convierta
 los finales de línea, aquí y en las subcarpetas. Sin esa línea, una copia
 clonada en Windows recibiría los `.tsv` y los `.txt` alterados y los
 manifiestos dejarían de cuadrar. No conviene retirarlo.
+
+## Commits posteriores a la certificación
+
+La certificación cubre `a3d4f8e`. Los commits posteriores no alteran el
+análisis:
+
+| Commit | Qué cambia | Efecto sobre una reproducción |
+|---|---|---|
+| `a801916` | Etiquetas impresas del bloque D del `04/10` y entrada del `03/02` | Las etiquetas son texto en pantalla |
+| `a593635` | Filtro por los 900 en el cruce del `03/02`; dos ficheros de `resultados/` regenerados | Ver abajo |
+| `5cb9b04` | Duraciones declaradas en esta guía | Ninguno |
+
+Los dos ficheros regenerados (`apt_hits_v2.tsv` y `colocalizacion.tsv`) viven
+en `repo/resultados/`, que ningún paso del pipeline lee: los scripts leen de
+`$B/resultados/`, el directorio de trabajo.
+
+El filtro añadido al `03/02` descarta los genomas que no están entre los 900.
+En una ejecución limpia `amrfinder_todos.tsv` contiene solo esos 900, de modo
+que no hay nada que descartar: la reejecución independiente obtuvo 1354 y 878
+filas con el script anterior al filtro, que son las cifras correctas. Los 87 y
+31 sobrantes de los ficheros publicados procedían del directorio de trabajo de
+la máquina de desarrollo, que arrastraba salidas del conjunto anterior de 944
+genomas, no del script.
