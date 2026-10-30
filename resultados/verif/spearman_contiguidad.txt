@@ -1,0 +1,2 @@
+n = 900   rho = +0.0880   p = 0.008276
+contigs por genoma frente a numero de tipos rep distintos
