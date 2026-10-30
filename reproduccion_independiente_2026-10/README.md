@@ -80,6 +80,26 @@ Los dos ficheros regenerados (`apt_hits_v2.tsv` y `colocalizacion.tsv`) viven
 en `repo/resultados/`, que ningún paso del pipeline lee: los scripts leen de
 `$B/resultados/`, el directorio de trabajo.
 
+## Por qué hacía falta una máquina ajena
+
+Cuatro de los defectos que encontró esta reproducción son el mismo mecanismo
+actuando cuatro veces: el directorio de trabajo de la máquina de desarrollo
+acumula estado de meses, y los scripts lo daban por existente.
+
+| Defecto | Qué pasaba en una máquina limpia |
+|---|---|
+| La ruta de las bases de Kaptive, fuera de su guarda | El script abortaba en los entornos sin `python3` o sin Kaptive |
+| `isaba1_ref.fa` buscado en `datos/` | No existe: se distribuye en `repo/datos/` |
+| La matriz y los perfiles de ST2 | Ningún paso los producía; estaban en disco de una preparación manual |
+| `apt_hits_v2.tsv` y `colocalizacion.tsv` | Publicaban 87 y 31 genomas del conjunto anterior de 944 |
+
+Ninguno se habría visto releyendo el código, porque en la máquina de origen los
+cuatro funcionaban. Hacía falta un directorio vacío.
+
+**Qué cubre el manifiesto.** El `MANIFEST.md5` recoge los ficheros que produjo
+la máquina de origen, no los añadidos después en el repositorio: este README
+no está en él, y por eso la verificación sigue dando 49 de 49 aunque se amplíe.
+
 El filtro añadido al `03/02` descarta los genomas que no están entre los 900.
 En una ejecución limpia `amrfinder_todos.tsv` contiene solo esos 900, de modo
 que no hay nada que descartar: la reejecución independiente obtuvo 1354 y 878
