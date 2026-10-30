@@ -1,0 +1,7 @@
+andinos portadores: 23   resto del continente: 187
+SEGUNDO INTERVALO: intra maxima=49  ->  inter minima=77
+
+no evaluables andinos en la matriz: 3
+  GCA_053320235.1  2024  a 2 loci de GCA_053320315.1
+  GCA_053320275.1  2024  a 5 loci de GCA_026311855.1
+  GCA_053320455.1  2024  a 0 loci de GCA_053373775.1
