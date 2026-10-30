@@ -61,6 +61,21 @@ conda env create -f entornos/minimos/mlst.yml         # solo las dos llamadas a 
 
 Cada paso indica en su cabecera qué entorno necesita.
 
+**Las duraciones suponen una ejecución desde cero.** Corresponden a un
+portátil modesto (Windows 11 con WSL2, 12 hilos) sin ningún intermedio previo,
+que es la situación de quien reproduce. En la máquina de desarrollo varias son
+mucho menores porque los índices ya estaban construidos: el
+`03/02_tipificar_plasmidos.sh`, por ejemplo, tarda unas tres horas desde cero
+—indexa 80 380 contigs con `makeblastdb`— y menos de dos minutos si ese índice
+existe ya. Esa diferencia es informativa en sí misma: conviene no tomar la
+cifra pequeña como referencia.
+
+Tiempos medidos con precisión: `05/00_cgmlst.sh` 4 min 35 s, el bloque de
+especie 22-34 s, `01/03` unos 3-4 min, Kaptive 36 min (18 por bloque) y MLST
+90 min (45 por esquema). Aproximados por marcas de tiempo: `01/01` unos 2 min
+con buena conexión, `04/02` 20-35 min, `05/00b` 6-9 min y `03/02` unas 3 h. El
+resto de pasos va de segundos a un par de minutos.
+
 **Sobre la duración del paso `03`.** La domina AMRFinderPlus. En la máquina de
 desarrollo tardó de 2 a 4 horas; en un portátil con WSL2 el ritmo medido fue
 de 1,3 a 3,2 genomas por minuto, entre cinco y nueve horas para los 900. A eso
@@ -94,9 +109,9 @@ resultados, se separa `mlst`. Afecta a las dos llamadas de
 
 | Paso | Qué hace | Entorno | Duración |
 |---|---|---|---|
-| `01_descargar_genomas.sh` | Descarga los 842 ensamblados públicos a partir de la lista fija de accesiones | abaumannii | 30-60 min |
+| `01_descargar_genomas.sh` | Descarga los 842 ensamblados públicos a partir de la lista fija de accesiones | abaumannii | 2-60 min, según la conexión |
 | `02_descargar_referencias_acb.sh` | Las cinco referencias del complejo ACB para la confirmación de especie | abaumannii | 1 min |
-| `03_descargar_esquemas.sh` | Catálogo de AMRFinderPlus, esquema APT y esquema cgMLST | abaumannii + ensamblaje | 20-40 min |
+| `03_descargar_esquemas.sh` | Catálogo de AMRFinderPlus, esquema APT y esquema cgMLST | abaumannii + ensamblaje | 3-5 min |
 
 La lista `accesiones_900.txt` contiene los 900 identificadores del conjunto:
 842 ensamblados públicos (GCA) y 58 registros del SRA que se ensamblan en
@@ -162,7 +177,7 @@ quedará incompleto y ninguna de las cifras de verificación coincidirá.
 |---|---|---|---|
 | `00_tipificar.sh` | Especie (skani), MLST, cápsula (Kaptive) y resistoma (AMRFinderPlus) | qc + abaumannii + mlst | 3-11 h |
 | `01_curar_metadatos.py` | Normaliza país, año y fuente de aislamiento | base | min |
-| `02_tipificar_plasmidos.sh` | Replicones del esquema APT y co-localización con los genes de resistencia | abaumannii | 1-2 h |
+| `02_tipificar_plasmidos.sh` | Replicones del esquema APT y co-localización con los genes de resistencia | abaumannii | ~3 h |
 
 ---
 
@@ -171,7 +186,7 @@ quedará incompleto y ninguna de las cifras de verificación coincidirá.
 | Paso | Qué hace | Entorno | Duración |
 |---|---|---|---|
 | `01_coordenadas_carbapenemasas.py` | Extrae las coordenadas de cada gen desde las salidas por genoma de AMRFinderPlus | base | min |
-| `02_buscar_isaba1.sh` | Localiza ISAba1 en los 900 genomas por BLASTN, y calcula las longitudes de contig | abaumannii | 15-30 min |
+| `02_buscar_isaba1.sh` | Localiza ISAba1 en los 900 genomas por BLASTN, y calcula las longitudes de contig | abaumannii | 20-35 min |
 | `03_cruce_isaba1.sh` | Cruza las posiciones de ISAba1 con las coordenadas de cada gen y clasifica cada copia | base | seg |
 | `04_anexo_isaba1_oxa23.py` | Anexo de los genomas con ISAba1 rio arriba de blaOXA-23 | base | min |
 | `05_rastreo_dirigido.sh` | Busca blaOXA-72 sin umbral de cobertura | abaumannii | 20 min |
@@ -228,8 +243,8 @@ Fisher avisa y usa el valor publicado (9).
 
 | Paso | Qué hace | Entorno | Duración |
 |---|---|---|---|
-| `00_cgmlst.sh` | AlleleCall y ExtractCgMLST sobre los 900 genomas | ensamblaje | 20 min |
-| `00b_cgmlst_st2.sh` | AlleleCall y ExtractCgMLST restringidos a los 213 ST2. Produce la matriz de distancias del linaje | ensamblaje | 5 min |
+| `00_cgmlst.sh` | AlleleCall y ExtractCgMLST sobre los 900 genomas | ensamblaje | 5 min |
+| `00b_cgmlst_st2.sh` | AlleleCall y ExtractCgMLST restringidos a los 213 ST2. Produce la matriz de distancias del linaje | ensamblaje | 6-9 min |
 | `00b2_matriz_distancias_st2.py` | Perfiles y matriz de distancias de los ST2 a partir del `cgMLST100.tsv`. Lo llama el `00b` al final | abaumannii | seg |
 | `00c_arbol_y_metadatos_st2.sh` | Red de expansión mínima de los ST2 y sus metadatos de anotación | abaumannii | 1 min |
 | `01_arbol_grapetree.sh` | Red de expansión mínima, algoritmo MSTreeV2 | abaumannii | 2 min |
