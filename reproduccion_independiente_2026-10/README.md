@@ -31,8 +31,8 @@ Siete tablas comparadas fila a fila con las publicadas, **las siete
 idénticas**: TablaS1 (900 filas), TablaS2 (22), TablaS3 (33), TablaS4 (7),
 TablaS5 (58), `tabla_clinica_900` (900) y el anexo de ISAba1 (44). La matriz
 de distancias cgMLST de los ST2 coincide en sus **22 791 pares**. El árbol de
-los 213 ST2 comparte **las 71 particiones**. El de los 900 comparte 303 de
-307, y ninguna de las ocho discrepantes contiene un genoma de Perú o Ecuador.
+los 213 ST2 comparte **las 71 particiones**. El de los 900 comparte, frente al árbol
+original y en esta certificación, 303 de 307, y ninguna de las ocho discrepantes contiene un genoma de Perú o Ecuador.
 
 Cifras del hallazgo reproducidas: 73 portadores de blaOXA-72, 63
 co-localizados; CC2 andino de 24 genomas, los 24 con r3-T18; Brasil 35,
