@@ -44,3 +44,21 @@ Se omiten las carpetas de trabajo intermedias, que pesan en conjunto más de
 Las cifras de verificación están en `EJECUTAR.md`. Para una comparación
 fichero a fichero, los dos que concentran el resultado son
 `TablaS1_900_genomas.tsv` y `cgmlst_900_eval/cgMLST95.tsv`.
+
+## Alcance de `apt_hits_v2.tsv` y `colocalizacion.tsv`
+
+Son la salida directa de `pipeline/03_tipificacion/02_tipificar_plasmidos.sh`
+sobre los 900 genomas clínicos, con 1354 y 878 filas respectivamente.
+
+**No son el recuento final de portadores.** Reflejan lo que notifica
+AMRFinderPlus en su salida estándar, antes de dos pasos posteriores.
+
+1. El rastreo dirigido del paso 04 recupera nueve portadores de blaOXA-72
+   partidos por el punto de linealización del plásmido. Aquí aparecen 64
+   portadores; el recuento definitivo es de 73 y está en
+   `TablaS1_900_genomas.tsv`.
+2. La exclusión de la familia intrínseca blaOXA-51-like descrita en métodos
+   retira blaOXA-407 y blaOXA-241, que aquí siguen listados.
+
+Para cualquier recuento de portadores o de carbapenemasas adquiridas, la
+fuente es la Tabla S1.
