@@ -65,15 +65,21 @@ Cada paso indica en su cabecera qué entorno necesita.
 portátil modesto (Windows 11 con WSL2, 12 hilos) sin ningún intermedio previo,
 que es la situación de quien reproduce. En la máquina de desarrollo varias son
 mucho menores porque los índices ya estaban construidos: el
-`03/02_tipificar_plasmidos.sh`, por ejemplo, tarda unas tres horas desde cero
+`03/02_tipificar_plasmidos.sh`, por ejemplo, tarda de 40 minutos a tres horas
+desde cero
 —indexa 80 380 contigs con `makeblastdb`— y menos de dos minutos si ese índice
 existe ya. Esa diferencia es informativa en sí misma: conviene no tomar la
 cifra pequeña como referencia.
 
+La horquilla de 40 minutos a tres horas se midió en la misma máquina, con el
+mismo script y construyendo el índice desde cero en ambos casos. La diferencia
+la explican la carga del equipo y la caché de disco, de modo que las duraciones
+de esta guía conviene leerlas como rangos y no como cifras.
+
 Tiempos medidos con precisión: `05/00_cgmlst.sh` 4 min 35 s, el bloque de
 especie 22-34 s, `01/03` unos 3-4 min, Kaptive 36 min (18 por bloque) y MLST
 90 min (45 por esquema). Aproximados por marcas de tiempo: `01/01` unos 2 min
-con buena conexión, `04/02` 20-35 min, `05/00b` 6-9 min y `03/02` unas 3 h. El
+con buena conexión, `04/02` 20-35 min, `05/00b` 6-9 min y `03/02` de 40 min a 3 h. El
 resto de pasos va de segundos a un par de minutos.
 
 **Sobre la duración del paso `03`.** La domina AMRFinderPlus. En la máquina de
@@ -177,7 +183,7 @@ quedará incompleto y ninguna de las cifras de verificación coincidirá.
 |---|---|---|---|
 | `00_tipificar.sh` | Especie (skani), MLST, cápsula (Kaptive) y resistoma (AMRFinderPlus) | qc + abaumannii + mlst | 3-11 h |
 | `01_curar_metadatos.py` | Normaliza país, año y fuente de aislamiento | base | min |
-| `02_tipificar_plasmidos.sh` | Replicones del esquema APT y co-localización con los genes de resistencia | abaumannii | ~3 h |
+| `02_tipificar_plasmidos.sh` | Replicones del esquema APT y co-localización con los genes de resistencia | abaumannii | 40 min - 3 h |
 
 ---
 

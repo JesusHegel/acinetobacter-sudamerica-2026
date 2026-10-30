@@ -1,0 +1,2 @@
+254bedb63c837a4a183596ff6b021ce2  /home/naomi/abaumannii_final/resultados/apt_v2/apt_hits_v2.tsv
+21c54462a99b1922eac53a48cd801ac7  /home/naomi/abaumannii_final/resultados/apt_v2/colocalizacion.tsv
