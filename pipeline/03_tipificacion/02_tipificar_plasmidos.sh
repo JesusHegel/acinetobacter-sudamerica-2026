@@ -26,8 +26,13 @@ MIN_COV=90
 mkdir -p "$OUT" "$TMP"
 
 echo "=== PASO 1/6  Localizando genomas ==="
-find "$BASE/datos/genomas_945" -name "*_genomic.fna" > "$TMP/rutas.txt" 2>/dev/null || true
-find "$BASE/datos/ensamblados_63" -name "*.fna" >> "$TMP/rutas.txt" 2>/dev/null || true
+# Se parte de genomas_900/, el conjunto del estudio que unifica el paso
+# 02/02. Antes se recorrian genomas_945 y ensamblados_63, de modo que las
+# salidas incluian genomas ajenos al conjunto: 87 de mas en apt_hits_v2 y
+# 31 en colocalizacion. Las cifras del trabajo no cambian -filtradas a los
+# 900 coinciden exactamente- pero el fichero publicado daba 884 y 750
+# genomas en lugar de 797 y 719 a quien los contara.
+find "$BASE/datos/genomas_900" -name "*.fna" > "$TMP/rutas.txt" 2>/dev/null || true
 echo "    genomas encontrados: $(wc -l < "$TMP/rutas.txt")"
 
 echo "=== PASO 2/6  Construyendo FASTA combinado con contigs prefijados ==="
@@ -35,12 +40,9 @@ echo "=== PASO 2/6  Construyendo FASTA combinado con contigs prefijados ==="
 # Shovill usan nombres tipo contig00001, repetidos entre genomas.
 : > "$TMP/todos_contigs.fna"
 while read -r ruta; do
-    # accesion = nombre de carpeta (publicos) o del archivo (propios)
-    if [[ "$ruta" == *ensamblados_63* ]]; then
-        acc=$(basename "$ruta" .fna)
-    else
-        acc=$(basename "$(dirname "$ruta")")
-    fi
+    # En genomas_900/ la accesion es el nombre del fichero, tanto para los
+    # publicos como para los propios.
+    acc=$(basename "$ruta" .fna)
     awk -v A="$acc" '/^>/{sub(/^>/,""); split($0,p," "); print ">"A"|"p[1]; next} {print}' \
         "$ruta" >> "$TMP/todos_contigs.fna"
 done < "$TMP/rutas.txt"

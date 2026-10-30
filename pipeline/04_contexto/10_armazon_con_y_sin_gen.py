@@ -54,9 +54,12 @@ for g in VAC:
 SEQ=[("ANDES_con_gen","GCA_053320315.1","JBROGJ010000074.1"),
      ("ANDES_con_gen2","GCA_051942065.1","JBFECW010000069.1"),
      ("ECUADOR_con_gen","GCA_029955785.1","JASBHG010000073.1"),
-     ("PERU_vacio_7851","GCA_053320395.1","JBROGN010000054.1"),
-     ("PERU_vacio_7928","GCA_053373735.1","JBRZLA010000060.1"),
-     ("PERU_vacio_8149","GCA_037545805.1","JARBXK010000089.1"),
+     # Estos tres se rotulaban PERU_vacio_* por venir de la lista anterior a
+     # la correccion del rastreo. Los tres son portadores confirmados de
+     # blaOXA-72: la etiqueta decia lo contrario de lo que son.
+     ("PERU_r3T18_7851","GCA_053320395.1","JBROGN010000054.1"),
+     ("PERU_r3T18_7928","GCA_053373735.1","JBRZLA010000060.1"),
+     ("PERU_r3T18_8149","GCA_037545805.1","JARBXK010000089.1"),
      ("CHILE_CP076810","GCA_024139015.1","CP076810.1"),
      ("CHILE_8356","GCA_018156055.1","JAGTAK010000059.1"),
      ("CHILE_8329","GCA_024151615.1","JAHICI010000063.1"),
