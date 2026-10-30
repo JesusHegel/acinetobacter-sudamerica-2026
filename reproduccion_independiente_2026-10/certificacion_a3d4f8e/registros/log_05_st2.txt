@@ -1,0 +1,179 @@
+nohup: ignoring input
+=== 1/4  seleccionando los ST2 de la Tabla S1 ===
+    genomas ST2: 213
+    enlazados: 213   faltantes: 0
+=== 2/4  AlleleCall ===
+chewBBACA version: 3.5.4
+Authors: Rafael Mamede, Pedro Cerqueira, Mickael Silva, João Carriço, Mário Ramirez
+Github: https://github.com/B-UMMI/chewBBACA
+Documentation: https://chewbbaca.readthedocs.io/en/latest/index.html
+Contacts: imm-bioinfo@medicina.ulisboa.pt
+
+==========================
+  chewBBACA - AlleleCall
+==========================
+Started at: 2026-10-29T22:01:27
+
+Warning! You have provided a CPU core count value that is equal to or exceeds the number of CPU cores in your system! Resetting to: 2
+ Configuration values 
+======================
+Minimum sequence length: 0
+Size threshold: 0.2
+Translation table: 11
+BLAST Score Ratio: 0.6
+Word size: 5
+Window size: 5
+Clustering similarity: 0.2
+Prodigal training file: /home/naomi/abaumannii_final/datos/cgmlst_abaumannii/Acinetobacter_baumannii_cgMLST/Acinetobacter_baumannii.trn
+CPU cores: 2
+BLAST path: /home/naomi/miniforge3/envs/ensamblaje/bin
+CDS input: False
+Prodigal mode: single
+Mode: 4
+Number of inputs: 213
+Number of loci: 2390
+Intermediate files will be stored in /home/naomi/abaumannii_final/resultados/cgmlst_st2/temp
+
+ Pre-computed data 
+===================
+Loci allele size mode values stored in /home/naomi/abaumannii_final/datos/cgmlst_abaumannii/Acinetobacter_baumannii_cgMLST/loci_modes
+Hash tables stored in /home/naomi/abaumannii_final/datos/cgmlst_abaumannii/Acinetobacter_baumannii_cgMLST/pre_computed
+
+ CDS prediction 
+================
+Predicting CDSs for 213 inputs...
+ [                    ] 0% [                    ] 1% [                    ] 2% [                    ] 3% [                    ] 4% [=                   ] 5% [=                   ] 6% [=                   ] 7% [=                   ] 8% [=                   ] 9% [==                  ] 10% [==                  ] 11% [==                  ] 12% [==                  ] 13% [==                  ] 14% [===                 ] 15% [===                 ] 16% [===                 ] 17% [===                 ] 18% [===                 ] 19% [====                ] 20% [====                ] 21% [====                ] 22% [====                ] 23% [====                ] 24% [=====               ] 25% [=====               ] 26% [=====               ] 27% [=====               ] 28% [=====               ] 29% [======              ] 30% [======              ] 31% [======              ] 32% [======              ] 33% [======              ] 34% [=======             ] 35% [=======             ] 36% [=======             ] 37% [=======             ] 38% [=======             ] 39% [========            ] 40% [========            ] 41% [========            ] 42% [========            ] 43% [========            ] 44% [=========           ] 45% [=========           ] 46% [=========           ] 47% [=========           ] 48% [=========           ] 49% [==========          ] 50% [==========          ] 51% [==========          ] 52% [==========          ] 53% [==========          ] 54% [===========         ] 55% [===========         ] 56% [===========         ] 57% [===========         ] 58% [===========         ] 59% [============        ] 60% [============        ] 61% [============        ] 62% [============        ] 63% [============        ] 64% [=============       ] 65% [=============       ] 66% [=============       ] 67% [=============       ] 68% [=============       ] 69% [==============      ] 70% [==============      ] 71% [==============      ] 72% [==============      ] 73% [==============      ] 74% [===============     ] 75% [===============     ] 76% [===============     ] 77% [===============     ] 78% [===============     ] 79% [================    ] 80% [================    ] 81% [================    ] 82% [================    ] 83% [================    ] 84% [=================   ] 85% [=================   ] 86% [=================   ] 87% [=================   ] 88% [=================   ] 89% [==================  ] 90% [==================  ] 91% [==================  ] 92% [==================  ] 93% [==================  ] 94% [=================== ] 95% [=================== ] 96% [=================== ] 97% [=================== ] 98% [=================== ] 99% [====================] 100%
+Extracted a total of 791767 CDSs from 213 inputs.
+
+ CDS deduplication 
+===================
+Identifying distinct CDSs...
+Identified 11609 distinct CDSs.
+
+ CDS exact matching 
+====================
+Searching for CDS exact matches...
+Found 480762 exact matches (3309 distinct schema alleles).
+Unclassified CDSs: 8300
+
+ CDS translation 
+=================
+Translating 8300 CDSs...
+ [                    ] 0% [====================] 100%
+280 CDSs could not be translated.
+Unclassified CDSs: 8020
+
+ Protein deduplication 
+=======================
+Identifying distinct proteins...
+Identified 7158 distinct proteins.
+
+ Protein exact matching 
+========================
+Searching for Protein exact matches...
+Found 144 exact matches (146 distinct CDSs, 532 total CDSs).
+Unclassified proteins: 7014
+
+ Protein clustering 
+====================
+Translating schema representative alleles...
+Representative BLASTp self-scores stored in /home/naomi/abaumannii_final/datos/cgmlst_abaumannii/Acinetobacter_baumannii_cgMLST/short/self_scores
+Creating minimizer index for representative alleles...
+Created index with 201184 distinct minimizers for 2390 loci.
+Clustering proteins...
+ [                    ] 0% [==========          ] 50% [====================] 100%
+Clustered 1347 proteins into 838 clusters.
+5667 proteins were not added to any cluster.
+Aligning cluster representatives against clustered proteins...
+ [                    ] 0% [=                   ] 5% [==                  ] 10% [===                 ] 15% [====                ] 20% [=====               ] 25% [======              ] 30% [=======             ] 35% [========            ] 40% [========            ] 44% [==========          ] 50% [===========         ] 55% [============        ] 60% [=============       ] 65% [==============      ] 70% [===============     ] 75% [================    ] 80% [=================   ] 85% [==================  ] 90% [=================== ] 95% [====================] 100%
+Classifying high-scoring matches...
+ [                    ] 0% [=====               ] 29% [============        ] 60% [==================  ] 92% [====================] 100%
+Classified 907 distinct proteins.
+Unclassified proteins: 6107
+
+ Representative determination 
+==============================
+Aligning representative alleles against unclassified proteins...
+===========================================================================
+ Iteration    Loci     High-Scoring   Classified   Selected   Unclassified 
+===========================================================================
+ 1	...      1        2390         ...            1        2390          83           ...           1        2390          83           133         ...          1        2390          83           133          2           ...            1        2390          83           133          2           5974     
+ 2	...      2          2          ...            2          2           1            ...           2          2           1             2          ...          2          2           1             2           0           ...            2          2           1             2           0           5972     
+===========================================================================
+
+ Wrapping up 
+=============
+Creating file with genome coordinates profiles (results_contigsInfo.tsv)...
+Identifying paralogous loci and creating files with the list of paralogous loci (paralogous_counts.tsv & paralogous_loci.tsv)...
+Identified 0 paralogous loci.
+Assigning allele identifiers to inferred alleles...
+Assigned identifiers to 924 new alleles for 708 loci.
+Getting original sequence identifiers for new alleles...
+Getting data for new representative alleles...
+Creating FASTA files with the new alleles...
+Creating file with the allelic profiles (results_alleles.tsv)...
+Creating file with class counts per input (results_statistics.tsv)...
+Creating file with class counts per locus (loci_summary_stats.tsv)...
+Creating file with the coordinates of CDSs identified in inputs (cds_coordinates.tsv)...
+Creating file with invalid CDSs (invalid_cds.txt)...
+Counting number of classified CDSs...
+Classified a total of 514606 CDSs.
+=========================================================================================
+  EXC      INF     PLOT3    PLOT5    LOTSC     NIPH    NIPHEM    ALM      ASM      PAMA  
+=========================================================================================
+ 498316    924       49      399       0       170      5586     642      1254      0    
+=========================================================================================
+User passed "--no-inferred". No alleles added to the schema.
+Removing temporary directory with intermediate files...
+Creating log file (logging_info.txt)...
+
+Results available in /home/naomi/abaumannii_final/resultados/cgmlst_st2
+
+Finished at: 2026-10-29T22:07:22
+Took  5m 55s.
+=== 3/4  ExtractCgMLST ===
+chewBBACA version: 3.5.4
+Authors: Rafael Mamede, Pedro Cerqueira, Mickael Silva, João Carriço, Mário Ramirez
+Github: https://github.com/B-UMMI/chewBBACA
+Documentation: https://chewbbaca.readthedocs.io/en/latest/index.html
+Contacts: imm-bioinfo@medicina.ulisboa.pt
+
+=============================
+  chewBBACA - ExtractCgMLST
+=============================
+Started at: 2026-10-29T22:07:23
+
+Input matrix has 213 profiles for 2390 loci.
+0 loci to exclude.
+0 genomes to exclude.
+Masking matrix with 213 profiles for 2390 loci...
+Masked 213 profiles.
+Building presence-absence matrix...
+Presence-absence matrix saved to /home/naomi/abaumannii_final/resultados/cgmlst_st2_eval/presence_absence.tsv
+Determining missing data per genome...
+Missing data table saved to /home/naomi/abaumannii_final/resultados/cgmlst_st2_eval/missing_loci_stats.tsv
+Determining cgMLST for loci presence threshold of 0.95...
+ Computed for...1 genomes. Computed for...2 genomes. Computed for...3 genomes. Computed for...4 genomes. Computed for...5 genomes. Computed for...6 genomes. Computed for...7 genomes. Computed for...8 genomes. Computed for...9 genomes. Computed for...10 genomes. Computed for...11 genomes. Computed for...12 genomes. Computed for...13 genomes. Computed for...14 genomes. Computed for...15 genomes. Computed for...16 genomes. Computed for...17 genomes. Computed for...18 genomes. Computed for...19 genomes. Computed for...20 genomes. Computed for...21 genomes. Computed for...22 genomes. Computed for...23 genomes. Computed for...24 genomes. Computed for...25 genomes. Computed for...26 genomes. Computed for...27 genomes. Computed for...28 genomes. Computed for...29 genomes. Computed for...30 genomes. Computed for...31 genomes. Computed for...32 genomes. Computed for...33 genomes. Computed for...34 genomes. Computed for...35 genomes. Computed for...36 genomes. Computed for...37 genomes. Computed for...38 genomes. Computed for...39 genomes. Computed for...40 genomes. Computed for...41 genomes. Computed for...42 genomes. Computed for...43 genomes. Computed for...44 genomes. Computed for...45 genomes. Computed for...46 genomes. Computed for...47 genomes. Computed for...48 genomes. Computed for...49 genomes. Computed for...50 genomes. Computed for...51 genomes. Computed for...52 genomes. Computed for...53 genomes. Computed for...54 genomes. Computed for...55 genomes. Computed for...56 genomes. Computed for...57 genomes. Computed for...58 genomes. Computed for...59 genomes. Computed for...60 genomes. Computed for...61 genomes. Computed for...62 genomes. Computed for...63 genomes. Computed for...64 genomes. Computed for...65 genomes. Computed for...66 genomes. Computed for...67 genomes. Computed for...68 genomes. Computed for...69 genomes. Computed for...70 genomes. Computed for...71 genomes. Computed for...72 genomes. Computed for...73 genomes. Computed for...74 genomes. Computed for...75 genomes. Computed for...76 genomes. Computed for...77 genomes. Computed for...78 genomes. Computed for...79 genomes. Computed for...80 genomes. Computed for...81 genomes. Computed for...82 genomes. Computed for...83 genomes. Computed for...84 genomes. Computed for...85 genomes. Computed for...86 genomes. Computed for...87 genomes. Computed for...88 genomes. Computed for...89 genomes. Computed for...90 genomes. Computed for...91 genomes. Computed for...92 genomes. Computed for...93 genomes. Computed for...94 genomes. Computed for...95 genomes. Computed for...96 genomes. Computed for...97 genomes. Computed for...98 genomes. Computed for...99 genomes. Computed for...100 genomes. Computed for...101 genomes. Computed for...102 genomes. Computed for...103 genomes. Computed for...104 genomes. Computed for...105 genomes. Computed for...106 genomes. Computed for...107 genomes. Computed for...108 genomes. Computed for...109 genomes. Computed for...110 genomes. Computed for...111 genomes. Computed for...112 genomes. Computed for...113 genomes. Computed for...114 genomes. Computed for...115 genomes. Computed for...116 genomes. Computed for...117 genomes. Computed for...118 genomes. Computed for...119 genomes. Computed for...120 genomes. Computed for...121 genomes. Computed for...122 genomes. Computed for...123 genomes. Computed for...124 genomes. Computed for...125 genomes. Computed for...126 genomes. Computed for...127 genomes. Computed for...128 genomes. Computed for...129 genomes. Computed for...130 genomes. Computed for...131 genomes. Computed for...132 genomes. Computed for...133 genomes. Computed for...134 genomes. Computed for...135 genomes. Computed for...136 genomes. Computed for...137 genomes. Computed for...138 genomes. Computed for...139 genomes. Computed for...140 genomes. Computed for...141 genomes. Computed for...142 genomes. Computed for...143 genomes. Computed for...144 genomes. Computed for...145 genomes. Computed for...146 genomes. Computed for...147 genomes. Computed for...148 genomes. Computed for...149 genomes. Computed for...150 genomes. Computed for...151 genomes. Computed for...152 genomes. Computed for...153 genomes. Computed for...154 genomes. Computed for...155 genomes. Computed for...156 genomes. Computed for...157 genomes. Computed for...158 genomes. Computed for...159 genomes. Computed for...160 genomes. Computed for...161 genomes. Computed for...162 genomes. Computed for...163 genomes. Computed for...164 genomes. Computed for...165 genomes. Computed for...166 genomes. Computed for...167 genomes. Computed for...168 genomes. Computed for...169 genomes. Computed for...170 genomes. Computed for...171 genomes. Computed for...172 genomes. Computed for...173 genomes. Computed for...174 genomes. Computed for...175 genomes. Computed for...176 genomes. Computed for...177 genomes. Computed for...178 genomes. Computed for...179 genomes. Computed for...180 genomes. Computed for...181 genomes. Computed for...182 genomes. Computed for...183 genomes. Computed for...184 genomes. Computed for...185 genomes. Computed for...186 genomes. Computed for...187 genomes. Computed for...188 genomes. Computed for...189 genomes. Computed for...190 genomes. Computed for...191 genomes. Computed for...192 genomes. Computed for...193 genomes. Computed for...194 genomes. Computed for...195 genomes. Computed for...196 genomes. Computed for...197 genomes. Computed for...198 genomes. Computed for...199 genomes. Computed for...200 genomes. Computed for...201 genomes. Computed for...202 genomes. Computed for...203 genomes. Computed for...204 genomes. Computed for...205 genomes. Computed for...206 genomes. Computed for...207 genomes. Computed for...208 genomes. Computed for...209 genomes. Computed for...210 genomes. Computed for...211 genomes. Computed for...212 genomes. Computed for...213 genomes.
+cgMLST for loci presence threshold of 0.95 composed of 2315/2390 genes.
+cgMLST profiles saved to /home/naomi/abaumannii_final/resultados/cgmlst_st2_eval/cgMLST95.tsv
+List of loci in the cgMLST saved to /home/naomi/abaumannii_final/resultados/cgmlst_st2_eval/cgMLSTschema95.txt
+Determining cgMLST for loci presence threshold of 0.99...
+ Computed for...1 genomes. Computed for...2 genomes. Computed for...3 genomes. Computed for...4 genomes. Computed for...5 genomes. Computed for...6 genomes. Computed for...7 genomes. Computed for...8 genomes. Computed for...9 genomes. Computed for...10 genomes. Computed for...11 genomes. Computed for...12 genomes. Computed for...13 genomes. Computed for...14 genomes. Computed for...15 genomes. Computed for...16 genomes. Computed for...17 genomes. Computed for...18 genomes. Computed for...19 genomes. Computed for...20 genomes. Computed for...21 genomes. Computed for...22 genomes. Computed for...23 genomes. Computed for...24 genomes. Computed for...25 genomes. Computed for...26 genomes. Computed for...27 genomes. Computed for...28 genomes. Computed for...29 genomes. Computed for...30 genomes. Computed for...31 genomes. Computed for...32 genomes. Computed for...33 genomes. Computed for...34 genomes. Computed for...35 genomes. Computed for...36 genomes. Computed for...37 genomes. Computed for...38 genomes. Computed for...39 genomes. Computed for...40 genomes. Computed for...41 genomes. Computed for...42 genomes. Computed for...43 genomes. Computed for...44 genomes. Computed for...45 genomes. Computed for...46 genomes. Computed for...47 genomes. Computed for...48 genomes. Computed for...49 genomes. Computed for...50 genomes. Computed for...51 genomes. Computed for...52 genomes. Computed for...53 genomes. Computed for...54 genomes. Computed for...55 genomes. Computed for...56 genomes. Computed for...57 genomes. Computed for...58 genomes. Computed for...59 genomes. Computed for...60 genomes. Computed for...61 genomes. Computed for...62 genomes. Computed for...63 genomes. Computed for...64 genomes. Computed for...65 genomes. Computed for...66 genomes. Computed for...67 genomes. Computed for...68 genomes. Computed for...69 genomes. Computed for...70 genomes. Computed for...71 genomes. Computed for...72 genomes. Computed for...73 genomes. Computed for...74 genomes. Computed for...75 genomes. Computed for...76 genomes. Computed for...77 genomes. Computed for...78 genomes. Computed for...79 genomes. Computed for...80 genomes. Computed for...81 genomes. Computed for...82 genomes. Computed for...83 genomes. Computed for...84 genomes. Computed for...85 genomes. Computed for...86 genomes. Computed for...87 genomes. Computed for...88 genomes. Computed for...89 genomes. Computed for...90 genomes. Computed for...91 genomes. Computed for...92 genomes. Computed for...93 genomes. Computed for...94 genomes. Computed for...95 genomes. Computed for...96 genomes. Computed for...97 genomes. Computed for...98 genomes. Computed for...99 genomes. Computed for...100 genomes. Computed for...101 genomes. Computed for...102 genomes. Computed for...103 genomes. Computed for...104 genomes. Computed for...105 genomes. Computed for...106 genomes. Computed for...107 genomes. Computed for...108 genomes. Computed for...109 genomes. Computed for...110 genomes. Computed for...111 genomes. Computed for...112 genomes. Computed for...113 genomes. Computed for...114 genomes. Computed for...115 genomes. Computed for...116 genomes. Computed for...117 genomes. Computed for...118 genomes. Computed for...119 genomes. Computed for...120 genomes. Computed for...121 genomes. Computed for...122 genomes. Computed for...123 genomes. Computed for...124 genomes. Computed for...125 genomes. Computed for...126 genomes. Computed for...127 genomes. Computed for...128 genomes. Computed for...129 genomes. Computed for...130 genomes. Computed for...131 genomes. Computed for...132 genomes. Computed for...133 genomes. Computed for...134 genomes. Computed for...135 genomes. Computed for...136 genomes. Computed for...137 genomes. Computed for...138 genomes. Computed for...139 genomes. Computed for...140 genomes. Computed for...141 genomes. Computed for...142 genomes. Computed for...143 genomes. Computed for...144 genomes. Computed for...145 genomes. Computed for...146 genomes. Computed for...147 genomes. Computed for...148 genomes. Computed for...149 genomes. Computed for...150 genomes. Computed for...151 genomes. Computed for...152 genomes. Computed for...153 genomes. Computed for...154 genomes. Computed for...155 genomes. Computed for...156 genomes. Computed for...157 genomes. Computed for...158 genomes. Computed for...159 genomes. Computed for...160 genomes. Computed for...161 genomes. Computed for...162 genomes. Computed for...163 genomes. Computed for...164 genomes. Computed for...165 genomes. Computed for...166 genomes. Computed for...167 genomes. Computed for...168 genomes. Computed for...169 genomes. Computed for...170 genomes. Computed for...171 genomes. Computed for...172 genomes. Computed for...173 genomes. Computed for...174 genomes. Computed for...175 genomes. Computed for...176 genomes. Computed for...177 genomes. Computed for...178 genomes. Computed for...179 genomes. Computed for...180 genomes. Computed for...181 genomes. Computed for...182 genomes. Computed for...183 genomes. Computed for...184 genomes. Computed for...185 genomes. Computed for...186 genomes. Computed for...187 genomes. Computed for...188 genomes. Computed for...189 genomes. Computed for...190 genomes. Computed for...191 genomes. Computed for...192 genomes. Computed for...193 genomes. Computed for...194 genomes. Computed for...195 genomes. Computed for...196 genomes. Computed for...197 genomes. Computed for...198 genomes. Computed for...199 genomes. Computed for...200 genomes. Computed for...201 genomes. Computed for...202 genomes. Computed for...203 genomes. Computed for...204 genomes. Computed for...205 genomes. Computed for...206 genomes. Computed for...207 genomes. Computed for...208 genomes. Computed for...209 genomes. Computed for...210 genomes. Computed for...211 genomes. Computed for...212 genomes. Computed for...213 genomes.
+cgMLST for loci presence threshold of 0.99 composed of 2112/2390 genes.
+cgMLST profiles saved to /home/naomi/abaumannii_final/resultados/cgmlst_st2_eval/cgMLST99.tsv
+List of loci in the cgMLST saved to /home/naomi/abaumannii_final/resultados/cgmlst_st2_eval/cgMLSTschema99.txt
+Determining cgMLST for loci presence threshold of 1...
+ Computed for...1 genomes. Computed for...2 genomes. Computed for...3 genomes. Computed for...4 genomes. Computed for...5 genomes. Computed for...6 genomes. Computed for...7 genomes. Computed for...8 genomes. Computed for...9 genomes. Computed for...10 genomes. Computed for...11 genomes. Computed for...12 genomes. Computed for...13 genomes. Computed for...14 genomes. Computed for...15 genomes. Computed for...16 genomes. Computed for...17 genomes. Computed for...18 genomes. Computed for...19 genomes. Computed for...20 genomes. Computed for...21 genomes. Computed for...22 genomes. Computed for...23 genomes. Computed for...24 genomes. Computed for...25 genomes. Computed for...26 genomes. Computed for...27 genomes. Computed for...28 genomes. Computed for...29 genomes. Computed for...30 genomes. Computed for...31 genomes. Computed for...32 genomes. Computed for...33 genomes. Computed for...34 genomes. Computed for...35 genomes. Computed for...36 genomes. Computed for...37 genomes. Computed for...38 genomes. Computed for...39 genomes. Computed for...40 genomes. Computed for...41 genomes. Computed for...42 genomes. Computed for...43 genomes. Computed for...44 genomes. Computed for...45 genomes. Computed for...46 genomes. Computed for...47 genomes. Computed for...48 genomes. Computed for...49 genomes. Computed for...50 genomes. Computed for...51 genomes. Computed for...52 genomes. Computed for...53 genomes. Computed for...54 genomes. Computed for...55 genomes. Computed for...56 genomes. Computed for...57 genomes. Computed for...58 genomes. Computed for...59 genomes. Computed for...60 genomes. Computed for...61 genomes. Computed for...62 genomes. Computed for...63 genomes. Computed for...64 genomes. Computed for...65 genomes. Computed for...66 genomes. Computed for...67 genomes. Computed for...68 genomes. Computed for...69 genomes. Computed for...70 genomes. Computed for...71 genomes. Computed for...72 genomes. Computed for...73 genomes. Computed for...74 genomes. Computed for...75 genomes. Computed for...76 genomes. Computed for...77 genomes. Computed for...78 genomes. Computed for...79 genomes. Computed for...80 genomes. Computed for...81 genomes. Computed for...82 genomes. Computed for...83 genomes. Computed for...84 genomes. Computed for...85 genomes. Computed for...86 genomes. Computed for...87 genomes. Computed for...88 genomes. Computed for...89 genomes. Computed for...90 genomes. Computed for...91 genomes. Computed for...92 genomes. Computed for...93 genomes. Computed for...94 genomes. Computed for...95 genomes. Computed for...96 genomes. Computed for...97 genomes. Computed for...98 genomes. Computed for...99 genomes. Computed for...100 genomes. Computed for...101 genomes. Computed for...102 genomes. Computed for...103 genomes. Computed for...104 genomes. Computed for...105 genomes. Computed for...106 genomes. Computed for...107 genomes. Computed for...108 genomes. Computed for...109 genomes. Computed for...110 genomes. Computed for...111 genomes. Computed for...112 genomes. Computed for...113 genomes. Computed for...114 genomes. Computed for...115 genomes. Computed for...116 genomes. Computed for...117 genomes. Computed for...118 genomes. Computed for...119 genomes. Computed for...120 genomes. Computed for...121 genomes. Computed for...122 genomes. Computed for...123 genomes. Computed for...124 genomes. Computed for...125 genomes. Computed for...126 genomes. Computed for...127 genomes. Computed for...128 genomes. Computed for...129 genomes. Computed for...130 genomes. Computed for...131 genomes. Computed for...132 genomes. Computed for...133 genomes. Computed for...134 genomes. Computed for...135 genomes. Computed for...136 genomes. Computed for...137 genomes. Computed for...138 genomes. Computed for...139 genomes. Computed for...140 genomes. Computed for...141 genomes. Computed for...142 genomes. Computed for...143 genomes. Computed for...144 genomes. Computed for...145 genomes. Computed for...146 genomes. Computed for...147 genomes. Computed for...148 genomes. Computed for...149 genomes. Computed for...150 genomes. Computed for...151 genomes. Computed for...152 genomes. Computed for...153 genomes. Computed for...154 genomes. Computed for...155 genomes. Computed for...156 genomes. Computed for...157 genomes. Computed for...158 genomes. Computed for...159 genomes. Computed for...160 genomes. Computed for...161 genomes. Computed for...162 genomes. Computed for...163 genomes. Computed for...164 genomes. Computed for...165 genomes. Computed for...166 genomes. Computed for...167 genomes. Computed for...168 genomes. Computed for...169 genomes. Computed for...170 genomes. Computed for...171 genomes. Computed for...172 genomes. Computed for...173 genomes. Computed for...174 genomes. Computed for...175 genomes. Computed for...176 genomes. Computed for...177 genomes. Computed for...178 genomes. Computed for...179 genomes. Computed for...180 genomes. Computed for...181 genomes. Computed for...182 genomes. Computed for...183 genomes. Computed for...184 genomes. Computed for...185 genomes. Computed for...186 genomes. Computed for...187 genomes. Computed for...188 genomes. Computed for...189 genomes. Computed for...190 genomes. Computed for...191 genomes. Computed for...192 genomes. Computed for...193 genomes. Computed for...194 genomes. Computed for...195 genomes. Computed for...196 genomes. Computed for...197 genomes. Computed for...198 genomes. Computed for...199 genomes. Computed for...200 genomes. Computed for...201 genomes. Computed for...202 genomes. Computed for...203 genomes. Computed for...204 genomes. Computed for...205 genomes. Computed for...206 genomes. Computed for...207 genomes. Computed for...208 genomes. Computed for...209 genomes. Computed for...210 genomes. Computed for...211 genomes. Computed for...212 genomes. Computed for...213 genomes.
+cgMLST for loci presence threshold of 1 composed of 1719/2390 genes.
+cgMLST profiles saved to /home/naomi/abaumannii_final/resultados/cgmlst_st2_eval/cgMLST100.tsv
+List of loci in the cgMLST saved to /home/naomi/abaumannii_final/resultados/cgmlst_st2_eval/cgMLSTschema100.txt
+HTML file with cgMLST per loci presence threshold and step saved to /home/naomi/abaumannii_final/resultados/cgmlst_st2_eval/cgMLST.html
+
+Finished at: 2026-10-29T22:08:27
+Took  1m 4s.
+=== 4/4  perfiles y matriz de distancias ===
+perfiles: 213 genomas x 1719 loci
+escrito: /home/naomi/abaumannii_final/resultados/cgmlst_st2_eval/cgMLST_profiles.tsv
+escrito: /home/naomi/abaumannii_final/resultados/cgmlst_st2_eval/distance_matrix_symmetric.tsv   (213 x 213)
+distancia minima no nula: 1   maxima: 408
+listo

@@ -1,0 +1,16 @@
+nohup: ignoring input
+bloques solicitados: sinmlst
+=== 3/4  Kaptive  (bases en /home/naomi/miniforge3/envs/abaumannii/lib/python3.12/site-packages/kaptive/data) ===
+=== 4/4  AMRFinderPlus ===
+genomas con salida de AMRFinderPlus: 900
+
+Salidas en /home/naomi/abaumannii_final/resultados/tipificacion
+total 7000
+drwxr-xr-x 2 naomi naomi    4096 Oct 28 15:07 .
+drwxr-xr-x 3 naomi naomi    4096 Oct 27 13:30 ..
+-rw-r--r-- 1 naomi naomi 4502064 Oct 28 15:14 amrfinder_todos.tsv
+-rw-r--r-- 1 naomi naomi 1557349 Oct 27 13:31 ani_skani.tsv
+-rw-r--r-- 1 naomi naomi  652086 Oct 28 15:07 kaptive_kl.tsv
+-rw-r--r-- 1 naomi naomi  368839 Oct 28 15:14 kaptive_ocl.tsv
+-rw-r--r-- 1 naomi naomi   60062 Oct 27 13:30 lista_genomas.txt
+-rw-r--r-- 1 naomi naomi     329 Oct 27 13:30 lista_referencias.txt

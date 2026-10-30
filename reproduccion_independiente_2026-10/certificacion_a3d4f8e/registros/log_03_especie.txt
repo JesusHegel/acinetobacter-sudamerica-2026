@@ -1,0 +1,19 @@
+nohup: ignoring input
+bloques solicitados: especie
+=== 1/4  Confirmacion de especie (skani) ===
+[00:00:00.000] (7e042a9bd800) INFO   skani dist --ql /home/naomi/abaumannii_final/resultados/tipificacion/lista_genomas.txt --rl /home/naomi/abaumannii_final/resultados/tipificacion/lista_referencias.txt -t 4 -o /home/naomi/abaumannii_final/resultados/tipificacion/ani_skani.tsv
+[00:00:10.148] (7e042a9bd800) INFO   Learned ANI mode detected. ANI may be adjusted according to a regression model trained on MAGs.
+[00:00:10.149] (7e042a9bd800) INFO   Full index option detected; generating marker hash table
+[00:00:10.150] (7e042a9bd800) INFO   Full indexing time: 0.0011254
+[00:00:10.150] (7e042a9bd800) INFO   Generating sketch time: 10.150118
+[00:00:11.530] (7e04223ff6c0) INFO   100 query sequences processed.
+[00:00:12.907] (7e042a5b56c0) INFO   200 query sequences processed.
+[00:00:14.363] (7e042a7b96c0) INFO   300 query sequences processed.
+[00:00:15.786] (7e042a5b56c0) INFO   400 query sequences processed.
+[00:00:17.005] (7e042a5b56c0) INFO   500 query sequences processed.
+[00:00:18.307] (7e042a7b96c0) INFO   600 query sequences processed.
+[00:00:19.529] (7e04223ff6c0) INFO   700 query sequences processed.
+[00:00:20.779] (7e04223ff6c0) INFO   800 query sequences processed.
+[00:00:22.000] (7e04223ff6c0) INFO   900 query sequences processed.
+[00:00:22.008] (7e042a9bd800) INFO   ANI calculation time: 11.85799
+/home/naomi/abaumannii_final/repo/pipeline/03_tipificacion/00_tipificar.sh: line 101: python3: command not found

@@ -1,0 +1,9 @@
+ENTORNO DE LA PASADA FINAL
+fecha: 2026-10-29T22:19:33-05:00
+Linux 6.18.54.1-microsoft-standard-WSL2 x86_64
+PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
+esquema cgMLST: 2390 loci
+['2025-07-31T14:24:53.593095', 'http://chewbbaca.online/NS/api/species/2/schemas/1']
+AMRFinderPlus DB: 2026-08-07.1
+commit certificado: a3d4f8e74ccf7d0922745aed42a1f11c473438a0
+  La referencia de ISAba1 se busca dentro del repositorio

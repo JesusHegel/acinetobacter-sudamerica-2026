@@ -1,0 +1,4 @@
+nohup: ignoring input
+contigs: 139610
+hits de ISAba1: 1436
+genomas con al menos un hit: 828

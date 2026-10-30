@@ -1,0 +1,3361 @@
+nohup: ignoring input
+bloques solicitados: sinmlst
+=== 3/4  Kaptive  (bases en /home/naomi/miniforge3/envs/abaumannii/lib/python3.12/site-packages/kaptive/data) ===
+=== 4/4  AMRFinderPlus ===
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057656.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 25 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057657.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 34 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057661.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 25 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057662.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057663.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057664.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057667.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057669.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057670.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057672.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 69 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057674.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057680.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057681.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057687.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 39 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057689.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057690.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057691.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057692.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057693.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 19 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057695.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 35 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057696.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057697.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057698.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057699.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 30 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057700.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 49 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057702.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057704.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 26 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057705.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 18 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057708.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 37 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057710.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057711.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057712.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057713.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057714.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 32 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057715.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 30 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057720.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057721.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 18 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057724.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 17 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057729.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057730.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057731.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057733.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 27 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057735.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 29 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057736.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057737.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 21 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057738.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 20 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR17057744.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR4436639.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 12 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR4436640.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR4436744.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR5709464.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 12 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR5709466.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/ERR5709481.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_000757665.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_000814345.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 125 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_000836625.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 19 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_000966305.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_000988155.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_001007775.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 19 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_001500225.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 17 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_001649615.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 35 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_001649625.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 34 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_001649675.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 37 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_001649705.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 36 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_001649765.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 38 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_001649795.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 38 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_001649805.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 37 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_001649815.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 35 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_001649875.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 36 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_001649895.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 39 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_001649955.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 37 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_001649975.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 35 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_001758065.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 34 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_001758135.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 44 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_001758165.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 39 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_001891205.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 35 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_002018935.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 39 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_002018965.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 36 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_002018995.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 36 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_002019005.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 38 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_002019025.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 38 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_002019035.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 39 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_002245595.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_002250465.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 17 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_002922935.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003130565.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 11 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003325575.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003325635.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 12 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003325665.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003583525.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 36 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003583535.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 35 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003583565.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 37 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003583575.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 39 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003583605.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 32 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003583615.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 124 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003583625.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 28 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003583665.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 95 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003584255.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 30 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003584275.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 34 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003584305.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 82 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003584315.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 29 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003584325.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 25 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003584365.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 88 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003584375.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 27 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003584385.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 30 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003584425.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 36 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003584445.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 103 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003584455.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 26 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003584485.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 33 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003584505.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 34 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003584515.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 29 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003584535.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 30 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003595665.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 26 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003595675.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 105 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003595685.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 93 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003595745.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 27 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003595755.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 97 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003595765.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 29 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003595805.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 29 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003595815.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 28 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003595835.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 26 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003595865.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 23 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003595875.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 92 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003595885.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 88 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003595925.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 85 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003595935.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 84 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003595955.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 32 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003595985.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 37 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003595995.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 106 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003596015.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 120 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003596025.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 37 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003596065.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 24 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003596075.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 31 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003596105.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 82 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003596125.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 26 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003596135.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 83 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003596165.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 29 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003596175.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 24 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003596205.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 24 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003596215.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 25 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003596235.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 31 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003596265.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 88 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003596275.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 46 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003597385.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 12 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003697885.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 28 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_003812485.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 445 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_004282835.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_004282845.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_004347305.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_004347325.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_004359905.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 18 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_006493735.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_006493975.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_006494085.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 20 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_006494575.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_006843645.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 161 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_008180145.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 18 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_008477565.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_009754965.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 44 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_009754985.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_009828675.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_009829525.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_009829535.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_009829545.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_009829555.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_009829595.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_009829755.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_009898245.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_012276735.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 20 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_012276745.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 19 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_012277115.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 18 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_012515875.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 30 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_012524085.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 29 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_012524275.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_012781995.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_012955825.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 11 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_012955845.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_012956585.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 12 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_013138415.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 12 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_013138435.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 12 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_013138475.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_013184005.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 18 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015536845.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 12 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015536855.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015536865.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 19 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015536875.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015536925.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015536935.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015536955.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 20 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015536965.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537035.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537045.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537085.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537095.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537125.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537145.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537155.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537165.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537175.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537225.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537245.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 17 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537255.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537275.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537285.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 26 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537295.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537345.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537365.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537385.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537405.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537415.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537445.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 17 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537465.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537485.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 19 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537505.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537525.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537535.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537565.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537575.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537605.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537615.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537635.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537665.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537675.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537705.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 18 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537725.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537745.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537755.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 17 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537765.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537775.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537825.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537845.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 17 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537855.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537865.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537905.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537915.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537945.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 17 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537965.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537975.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015537995.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 18 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015538025.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 23 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015538045.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015538055.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015538085.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015538105.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015538125.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 20 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015538135.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015538155.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015538165.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015538205.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 17 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015538225.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015538235.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 18 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015538255.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015538275.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 21 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015538305.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015538325.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015538335.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015538345.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015538355.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015666275.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 12 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015666285.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 10 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015666365.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 11 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015666475.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015666515.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_015666535.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 17 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016054925.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 12 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016054975.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 11 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016055015.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016055335.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 12 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016055475.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016055485.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016055595.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 12 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016055685.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016055715.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 11 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016055835.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 16 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016055945.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016056005.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 11 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016056045.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 13 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016056095.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016056125.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016056145.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 12 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016416045.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 15 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016484945.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016484955.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 38 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016484985.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 40 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485005.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 41 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485025.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 14 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485045.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 102 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485085.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 125 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485105.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 108 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485125.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 114 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485145.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 120 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485165.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 123 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485185.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 110 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485205.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 103 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485225.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 34 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485245.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 103 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485265.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 121 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485285.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 31 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485305.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 104 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485325.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 90 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485345.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 96 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485365.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 106 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485725.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 58 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485745.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 34 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016485965.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 39 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016487265.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 31 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016487725.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 35 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016609805.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 40 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_016609885.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 40 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_017909475.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 26 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_017909485.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 33 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_017909495.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 121 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_017960395.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 27 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_018156045.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 31 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_018156055.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 34 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_018156065.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 43 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_018156145.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 35 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_018156665.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 29 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_018156705.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 20 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_018156725.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 24 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_018156745.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running blastx
+Running blastn
+Making report
+amrfinder took 109 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_020657695.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 60 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_021402995.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 38 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_023060185.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 26 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_023060375.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 27 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_023060655.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 27 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_023061035.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 31 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_023572255.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 26 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_023572275.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 26 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_023572305.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 42 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_023572445.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 38 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_023572625.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 34 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_024138435.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 317 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_024139015.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 435 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_024139035.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn
+Running blastn
+Making report
+amrfinder took 430 seconds to complete
+Running: amrfinder -n /home/naomi/abaumannii_final/datos/genomas_900/GCA_024139055.1.fna --organism Acinetobacter_baumannii --plus
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+AMRFinder translated nucleotide and mutation search
+Running tblastn

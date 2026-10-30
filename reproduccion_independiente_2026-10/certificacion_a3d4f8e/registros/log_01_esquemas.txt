@@ -1,0 +1,46 @@
+nohup: ignoring input
+=== 1/3  Esquema Acinetobacter Plasmid Typing ===
+AcinetobacterPlasmidTyping-main/2026_May_rep_DNA-seqs_V3.fasta
+
+=== 2/3  Base de datos de AMRFinderPlus ===
+Running: amrfinder -u
+Software directory: /home/naomi/miniforge3/envs/abaumannii/bin/
+Software version: 4.2.7
+Running: /home/naomi/miniforge3/envs/abaumannii/bin/amrfinder_update -d /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data
+Looking up the published databases at https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/
+Looking for the target directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1/
+WARNING: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1/: contains the latest version 2026-08-07.1
+Skipping update
+Use amrfinder --force_update to overwrite the existing database
+amrfinder_update took 1 seconds to complete
+Database directory: /home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1
+Database version: 2026-08-07.1
+amrfinder took 1 seconds to complete
+Software directory: '/home/naomi/miniforge3/envs/abaumannii/bin/'
+Software version: 4.2.7
+Database directory: '/home/naomi/miniforge3/envs/abaumannii/share/amrfinderplus/data/2026-08-07.1'
+Database version: 2026-08-07.1
+
+=== 3/3  Esquema cgMLST (Chewie-NS) ===
+chewBBACA version: 3.5.4
+Authors: Rafael Mamede, Pedro Cerqueira, Mickael Silva, João Carriço, Mário Ramirez
+Github: https://github.com/B-UMMI/chewBBACA
+Documentation: https://chewbbaca.readthedocs.io/en/latest/index.html
+Contacts: imm-bioinfo@medicina.ulisboa.pt
+
+==============================
+  chewBBACA - DownloadSchema
+==============================
+Started at: 2026-10-27T13:25:39
+
+Schema id: 1
+Schema name: cgMLST
+Schema's species: Acinetobacter baumannii (id=2)
+
+Downloading compressed version...
+Decompressing schema...
+Schema is now available at: /home/naomi/abaumannii_final/datos/cgmlst_abaumannii/Acinetobacter_baumannii_cgMLST
+
+Finished at: 2026-10-27T13:26:48
+Took  1m 9s.
+4780

@@ -1,0 +1,2 @@
+90b85543629bb08d86c9b0ec72b60b00  /home/naomi/abaumannii_final/datos/contig_len_900.tsv
+008f4aa7f12d494f0992b3ccd2240999  /home/naomi/abaumannii_final/datos/isaba1_hits900.tsv

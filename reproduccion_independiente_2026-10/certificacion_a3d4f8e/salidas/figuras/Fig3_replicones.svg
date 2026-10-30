@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="700" viewBox="0 0 880 700">
+<rect width="880" height="700" fill="white"/>
+<text x="20" y="26" font-family="Helvetica,Arial" font-size="15" font-weight="700">A</text>
+<text x="42" y="26" font-family="Helvetica,Arial" font-size="12.5">Tipo de replicon portador de bla-OXA-72 (n = 63 genomas)</text>
+<text x="180" y="63" text-anchor="end" font-family="Helvetica,Arial" font-size="11">Brasil</text>
+<rect x="190" y="48" width="288.0" height="22" fill="#8c2d04" stroke="white"/>
+<text x="334.0" y="63" text-anchor="middle" font-family="Helvetica,Arial" font-size="9.5" fill="white" font-weight="600">18</text>
+<rect x="478.0" y="48" width="192.0" height="22" fill="#b2182b" stroke="white"/>
+<text x="574.0" y="63" text-anchor="middle" font-family="Helvetica,Arial" font-size="9.5" fill="white" font-weight="600">12</text>
+<rect x="670.0" y="48" width="64.0" height="22" fill="#d6604d" stroke="white"/>
+<text x="702.0" y="63" text-anchor="middle" font-family="Helvetica,Arial" font-size="9.5" fill="white" font-weight="600">4</text>
+<rect x="734.0" y="48" width="16.0" height="22" fill="#f4a582" stroke="white"/>
+<text x="758.0" y="63" font-family="Helvetica,Arial" font-size="10" fill="#555">n=35</text>
+<text x="180" y="93" text-anchor="end" font-family="Helvetica,Arial" font-size="11">CC2 andino</text>
+<rect x="190" y="78" width="384.0" height="22" fill="#2166ac" stroke="white"/>
+<text x="382.0" y="93" text-anchor="middle" font-family="Helvetica,Arial" font-size="9.5" fill="white" font-weight="600">24</text>
+<text x="582.0" y="93" font-family="Helvetica,Arial" font-size="10" fill="#555">n=24</text>
+<text x="180" y="123" text-anchor="end" font-family="Helvetica,Arial" font-size="11">Colombia</text>
+<rect x="190" y="108" width="16.0" height="22" fill="#f4a582" stroke="white"/>
+<rect x="206.0" y="108" width="16.0" height="22" fill="#9970ab" stroke="white"/>
+<text x="230.0" y="123" font-family="Helvetica,Arial" font-size="10" fill="#555">n=2</text>
+<text x="180" y="153" text-anchor="end" font-family="Helvetica,Arial" font-size="11">Andes, otros linajes</text>
+<rect x="190" y="138" width="32.0" height="22" fill="#999" stroke="white"/>
+<text x="230.0" y="153" font-family="Helvetica,Arial" font-size="10" fill="#555">n=2</text>
+<rect x="190" y="174" width="11" height="11" fill="#2166ac"/>
+<text x="205" y="184" font-family="Helvetica,Arial" font-size="9.5">r3-T18</text>
+<rect x="247.6" y="174" width="11" height="11" fill="#8c2d04"/>
+<text x="262.6" y="184" font-family="Helvetica,Arial" font-size="9.5">r3-T1,r3-T14</text>
+<rect x="338.79999999999995" y="174" width="11" height="11" fill="#b2182b"/>
+<text x="353.79999999999995" y="184" font-family="Helvetica,Arial" font-size="9.5">r3-T1</text>
+<rect x="390.79999999999995" y="174" width="11" height="11" fill="#d6604d"/>
+<text x="405.79999999999995" y="184" font-family="Helvetica,Arial" font-size="9.5">r3-T14</text>
+<rect x="448.4" y="174" width="11" height="11" fill="#f4a582"/>
+<text x="463.4" y="184" font-family="Helvetica,Arial" font-size="9.5">r3-T13</text>
+<rect x="506.0" y="174" width="11" height="11" fill="#5aae61"/>
+<text x="521.0" y="184" font-family="Helvetica,Arial" font-size="9.5">r3-T50</text>
+<rect x="563.6" y="174" width="11" height="11" fill="#9970ab"/>
+<text x="578.6" y="184" font-family="Helvetica,Arial" font-size="9.5">r3-T8,r3-T97</text>
+<text x="20" y="218" font-family="Helvetica,Arial" font-size="15" font-weight="700">B</text>
+<text x="42" y="218" font-family="Helvetica,Arial" font-size="12.5">Distribucion del replicon r3-T18 (n = 46 genomas)</text>
+<text x="180" y="254" text-anchor="end" font-family="Helvetica,Arial" font-size="10.5">Peru &#183; ST2</text>
+<rect x="190" y="240" width="560.0" height="20" fill="#2166ac" stroke="white"/>
+<text x="470.0" y="254" text-anchor="middle" font-family="Helvetica,Arial" font-size="9.5" fill="white" font-weight="600">16</text>
+<text x="180" y="280" text-anchor="end" font-family="Helvetica,Arial" font-size="10.5">Chile &#183; ST109</text>
+<rect x="190" y="266" width="350.0" height="20" fill="#c9ced4" stroke="white"/>
+<text x="365.0" y="280" text-anchor="middle" font-family="Helvetica,Arial" font-size="9.5" fill="#333" font-weight="600">10</text>
+<text x="180" y="306" text-anchor="end" font-family="Helvetica,Arial" font-size="10.5">Ecuador &#183; ST2</text>
+<rect x="190" y="292" width="245.0" height="20" fill="#2166ac" stroke="white"/>
+<text x="312.5" y="306" text-anchor="middle" font-family="Helvetica,Arial" font-size="9.5" fill="white" font-weight="600">7</text>
+<text x="180" y="332" text-anchor="end" font-family="Helvetica,Arial" font-size="10.5">Peru &#183; ST79</text>
+<rect x="190" y="318" width="105.0" height="20" fill="#c9ced4" stroke="white"/>
+<text x="242.5" y="332" text-anchor="middle" font-family="Helvetica,Arial" font-size="9.5" fill="#333" font-weight="600">3</text>
+<text x="180" y="358" text-anchor="end" font-family="Helvetica,Arial" font-size="10.5">Chile &#183; ST1</text>
+<rect x="190" y="344" width="70.0" height="20" fill="#c9ced4" stroke="white"/>
+<text x="225.0" y="358" text-anchor="middle" font-family="Helvetica,Arial" font-size="9.5" fill="#333" font-weight="600">2</text>
+<text x="180" y="384" text-anchor="end" font-family="Helvetica,Arial" font-size="10.5">Chile &#183; ST15</text>
+<rect x="190" y="370" width="70.0" height="20" fill="#c9ced4" stroke="white"/>
+<text x="225.0" y="384" text-anchor="middle" font-family="Helvetica,Arial" font-size="9.5" fill="#333" font-weight="600">2</text>
+<text x="180" y="410" text-anchor="end" font-family="Helvetica,Arial" font-size="10.5">Brasil &#183; ST79</text>
+<rect x="190" y="396" width="35.0" height="20" fill="#c9ced4" stroke="white"/>
+<text x="207.5" y="410" text-anchor="middle" font-family="Helvetica,Arial" font-size="9.5" fill="#333" font-weight="600">1</text>
+<text x="180" y="436" text-anchor="end" font-family="Helvetica,Arial" font-size="10.5">Chile &#183; ST no asignado</text>
+<rect x="190" y="422" width="35.0" height="20" fill="#c9ced4" stroke="white"/>
+<text x="207.5" y="436" text-anchor="middle" font-family="Helvetica,Arial" font-size="9.5" fill="#333" font-weight="600">1</text>
+<text x="180" y="462" text-anchor="end" font-family="Helvetica,Arial" font-size="10.5">Chile &#183; ST162</text>
+<rect x="190" y="448" width="35.0" height="20" fill="#c9ced4" stroke="white"/>
+<text x="207.5" y="462" text-anchor="middle" font-family="Helvetica,Arial" font-size="9.5" fill="#333" font-weight="600">1</text>
+<text x="180" y="488" text-anchor="end" font-family="Helvetica,Arial" font-size="10.5">Colombia &#183; ST no asignado</text>
+<rect x="190" y="474" width="35.0" height="20" fill="#c9ced4" stroke="white"/>
+<text x="207.5" y="488" text-anchor="middle" font-family="Helvetica,Arial" font-size="9.5" fill="#333" font-weight="600">1</text>
+<text x="180" y="514" text-anchor="end" font-family="Helvetica,Arial" font-size="10.5">Peru &#183; ST2724</text>
+<rect x="190" y="500" width="35.0" height="20" fill="#2166ac" stroke="white"/>
+<text x="207.5" y="514" text-anchor="middle" font-family="Helvetica,Arial" font-size="9.5" fill="white" font-weight="600">1</text>
+<text x="180" y="540" text-anchor="end" font-family="Helvetica,Arial" font-size="10.5">Venezuela &#183; ST25</text>
+<rect x="190" y="526" width="35.0" height="20" fill="#c9ced4" stroke="white"/>
+<text x="207.5" y="540" text-anchor="middle" font-family="Helvetica,Arial" font-size="9.5" fill="#333" font-weight="600">1</text>
+<rect x="190" y="560" width="11" height="11" fill="#2166ac"/>
+<text x="205" y="570" font-family="Helvetica,Arial" font-size="9.5">con bla-OXA-72 co-localizado</text>
+<rect x="380" y="560" width="11" height="11" fill="#c9ced4"/>
+<text x="395" y="570" font-family="Helvetica,Arial" font-size="9.5">sin gen de resistencia asociado</text>
+</svg>

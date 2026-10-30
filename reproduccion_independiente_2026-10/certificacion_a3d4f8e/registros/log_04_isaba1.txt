@@ -1,0 +1,3 @@
+nohup: ignoring input
+contigs: 139610
+Command line argument error: Argument "query". File is not accessible:  `/home/naomi/abaumannii_final/datos/isaba1_ref.fa'

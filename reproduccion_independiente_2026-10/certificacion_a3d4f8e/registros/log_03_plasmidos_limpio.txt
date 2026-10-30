@@ -1,0 +1,44 @@
+nohup: ignoring input
+=== PASO 1/6  Localizando genomas ===
+    genomas encontrados: 900
+=== PASO 2/6  Construyendo FASTA combinado con contigs prefijados ===
+    contigs totales: 139610
+=== PASO 3/6  Base de datos BLAST ===
+    lista
+=== PASO 4/6  BLAST del esquema APT (puede tardar) ===
+Warning: [blastn] Number of threads was reduced to 4 to match the number of available CPUs
+    alineamientos: 13428
+=== PASO 5/6  Filtrado y asignacion de tipo ===
+    alineamientos que pasan el filtro: 11593
+    hits unicos (genoma, tipo, contig): 1354
+=== PASO 6/6  Cruce con AMRFinderPlus: co-localizacion ===
+    AVISO: no se encontro /home/naomi/abaumannii_final/resultados/tipificacion/amrfinder_58.tsv
+    genes de carbapenemasa procesados: 878
+
+=== RESUMEN ===
+1	blaGES-11	NO_EVALUABLE
+2	blaIMP-1	NO_EVALUABLE
+1	blaIMP-16	NO_EVALUABLE
+2	blaKPC	NO_EVALUABLE
+7	blaNDM	NO_EVALUABLE
+39	blaNDM-1	NO_EVALUABLE
+4	blaNDM-1	SIN_REP_EN_GENOMA
+1	blaNDM-1	COLOCALIZADO
+1	blaOXA-143	NO_EVALUABLE
+600	blaOXA-23	NO_EVALUABLE
+77	blaOXA-23	SIN_REP_EN_GENOMA
+5	blaOXA-23	COLOCALIZADO
+1	blaOXA-231	COLOCALIZADO
+1	blaOXA-241	NO_EVALUABLE
+9	blaOXA-407	NO_EVALUABLE
+42	blaOXA-58	NO_EVALUABLE
+7	blaOXA-58	COLOCALIZADO
+63	blaOXA-72	COLOCALIZADO
+10	blaOXA-72	NO_EVALUABLE
+5	blaOXA-72	SIN_REP_EN_GENOMA
+
+Salidas:
+  /home/naomi/abaumannii_final/resultados/apt_v2/apt_hits_v2.tsv      tipificacion con contig, coordenadas y longitud
+  /home/naomi/abaumannii_final/resultados/apt_v2/colocalizacion.tsv   estado de co-localizacion por gen
+
+Para liberar espacio:  rm -rf /home/naomi/abaumannii_final/tmp_apt
