@@ -6,7 +6,7 @@
 # conservando los alineamientos con identidad >= 95 % y longitud >= 300 pb.
 #
 # Entrada:  datos/genomas_900/        (paso 02)
-#           datos/isaba1_ref.fa       referencia de ISAba1
+#           repo/datos/isaba1_ref.fa  referencia de ISAba1 (va en el repositorio)
 # Produce:  datos/isaba1_hits900.tsv
 #           datos/contig_len_900.tsv
 # Entorno:  conda activate abaumannii
@@ -14,7 +14,10 @@
 # =====================================================================
 set -euo pipefail
 B=${ABAUMANNII_BASE:-$HOME/abaumannii}
-REF=$B/datos/isaba1_ref.fa
+# El fichero se distribuye dentro del repositorio; ningun paso lo copia a
+# datos/, de modo que buscarlo fuera hacia fallar el script en toda maquina
+# que no fuera la de desarrollo.
+REF=$B/repo/datos/isaba1_ref.fa
 OUT=$B/datos/isaba1_hits900.tsv
 # El temporal va bajo el directorio del proyecto y no en /tmp, que en WSL
 # y en otras instalaciones es un sistema de ficheros en memoria: aqui se
